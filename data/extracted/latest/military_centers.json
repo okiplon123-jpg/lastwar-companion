@@ -1,0 +1,1691 @@
+{
+  "meta": {
+    "table": "military_centers",
+    "game_version": "38076",
+    "extraction_run_id": "f7510fce",
+    "extracted_at": "2026-07-16T18:40:09.726131+00:00",
+    "record_count": 105
+  },
+  "records": [
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 1,
+      "stats": {
+        "50072": 10.0,
+        "50039": 500.0,
+        "50041": 23.8,
+        "50043": 4.8
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 2,
+      "stats": {
+        "50072": 13.0,
+        "50039": 1000.0,
+        "50041": 47.6,
+        "50043": 9.5
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 3,
+      "stats": {
+        "50072": 16.0,
+        "50039": 1500.0,
+        "50041": 71.4,
+        "50043": 14.3
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 4,
+      "stats": {
+        "50072": 19.0,
+        "50039": 2000.0,
+        "50041": 95.2,
+        "50043": 19.0
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 5,
+      "stats": {
+        "50072": 22.0,
+        "50039": 2500.0,
+        "50041": 119.0,
+        "50043": 23.8
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 6,
+      "stats": {
+        "50072": 25.0,
+        "50039": 3000.0,
+        "50041": 142.9,
+        "50043": 28.6
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 7,
+      "stats": {
+        "50072": 28.0,
+        "50039": 3500.0,
+        "50041": 166.7,
+        "50043": 33.3
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 8,
+      "stats": {
+        "50072": 31.0,
+        "50039": 4000.0,
+        "50041": 190.5,
+        "50043": 38.1
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 9,
+      "stats": {
+        "50072": 34.0,
+        "50039": 4500.0,
+        "50041": 214.3,
+        "50043": 42.9
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 10,
+      "stats": {
+        "50072": 37.0,
+        "50039": 5000.0,
+        "50041": 238.1,
+        "50043": 47.6
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 11,
+      "stats": {
+        "50072": 40.0,
+        "50039": 6000.0,
+        "50041": 261.9,
+        "50043": 52.4
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 12,
+      "stats": {
+        "50072": 43.0,
+        "50039": 7000.0,
+        "50041": 285.7,
+        "50043": 57.1
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 13,
+      "stats": {
+        "50072": 46.0,
+        "50039": 8000.0,
+        "50041": 309.5,
+        "50043": 61.9
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 14,
+      "stats": {
+        "50072": 49.0,
+        "50039": 9000.0,
+        "50041": 333.3,
+        "50043": 66.7
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 15,
+      "stats": {
+        "50072": 52.0,
+        "50039": 10000.0,
+        "50041": 357.1,
+        "50043": 71.4
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 16,
+      "stats": {
+        "50072": 55.0,
+        "50039": 12000.0,
+        "50041": 381.0,
+        "50043": 76.2
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 17,
+      "stats": {
+        "50072": 58.0,
+        "50039": 14000.0,
+        "50041": 404.8,
+        "50043": 81.0
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 18,
+      "stats": {
+        "50072": 61.0,
+        "50039": 16000.0,
+        "50041": 428.6,
+        "50043": 85.7
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 19,
+      "stats": {
+        "50072": 64.0,
+        "50039": 18000.0,
+        "50041": 452.4,
+        "50043": 90.5
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 20,
+      "stats": {
+        "50072": 67.0,
+        "50039": 20000.0,
+        "50041": 476.2,
+        "50043": 95.2
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 21,
+      "stats": {
+        "50072": 70.0,
+        "50039": 22500.0,
+        "50041": 500.0,
+        "50043": 100.0
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 22,
+      "stats": {
+        "50072": 73.0,
+        "50039": 25000.0,
+        "50041": 523.8,
+        "50043": 104.8
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 23,
+      "stats": {
+        "50072": 76.0,
+        "50039": 27500.0,
+        "50041": 547.6,
+        "50043": 109.5
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 24,
+      "stats": {
+        "50072": 79.0,
+        "50039": 30000.0,
+        "50041": 571.4,
+        "50043": 114.3
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 25,
+      "stats": {
+        "50072": 82.0,
+        "50039": 32500.0,
+        "50041": 595.2,
+        "50043": 119.0
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 26,
+      "stats": {
+        "50072": 85.0,
+        "50039": 35000.0,
+        "50041": 619.0,
+        "50043": 123.8
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 27,
+      "stats": {
+        "50072": 88.0,
+        "50039": 37500.0,
+        "50041": 642.9,
+        "50043": 128.6
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 28,
+      "stats": {
+        "50072": 92.0,
+        "50039": 40000.0,
+        "50041": 666.7,
+        "50043": 133.3
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 29,
+      "stats": {
+        "50072": 96.0,
+        "50039": 42500.0,
+        "50041": 690.5,
+        "50043": 138.1
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 30,
+      "stats": {
+        "50072": 100.0,
+        "50039": 45000.0,
+        "50041": 714.3,
+        "50043": 142.9
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 31,
+      "stats": {
+        "50072": 103.0,
+        "50039": 48000.0,
+        "50041": 761.9,
+        "50043": 152.4
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 32,
+      "stats": {
+        "50072": 106.0,
+        "50039": 51000.0,
+        "50041": 809.5,
+        "50043": 161.9
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 33,
+      "stats": {
+        "50072": 109.0,
+        "50039": 54000.0,
+        "50041": 857.1,
+        "50043": 171.4
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 34,
+      "stats": {
+        "50072": 112.0,
+        "50039": 57000.0,
+        "50041": 904.8,
+        "50043": 181.0
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10116,
+      "army_type": 1,
+      "level": 35,
+      "stats": {
+        "50072": 115.0,
+        "50039": 60000.0,
+        "50041": 952.4,
+        "50043": 190.5
+      },
+      "bd_effect_result": "50039;4;50039|50041;4;50041|50043;4;50043",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 1,
+      "stats": {
+        "50073": 10.0,
+        "50046": 500.0,
+        "50048": 23.8,
+        "50050": 4.8
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 2,
+      "stats": {
+        "50073": 13.0,
+        "50046": 1000.0,
+        "50048": 47.6,
+        "50050": 9.5
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 3,
+      "stats": {
+        "50073": 16.0,
+        "50046": 1500.0,
+        "50048": 71.4,
+        "50050": 14.3
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 4,
+      "stats": {
+        "50073": 19.0,
+        "50046": 2000.0,
+        "50048": 95.2,
+        "50050": 19.0
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 5,
+      "stats": {
+        "50073": 22.0,
+        "50046": 2500.0,
+        "50048": 119.0,
+        "50050": 23.8
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 6,
+      "stats": {
+        "50073": 25.0,
+        "50046": 3000.0,
+        "50048": 142.9,
+        "50050": 28.6
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 7,
+      "stats": {
+        "50073": 28.0,
+        "50046": 3500.0,
+        "50048": 166.7,
+        "50050": 33.3
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 8,
+      "stats": {
+        "50073": 31.0,
+        "50046": 4000.0,
+        "50048": 190.5,
+        "50050": 38.1
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 9,
+      "stats": {
+        "50073": 34.0,
+        "50046": 4500.0,
+        "50048": 214.3,
+        "50050": 42.9
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 10,
+      "stats": {
+        "50073": 37.0,
+        "50046": 5000.0,
+        "50048": 238.1,
+        "50050": 47.6
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 11,
+      "stats": {
+        "50073": 40.0,
+        "50046": 6000.0,
+        "50048": 261.9,
+        "50050": 52.4
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 12,
+      "stats": {
+        "50073": 43.0,
+        "50046": 7000.0,
+        "50048": 285.7,
+        "50050": 57.1
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 13,
+      "stats": {
+        "50073": 46.0,
+        "50046": 8000.0,
+        "50048": 309.5,
+        "50050": 61.9
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 14,
+      "stats": {
+        "50073": 49.0,
+        "50046": 9000.0,
+        "50048": 333.3,
+        "50050": 66.7
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 15,
+      "stats": {
+        "50073": 52.0,
+        "50046": 10000.0,
+        "50048": 357.1,
+        "50050": 71.4
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 16,
+      "stats": {
+        "50073": 55.0,
+        "50046": 12000.0,
+        "50048": 381.0,
+        "50050": 76.2
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 17,
+      "stats": {
+        "50073": 58.0,
+        "50046": 14000.0,
+        "50048": 404.8,
+        "50050": 81.0
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 18,
+      "stats": {
+        "50073": 61.0,
+        "50046": 16000.0,
+        "50048": 428.6,
+        "50050": 85.7
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 19,
+      "stats": {
+        "50073": 64.0,
+        "50046": 18000.0,
+        "50048": 452.4,
+        "50050": 90.5
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 20,
+      "stats": {
+        "50073": 67.0,
+        "50046": 20000.0,
+        "50048": 476.2,
+        "50050": 95.2
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 21,
+      "stats": {
+        "50073": 70.0,
+        "50046": 22500.0,
+        "50048": 500.0,
+        "50050": 100.0
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 22,
+      "stats": {
+        "50073": 73.0,
+        "50046": 25000.0,
+        "50048": 523.8,
+        "50050": 104.8
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 23,
+      "stats": {
+        "50073": 76.0,
+        "50046": 27500.0,
+        "50048": 547.6,
+        "50050": 109.5
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 24,
+      "stats": {
+        "50073": 79.0,
+        "50046": 30000.0,
+        "50048": 571.4,
+        "50050": 114.3
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 25,
+      "stats": {
+        "50073": 82.0,
+        "50046": 32500.0,
+        "50048": 595.2,
+        "50050": 119.0
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 26,
+      "stats": {
+        "50073": 85.0,
+        "50046": 35000.0,
+        "50048": 619.0,
+        "50050": 123.8
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 27,
+      "stats": {
+        "50073": 88.0,
+        "50046": 37500.0,
+        "50048": 642.9,
+        "50050": 128.6
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 28,
+      "stats": {
+        "50073": 92.0,
+        "50046": 40000.0,
+        "50048": 666.7,
+        "50050": 133.3
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 29,
+      "stats": {
+        "50073": 96.0,
+        "50046": 42500.0,
+        "50048": 690.5,
+        "50050": 138.1
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 30,
+      "stats": {
+        "50073": 100.0,
+        "50046": 45000.0,
+        "50048": 714.3,
+        "50050": 142.9
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 31,
+      "stats": {
+        "50073": 103.0,
+        "50046": 48000.0,
+        "50048": 761.9,
+        "50050": 152.4
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 32,
+      "stats": {
+        "50073": 106.0,
+        "50046": 51000.0,
+        "50048": 809.5,
+        "50050": 161.9
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 33,
+      "stats": {
+        "50073": 109.0,
+        "50046": 54000.0,
+        "50048": 857.1,
+        "50050": 171.4
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 34,
+      "stats": {
+        "50073": 112.0,
+        "50046": 57000.0,
+        "50048": 904.8,
+        "50050": 181.0
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10117,
+      "army_type": 2,
+      "level": 35,
+      "stats": {
+        "50073": 115.0,
+        "50046": 60000.0,
+        "50048": 952.4,
+        "50050": 190.5
+      },
+      "bd_effect_result": "50046;4;50046|50048;4;50048|50050;4;50050",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 1,
+      "stats": {
+        "50074": 10.0,
+        "50052": 500.0,
+        "50054": 23.8,
+        "50056": 4.8
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 2,
+      "stats": {
+        "50074": 13.0,
+        "50052": 1000.0,
+        "50054": 47.6,
+        "50056": 9.5
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 3,
+      "stats": {
+        "50074": 16.0,
+        "50052": 1500.0,
+        "50054": 71.4,
+        "50056": 14.3
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 4,
+      "stats": {
+        "50074": 19.0,
+        "50052": 2000.0,
+        "50054": 95.2,
+        "50056": 19.0
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 5,
+      "stats": {
+        "50074": 22.0,
+        "50052": 2500.0,
+        "50054": 119.0,
+        "50056": 23.8
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 6,
+      "stats": {
+        "50074": 25.0,
+        "50052": 3000.0,
+        "50054": 142.9,
+        "50056": 28.6
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 7,
+      "stats": {
+        "50074": 28.0,
+        "50052": 3500.0,
+        "50054": 166.7,
+        "50056": 33.3
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 8,
+      "stats": {
+        "50074": 31.0,
+        "50052": 4000.0,
+        "50054": 190.5,
+        "50056": 38.1
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 9,
+      "stats": {
+        "50074": 34.0,
+        "50052": 4500.0,
+        "50054": 214.3,
+        "50056": 42.9
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 10,
+      "stats": {
+        "50074": 37.0,
+        "50052": 5000.0,
+        "50054": 238.1,
+        "50056": 47.6
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 11,
+      "stats": {
+        "50074": 40.0,
+        "50052": 6000.0,
+        "50054": 261.9,
+        "50056": 52.4
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 12,
+      "stats": {
+        "50074": 43.0,
+        "50052": 7000.0,
+        "50054": 285.7,
+        "50056": 57.1
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 13,
+      "stats": {
+        "50074": 46.0,
+        "50052": 8000.0,
+        "50054": 309.5,
+        "50056": 61.9
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 14,
+      "stats": {
+        "50074": 49.0,
+        "50052": 9000.0,
+        "50054": 333.3,
+        "50056": 66.7
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 15,
+      "stats": {
+        "50074": 52.0,
+        "50052": 10000.0,
+        "50054": 357.1,
+        "50056": 71.4
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 16,
+      "stats": {
+        "50074": 55.0,
+        "50052": 12000.0,
+        "50054": 381.0,
+        "50056": 76.2
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 17,
+      "stats": {
+        "50074": 58.0,
+        "50052": 14000.0,
+        "50054": 404.8,
+        "50056": 81.0
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 18,
+      "stats": {
+        "50074": 61.0,
+        "50052": 16000.0,
+        "50054": 428.6,
+        "50056": 85.7
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 19,
+      "stats": {
+        "50074": 64.0,
+        "50052": 18000.0,
+        "50054": 452.4,
+        "50056": 90.5
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 20,
+      "stats": {
+        "50074": 67.0,
+        "50052": 20000.0,
+        "50054": 476.2,
+        "50056": 95.2
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 21,
+      "stats": {
+        "50074": 70.0,
+        "50052": 22500.0,
+        "50054": 500.0,
+        "50056": 100.0
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 22,
+      "stats": {
+        "50074": 73.0,
+        "50052": 25000.0,
+        "50054": 523.8,
+        "50056": 104.8
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 23,
+      "stats": {
+        "50074": 76.0,
+        "50052": 27500.0,
+        "50054": 547.6,
+        "50056": 109.5
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 24,
+      "stats": {
+        "50074": 79.0,
+        "50052": 30000.0,
+        "50054": 571.4,
+        "50056": 114.3
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 25,
+      "stats": {
+        "50074": 82.0,
+        "50052": 32500.0,
+        "50054": 595.2,
+        "50056": 119.0
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 26,
+      "stats": {
+        "50074": 85.0,
+        "50052": 35000.0,
+        "50054": 619.0,
+        "50056": 123.8
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 27,
+      "stats": {
+        "50074": 88.0,
+        "50052": 37500.0,
+        "50054": 642.9,
+        "50056": 128.6
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 28,
+      "stats": {
+        "50074": 92.0,
+        "50052": 40000.0,
+        "50054": 666.7,
+        "50056": 133.3
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 29,
+      "stats": {
+        "50074": 96.0,
+        "50052": 42500.0,
+        "50054": 690.5,
+        "50056": 138.1
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 30,
+      "stats": {
+        "50074": 100.0,
+        "50052": 45000.0,
+        "50054": 714.3,
+        "50056": 142.9
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 31,
+      "stats": {
+        "50074": 103.0,
+        "50052": 48000.0,
+        "50054": 761.9,
+        "50056": 152.4
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 32,
+      "stats": {
+        "50074": 106.0,
+        "50052": 51000.0,
+        "50054": 809.5,
+        "50056": 161.9
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 33,
+      "stats": {
+        "50074": 109.0,
+        "50052": 54000.0,
+        "50054": 857.1,
+        "50056": 171.4
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 34,
+      "stats": {
+        "50074": 112.0,
+        "50052": 57000.0,
+        "50054": 904.8,
+        "50056": 181.0
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    },
+    {
+      "building_id": 10118,
+      "army_type": 3,
+      "level": 35,
+      "stats": {
+        "50074": 115.0,
+        "50052": 60000.0,
+        "50054": 952.4,
+        "50056": 190.5
+      },
+      "bd_effect_result": "50052;4;50052|50054;4;50054|50056;4;50056",
+      "_source_table": "building_B",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce",
+      "_notes": "stats = cumulative hero flat stat grants at this level (parse from building_effect_last). army_type assignment is sequential assumption: verify in-game."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "kimberly": {
+    "lv1": "/ew/kimberly/lv1.webp",
+    "lv10": "/ew/kimberly/lv10.webp",
+    "lv20": "/ew/kimberly/lv20.webp",
+    "lv30": "/ew/kimberly/lv30.webp"
+  },
+  "murphy": {
+    "lv1": "/ew/murphy/lv1.webp",
+    "lv10": "/ew/murphy/lv10.webp",
+    "lv20": "/ew/murphy/lv20.webp",
+    "lv30": "/ew/murphy/lv30.webp"
+  },
+  "marshall": {
+    "lv1": "/ew/marshall/lv1.webp",
+    "lv10": "/ew/marshall/lv10.webp",
+    "lv20": "/ew/marshall/lv20.webp",
+    "lv30": "/ew/marshall/lv30.webp"
+  },
+  "williams": {
+    "lv1": "/ew/williams/lv1.webp",
+    "lv10": "/ew/williams/lv10.webp",
+    "lv20": "/ew/williams/lv20.webp",
+    "lv30": "/ew/williams/lv30.webp"
+  },
+  "stetmann": {
+    "lv1": "/ew/stetmann/lv1.webp",
+    "lv10": "/ew/stetmann/lv10.webp",
+    "lv20": "/ew/stetmann/lv20.webp",
+    "lv30": "/ew/stetmann/lv30.webp"
+  },
+  "dva": {
+    "lv1": "/ew/dva/lv1.webp",
+    "lv10": "/ew/dva/lv10.webp",
+    "lv20": "/ew/dva/lv20.webp",
+    "lv30": "/ew/dva/lv30.webp"
+  },
+  "carlie": {
+    "lv1": "/ew/carlie/lv1.webp",
+    "lv10": "/ew/carlie/lv10.webp",
+    "lv20": "/ew/carlie/lv20.webp",
+    "lv30": "/ew/carlie/lv30.webp"
+  },
+  "schuyler": {
+    "lv1": "/ew/schuyler/lv1.webp",
+    "lv10": "/ew/schuyler/lv10.webp",
+    "lv20": "/ew/schuyler/lv20.webp",
+    "lv30": "/ew/schuyler/lv30.webp"
+  },
+  "lucius": {
+    "lv1": "/ew/lucius/lv1.webp",
+    "lv10": "/ew/lucius/lv10.webp",
+    "lv20": "/ew/lucius/lv20.webp",
+    "lv30": "/ew/lucius/lv30.webp"
+  },
+  "morrison": {
+    "lv1": "/ew/morrison/lv1.webp",
+    "lv10": "/ew/morrison/lv10.webp",
+    "lv20": "/ew/morrison/lv20.webp",
+    "lv30": "/ew/morrison/lv30.webp"
+  },
+  "swift": {
+    "lv1": "/ew/swift/lv1.webp",
+    "lv10": "/ew/swift/lv10.webp",
+    "lv20": "/ew/swift/lv20.webp",
+    "lv30": "/ew/swift/lv30.webp"
+  },
+  "tesla": {
+    "lv1": "/ew/tesla/lv1.webp",
+    "lv10": "/ew/tesla/lv10.webp",
+    "lv20": "/ew/tesla/lv20.webp",
+    "lv30": "/ew/tesla/lv30.webp"
+  },
+  "mcgregor": {
+    "lv1": "/ew/mcgregor/lv1.webp",
+    "lv10": "/ew/mcgregor/lv10.webp",
+    "lv20": "/ew/mcgregor/lv20.webp",
+    "lv30": "/ew/mcgregor/lv30.webp"
+  },
+  "adam": {
+    "lv1": "/ew/adam/lv1.webp",
+    "lv10": "/ew/adam/lv10.webp",
+    "lv20": "/ew/adam/lv20.webp",
+    "lv30": "/ew/adam/lv30.webp"
+  },
+  "fiona": {
+    "lv1": "/ew/fiona/lv1.webp",
+    "lv10": "/ew/fiona/lv10.webp",
+    "lv20": "/ew/fiona/lv20.webp",
+    "lv30": "/ew/fiona/lv30.webp"
+  }
+}

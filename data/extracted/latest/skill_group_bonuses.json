@@ -1,0 +1,574 @@
+{
+  "records": [
+    {
+      "group_id": 500600,
+      "hp_pct": 0.1,
+      "atk_pct": 0.1,
+      "def_pct": 0.1
+    },
+    {
+      "group_id": 500610,
+      "hp_pct": 0.1,
+      "atk_pct": 0.1,
+      "def_pct": 0.1
+    },
+    {
+      "group_id": 500620,
+      "hp_pct": 0.1,
+      "atk_pct": 0.1,
+      "def_pct": 0.1
+    },
+    {
+      "group_id": 500630,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500700,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500710,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500720,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500730,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500800,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500810,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500830,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500900,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500910,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500920,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 500930,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501000,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501010,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501020,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501030,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501100,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501110,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501120,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501130,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501200,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501210,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501220,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501230,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501300,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501310,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501320,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501330,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501400,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501410,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501420,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501430,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501500,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501510,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501520,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501530,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501600,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501610,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501620,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501630,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501700,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501710,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501720,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501730,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501800,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501810,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501820,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501830,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501900,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501910,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501920,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 501930,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502000,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502010,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502020,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502030,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502100,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502110,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502120,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502130,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502200,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502210,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502220,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502230,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502300,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502310,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502320,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502330,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502400,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502410,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502420,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502430,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502500,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502510,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502520,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502530,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502600,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502610,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502620,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502630,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502700,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502710,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502720,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502730,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502800,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502810,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502820,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502830,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502900,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502910,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502920,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    },
+    {
+      "group_id": 502930,
+      "hp_pct": 0.2,
+      "atk_pct": 0.2,
+      "def_pct": 0.2
+    }
+  ]
+}

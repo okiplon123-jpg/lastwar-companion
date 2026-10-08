@@ -1,0 +1,259 @@
+{
+  "_meta": {
+    "table": "pentagon",
+    "game_version": "1.0.352",
+    "extraction_run_id": "8a782049",
+    "extracted_at": "2026-07-15T19:26:32.618535+00:00",
+    "locale_parser_version": 2,
+    "source_tables": [
+      "lw_hero_pentagon",
+      "lw_hero_upgrade",
+      "lw_hero_para"
+    ],
+    "source_scripts": [
+      "LWScripts.data — HeroUtils.luac: GetHeroChangedPropertyParam, GetHeroBaseValueTable, GetHeroRadarValues",
+      "LWScripts.data — GetHeroChangedPropertyParam maps HeroEffectDefine.Strength/Agility/Vitality/Trade/Produce to PhysicalAttack_Result/PhysicalDefense_Result/HealPoint_Result"
+    ],
+    "quality_tier_count": 5,
+    "conversion_row_count": 7,
+    "conversion_rows_all_identical": true,
+    "unknown_stat_ids": [],
+    "unhandled_fields": [],
+    "knowledge_status": "VERIFIED",
+    "dimension_stat_mapping_source": "VERIFIED from Lua script LWScripts.data (GetHeroChangedPropertyParam at pos 82562924). Strength→PhysicalAttack_Result(stat 50007 Hero Attack, power=12.5), Agility→PhysicalDefense_Result(stat 50009 Hero Defense, power=35.0), Vitality(=knowledge_upgrade field)→HealPoint_Result(stat 50006 Hero HP, power=0.5). Trade and Production→non-combat stats in Assembly-CSharp (not in lw_effect_number with nonzero power).",
+    "notes": [
+      "All 5 pentagon dimensions capped at 200 points regardless of hero quality (uniform caps).",
+      "All 7 rows in lw_hero_upgrade are identical — the 7 rows likely correspond to quality tiers 1-5 plus 2 awaken tiers; coefficients do not vary.",
+      "Primary dimension coefficients (0.35/pt) apply per dimension; hp_upgrade(0.16), attack_upgrade(0.16), tactic_attack_upgrade(0.16) are additional cross-dimension combat bonuses.",
+      "lw_hero_upgrade field named \"knowledge_upgrade\" corresponds to Vitality/Knowledge dimension (HeroEffectDefine.Vitality) — naming inconsistency between table and Lua code.",
+      "lw_hero_para id=44 contains base hero stat formula: stat 50006;208465.47|50007;14274.36|50009;173.73|50011;1|50012;2|50013;1 (base values before pentagon)."
+    ]
+  },
+  "quality_caps": [
+    {
+      "quality": 1,
+      "quality_name": "Common",
+      "max_strength": 200,
+      "max_agility": 200,
+      "max_vitality": 200,
+      "max_trade": 200,
+      "max_production": 200,
+      "max_total_points": 1000
+    },
+    {
+      "quality": 2,
+      "quality_name": "Uncommon",
+      "max_strength": 200,
+      "max_agility": 200,
+      "max_vitality": 200,
+      "max_trade": 200,
+      "max_production": 200,
+      "max_total_points": 1000
+    },
+    {
+      "quality": 3,
+      "quality_name": "Rare",
+      "max_strength": 200,
+      "max_agility": 200,
+      "max_vitality": 200,
+      "max_trade": 200,
+      "max_production": 200,
+      "max_total_points": 1000
+    },
+    {
+      "quality": 4,
+      "quality_name": "Epic",
+      "max_strength": 200,
+      "max_agility": 200,
+      "max_vitality": 200,
+      "max_trade": 200,
+      "max_production": 200,
+      "max_total_points": 1000
+    },
+    {
+      "quality": 5,
+      "quality_name": "Legendary",
+      "max_strength": 200,
+      "max_agility": 200,
+      "max_vitality": 200,
+      "max_trade": 200,
+      "max_production": 200,
+      "max_total_points": 1000
+    }
+  ],
+  "conversion_coefficients": [
+    {
+      "row_id": 1,
+      "strengh_upgrade": 0.35,
+      "agile_upgrade": 0.35,
+      "knowledge_upgrade": 0.35,
+      "trade_upgrade": 0.35,
+      "produce_upgrade": 0.35,
+      "hp_upgrade": 0.16,
+      "attack_upgrade": 0.16,
+      "tactic_attack_upgrade": 0.16
+    },
+    {
+      "row_id": 2,
+      "strengh_upgrade": 0.35,
+      "agile_upgrade": 0.35,
+      "knowledge_upgrade": 0.35,
+      "trade_upgrade": 0.35,
+      "produce_upgrade": 0.35,
+      "hp_upgrade": 0.16,
+      "attack_upgrade": 0.16,
+      "tactic_attack_upgrade": 0.16
+    },
+    {
+      "row_id": 3,
+      "strengh_upgrade": 0.35,
+      "agile_upgrade": 0.35,
+      "knowledge_upgrade": 0.35,
+      "trade_upgrade": 0.35,
+      "produce_upgrade": 0.35,
+      "hp_upgrade": 0.16,
+      "attack_upgrade": 0.16,
+      "tactic_attack_upgrade": 0.16
+    },
+    {
+      "row_id": 4,
+      "strengh_upgrade": 0.35,
+      "agile_upgrade": 0.35,
+      "knowledge_upgrade": 0.35,
+      "trade_upgrade": 0.35,
+      "produce_upgrade": 0.35,
+      "hp_upgrade": 0.16,
+      "attack_upgrade": 0.16,
+      "tactic_attack_upgrade": 0.16
+    },
+    {
+      "row_id": 5,
+      "strengh_upgrade": 0.35,
+      "agile_upgrade": 0.35,
+      "knowledge_upgrade": 0.35,
+      "trade_upgrade": 0.35,
+      "produce_upgrade": 0.35,
+      "hp_upgrade": 0.16,
+      "attack_upgrade": 0.16,
+      "tactic_attack_upgrade": 0.16
+    },
+    {
+      "row_id": 6,
+      "strengh_upgrade": 0.35,
+      "agile_upgrade": 0.35,
+      "knowledge_upgrade": 0.35,
+      "trade_upgrade": 0.35,
+      "produce_upgrade": 0.35,
+      "hp_upgrade": 0.16,
+      "attack_upgrade": 0.16,
+      "tactic_attack_upgrade": 0.16
+    },
+    {
+      "row_id": 7,
+      "strengh_upgrade": 0.35,
+      "agile_upgrade": 0.35,
+      "knowledge_upgrade": 0.35,
+      "trade_upgrade": 0.35,
+      "produce_upgrade": 0.35,
+      "hp_upgrade": 0.16,
+      "attack_upgrade": 0.16,
+      "tactic_attack_upgrade": 0.16
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "Str",
+      "table_cap_field": "maxStr",
+      "upgrade_coeff_field": "strengh_upgrade",
+      "hero_effect_define_key": "Strength",
+      "display_name": "Strength",
+      "primary_coeff": 0.35,
+      "primary_stat_id": 50007,
+      "primary_stat_name": "Hero Attack",
+      "primary_stat_power_coeff": 12.5,
+      "result_property": "PhysicalAttack_Result",
+      "note": "Strength boosts Hero ATK; coefficient 0.35/pt from lw_hero_upgrade.strengh_upgrade; maps to HeroEffectDefine.PhysicalAttack_Result (stat 50007)"
+    },
+    {
+      "key": "Agi",
+      "table_cap_field": "maxAgi",
+      "upgrade_coeff_field": "agile_upgrade",
+      "hero_effect_define_key": "Agility",
+      "display_name": "Agility",
+      "primary_coeff": 0.35,
+      "primary_stat_id": 50009,
+      "primary_stat_name": "Hero Defense",
+      "primary_stat_power_coeff": 35.0,
+      "result_property": "PhysicalDefense_Result",
+      "note": "Agility boosts Hero DEF; coefficient 0.35/pt from lw_hero_upgrade.agile_upgrade; maps to HeroEffectDefine.PhysicalDefense_Result (stat 50009)"
+    },
+    {
+      "key": "Vit",
+      "table_cap_field": "maxVit",
+      "upgrade_coeff_field": "knowledge_upgrade",
+      "hero_effect_define_key": "Vitality",
+      "display_name": "Knowledge/Vitality",
+      "primary_coeff": 0.35,
+      "primary_stat_id": 50006,
+      "primary_stat_name": "Hero HP",
+      "primary_stat_power_coeff": 0.5,
+      "result_property": "HealPoint_Result",
+      "note": "Vitality (stored as knowledge_upgrade in table) boosts Hero HP; coefficient 0.35/pt; maps to HeroEffectDefine.HealPoint_Result (stat 50006)"
+    },
+    {
+      "key": "Tra",
+      "table_cap_field": "maxTra",
+      "upgrade_coeff_field": "trade_upgrade",
+      "hero_effect_define_key": "Trade",
+      "display_name": "Trade",
+      "primary_coeff": 0.35,
+      "primary_stat_id": null,
+      "primary_stat_name": "Trade/Gathering",
+      "primary_stat_power_coeff": 0.0,
+      "result_property": "Trade (Assembly-CSharp)",
+      "note": "Trade boosts trade and gathering stats; specific stat_id mapping is in Assembly-CSharp; coefficient 0.35/pt confirmed from lw_hero_upgrade.trade_upgrade"
+    },
+    {
+      "key": "Pro",
+      "table_cap_field": "maxPro",
+      "upgrade_coeff_field": "produce_upgrade",
+      "hero_effect_define_key": "Produce",
+      "display_name": "Production",
+      "primary_coeff": 0.35,
+      "primary_stat_id": null,
+      "primary_stat_name": "Production",
+      "primary_stat_power_coeff": 0.0,
+      "result_property": "Produce (Assembly-CSharp)",
+      "note": "Production boosts production stats; specific stat_id mapping is in Assembly-CSharp; coefficient 0.35/pt confirmed from lw_hero_upgrade.produce_upgrade"
+    }
+  ],
+  "combat_derived_coefficients": [
+    {
+      "field": "hp_upgrade",
+      "coeff": 0.16,
+      "stat_id": 50006,
+      "stat_name": "Hero HP",
+      "stat_power_coeff": 0.5,
+      "power_per_point": 0.08,
+      "note": "Additional HP bonus applied per total pentagon point; likely stacks with Vitality dimension bonus"
+    },
+    {
+      "field": "attack_upgrade",
+      "coeff": 0.16,
+      "stat_id": 50007,
+      "stat_name": "Hero Attack",
+      "stat_power_coeff": 12.5,
+      "power_per_point": 2.0,
+      "note": "Additional ATK bonus applied per total pentagon point; likely stacks with Strength dimension bonus"
+    },
+    {
+      "field": "tactic_attack_upgrade",
+      "coeff": 0.16,
+      "stat_id": null,
+      "stat_name": "Tactical Attack",
+      "stat_power_coeff": null,
+      "power_per_point": null,
+      "note": "Tactical ATK bonus per pentagon point; stat_id not identified in lw_effect_number; likely MagicAttack_Result in HeroEffectDefine"
+    }
+  ]
+}

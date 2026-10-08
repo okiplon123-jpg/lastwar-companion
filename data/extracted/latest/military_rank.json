@@ -1,0 +1,2950 @@
+{
+  "_meta": {
+    "table": "military_rank",
+    "game_version": "1.0.352",
+    "extraction_run_id": "c870ad6f",
+    "extracted_at": "2026-07-15T13:27:48.499158Z",
+    "source_tables": [
+      "aps_heroes_rank",
+      "aps_heroes_rankLv"
+    ],
+    "unknown_stat_ids": [],
+    "knowledge_status": "VERIFIED",
+    "rank_level_count": 8,
+    "rank_stage_count": 70,
+    "field_notes": {
+      "structure": "Two-axis rank system: aps_heroes_rankLv defines 8 Commander Rank Levels (0-7); aps_heroes_rank defines 70 Hero Rank Stages (id 1-70, levels 1-18).",
+      "rank_levels": "Commander earns Rank Level 0-7 (Private/2nd Lt/1st Lt/Captain/Major/Brigadier/General/Marshal). Each level multiplies hero rank bonuses by hero squad slot position.",
+      "slot_bonuses": "slot_atk_pct/slot_def_pct/slot_troop_pct: multipliers (%) applied to hero rank base atk/def/troop. slot_1 > slot_2 > slot_3 > slot_4 (lead hero gets biggest bonus).",
+      "rank_stages": "70 hero rank stages organized into 18 rank level groups. Each group has 4-5 stages. Stage 4 (or stage 0 for lv=1) marks a rank level completion point.",
+      "profession": "Each hero rank stage defines separate values for 3 professions. prof_1=Military Officer (max rank: Marshal lv18, max atk 700%), prof_2=Tech Officer (max atk 500%), prof_3=Development Officer (max rank: lv=14/stage=1, then atk stagnates; effectively capped at lv13 for progression cost).",
+      "atk_def_pct": "Cumulative percentage bonus to troop ATK and DEF (not deltas). Must be multiplied by commander rank slot_atk_pct to get effective bonus.",
+      "troop_cap_pct": "Cumulative percentage bonus to troop capacity.",
+      "cost": "require_hero_lv: minimum hero level needed for this rank stage. cost_medals: Military Rank Medals. cost_coins: Gold. require=0 means not available for that profession.",
+      "skill_slot": "skill_slot_by_prof: which squad skill slot (1-4) activates at this rank stage completion (stage 4 only). Cycles 1->2->3->4->1->2->3->4 per rank level group.",
+      "power": "atk/def/troop bonuses are percentage multipliers, not absolute values. Power contribution is indirect (affects combat through squad formation).",
+      "formula": "effective_atk_bonus_% = hero_rank_atk_pct * commander_slot_atk_pct / 100. E.g., hero atk=700% at Marshal + Commander rank Marshal slot1 (150%) = 700*150/100 = 1050% effective ATK bonus.",
+      "locale": "Rank names (Reservist, 2nd Lieutenant, Colonel, Marshal etc.) resolved via LEB128-encoded locale. Both hero rank stages and commander rank levels have distinct name sets."
+    }
+  },
+  "commander_rank_levels": [
+    {
+      "rank_level": 0,
+      "name": "Private",
+      "icon": "UIHeroMilitaryRank_icon_1",
+      "skill_level": 0,
+      "slot_atk_pct": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0,
+        "slot_4": 0
+      },
+      "slot_def_pct": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0,
+        "slot_4": 0
+      },
+      "slot_troop_pct": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0,
+        "slot_4": 0
+      }
+    },
+    {
+      "rank_level": 1,
+      "name": "2nd Lieutenant",
+      "icon": "UIHeroMilitaryRank_icon_1",
+      "skill_level": 1,
+      "slot_atk_pct": {
+        "slot_1": 30,
+        "slot_2": 20,
+        "slot_3": 10,
+        "slot_4": 5
+      },
+      "slot_def_pct": {
+        "slot_1": 30,
+        "slot_2": 20,
+        "slot_3": 10,
+        "slot_4": 5
+      },
+      "slot_troop_pct": {
+        "slot_1": 50,
+        "slot_2": 30,
+        "slot_3": 20,
+        "slot_4": 10
+      }
+    },
+    {
+      "rank_level": 2,
+      "name": "1st Lieutenant",
+      "icon": "UIHeroMilitaryRank_icon_2",
+      "skill_level": 2,
+      "slot_atk_pct": {
+        "slot_1": 50,
+        "slot_2": 35,
+        "slot_3": 20,
+        "slot_4": 10
+      },
+      "slot_def_pct": {
+        "slot_1": 50,
+        "slot_2": 35,
+        "slot_3": 20,
+        "slot_4": 10
+      },
+      "slot_troop_pct": {
+        "slot_1": 100,
+        "slot_2": 60,
+        "slot_3": 30,
+        "slot_4": 15
+      }
+    },
+    {
+      "rank_level": 3,
+      "name": "Captain",
+      "icon": "UIHeroMilitaryRank_icon_4",
+      "skill_level": 3,
+      "slot_atk_pct": {
+        "slot_1": 70,
+        "slot_2": 50,
+        "slot_3": 30,
+        "slot_4": 15
+      },
+      "slot_def_pct": {
+        "slot_1": 70,
+        "slot_2": 50,
+        "slot_3": 30,
+        "slot_4": 15
+      },
+      "slot_troop_pct": {
+        "slot_1": 150,
+        "slot_2": 90,
+        "slot_3": 40,
+        "slot_4": 20
+      }
+    },
+    {
+      "rank_level": 4,
+      "name": "Major",
+      "icon": "UIHeroMilitaryRank_icon_6",
+      "skill_level": 4,
+      "slot_atk_pct": {
+        "slot_1": 90,
+        "slot_2": 65,
+        "slot_3": 40,
+        "slot_4": 20
+      },
+      "slot_def_pct": {
+        "slot_1": 90,
+        "slot_2": 65,
+        "slot_3": 40,
+        "slot_4": 20
+      },
+      "slot_troop_pct": {
+        "slot_1": 200,
+        "slot_2": 120,
+        "slot_3": 50,
+        "slot_4": 25
+      }
+    },
+    {
+      "rank_level": 5,
+      "name": "Brigadier",
+      "icon": "UIHeroMilitaryRank_icon_7",
+      "skill_level": 5,
+      "slot_atk_pct": {
+        "slot_1": 110,
+        "slot_2": 80,
+        "slot_3": 50,
+        "slot_4": 25
+      },
+      "slot_def_pct": {
+        "slot_1": 110,
+        "slot_2": 80,
+        "slot_3": 50,
+        "slot_4": 25
+      },
+      "slot_troop_pct": {
+        "slot_1": 250,
+        "slot_2": 150,
+        "slot_3": 60,
+        "slot_4": 30
+      }
+    },
+    {
+      "rank_level": 6,
+      "name": "General",
+      "icon": "UIHeroMilitaryRank_icon_7",
+      "skill_level": 6,
+      "slot_atk_pct": {
+        "slot_1": 130,
+        "slot_2": 95,
+        "slot_3": 60,
+        "slot_4": 30
+      },
+      "slot_def_pct": {
+        "slot_1": 130,
+        "slot_2": 95,
+        "slot_3": 60,
+        "slot_4": 30
+      },
+      "slot_troop_pct": {
+        "slot_1": 300,
+        "slot_2": 180,
+        "slot_3": 70,
+        "slot_4": 35
+      }
+    },
+    {
+      "rank_level": 7,
+      "name": "Marshal",
+      "icon": "UIHeroMilitaryRank_icon_7",
+      "skill_level": 7,
+      "slot_atk_pct": {
+        "slot_1": 150,
+        "slot_2": 110,
+        "slot_3": 70,
+        "slot_4": 35
+      },
+      "slot_def_pct": {
+        "slot_1": 150,
+        "slot_2": 110,
+        "slot_3": 70,
+        "slot_4": 35
+      },
+      "slot_troop_pct": {
+        "slot_1": 350,
+        "slot_2": 210,
+        "slot_3": 80,
+        "slot_4": 40
+      }
+    }
+  ],
+  "hero_rank_stages": [
+    {
+      "id": 1,
+      "rank_level": 1,
+      "stage": 0,
+      "name": "Reservist",
+      "icon": "UIHeroMilitaryRank_icon_1",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 4
+      },
+      "cost_medals": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 2
+      },
+      "cost_coins": {
+        "prof_1": 60,
+        "prof_2": 60,
+        "prof_3": 60
+      },
+      "atk_pct": {
+        "prof_1": 60,
+        "prof_2": 60,
+        "prof_3": 60
+      },
+      "def_pct": {
+        "prof_1": 60,
+        "prof_2": 60,
+        "prof_3": 60
+      },
+      "troop_cap_pct": {
+        "prof_1": 60,
+        "prof_2": 60,
+        "prof_3": 60
+      }
+    },
+    {
+      "id": 2,
+      "rank_level": 1,
+      "stage": 1,
+      "name": "Reservist I",
+      "icon": "UIHeroMilitaryRank_icon_1",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 4
+      },
+      "cost_medals": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 2
+      },
+      "cost_coins": {
+        "prof_1": 120,
+        "prof_2": 120,
+        "prof_3": 120
+      },
+      "atk_pct": {
+        "prof_1": 20,
+        "prof_2": 10,
+        "prof_3": 3
+      },
+      "def_pct": {
+        "prof_1": 20,
+        "prof_2": 10,
+        "prof_3": 3
+      },
+      "troop_cap_pct": {
+        "prof_1": 0,
+        "prof_2": 0,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 3,
+      "rank_level": 1,
+      "stage": 2,
+      "name": "Reservist II",
+      "icon": "UIHeroMilitaryRank_icon_1",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 4
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 120,
+        "prof_2": 120,
+        "prof_3": 120
+      },
+      "atk_pct": {
+        "prof_1": 26,
+        "prof_2": 14,
+        "prof_3": 6
+      },
+      "def_pct": {
+        "prof_1": 26,
+        "prof_2": 14,
+        "prof_3": 6
+      },
+      "troop_cap_pct": {
+        "prof_1": 1,
+        "prof_2": 1,
+        "prof_3": 1
+      }
+    },
+    {
+      "id": 4,
+      "rank_level": 1,
+      "stage": 3,
+      "name": "Reservist III",
+      "icon": "UIHeroMilitaryRank_icon_1",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 4
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 120,
+        "prof_2": 120,
+        "prof_3": 120
+      },
+      "atk_pct": {
+        "prof_1": 31,
+        "prof_2": 18,
+        "prof_3": 8
+      },
+      "def_pct": {
+        "prof_1": 31,
+        "prof_2": 18,
+        "prof_3": 8
+      },
+      "troop_cap_pct": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 1
+      }
+    },
+    {
+      "id": 5,
+      "rank_level": 1,
+      "stage": 4,
+      "name": "Reservist IV",
+      "icon": "UIHeroMilitaryRank_icon_1",
+      "skill_slot_by_prof": {
+        "prof_1": 1,
+        "prof_2": 1,
+        "prof_3": 1
+      },
+      "require_hero_lv": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 5
+      },
+      "cost_medals": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_coins": {
+        "prof_1": 240,
+        "prof_2": 240,
+        "prof_3": 240
+      },
+      "atk_pct": {
+        "prof_1": 36,
+        "prof_2": 21,
+        "prof_3": 10
+      },
+      "def_pct": {
+        "prof_1": 36,
+        "prof_2": 21,
+        "prof_3": 10
+      },
+      "troop_cap_pct": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 1
+      }
+    },
+    {
+      "id": 6,
+      "rank_level": 2,
+      "stage": 1,
+      "name": "Star 0 Tier 1",
+      "icon": "UIHeroMilitaryRank_icon_2",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 5
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 240,
+        "prof_2": 240,
+        "prof_3": 240
+      },
+      "atk_pct": {
+        "prof_1": 41,
+        "prof_2": 25,
+        "prof_3": 12
+      },
+      "def_pct": {
+        "prof_1": 41,
+        "prof_2": 25,
+        "prof_3": 12
+      },
+      "troop_cap_pct": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 2
+      }
+    },
+    {
+      "id": 7,
+      "rank_level": 2,
+      "stage": 2,
+      "name": "Star 0 Tier 2",
+      "icon": "UIHeroMilitaryRank_icon_2",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 5
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 240,
+        "prof_2": 240,
+        "prof_3": 240
+      },
+      "atk_pct": {
+        "prof_1": 46,
+        "prof_2": 29,
+        "prof_3": 14
+      },
+      "def_pct": {
+        "prof_1": 46,
+        "prof_2": 29,
+        "prof_3": 14
+      },
+      "troop_cap_pct": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 2
+      }
+    },
+    {
+      "id": 8,
+      "rank_level": 2,
+      "stage": 3,
+      "name": "Star 0 Tier 3",
+      "icon": "UIHeroMilitaryRank_icon_2",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 5
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 240,
+        "prof_2": 240,
+        "prof_3": 240
+      },
+      "atk_pct": {
+        "prof_1": 51,
+        "prof_2": 32,
+        "prof_3": 16
+      },
+      "def_pct": {
+        "prof_1": 51,
+        "prof_2": 32,
+        "prof_3": 16
+      },
+      "troop_cap_pct": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 2
+      }
+    },
+    {
+      "id": 9,
+      "rank_level": 2,
+      "stage": 4,
+      "name": "Star 0 Tier 4",
+      "icon": "UIHeroMilitaryRank_icon_2",
+      "skill_slot_by_prof": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 2
+      },
+      "require_hero_lv": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 6
+      },
+      "cost_medals": {
+        "prof_1": 10,
+        "prof_2": 10,
+        "prof_3": 10
+      },
+      "cost_coins": {
+        "prof_1": 480,
+        "prof_2": 480,
+        "prof_3": 480
+      },
+      "atk_pct": {
+        "prof_1": 56,
+        "prof_2": 36,
+        "prof_3": 18
+      },
+      "def_pct": {
+        "prof_1": 56,
+        "prof_2": 36,
+        "prof_3": 18
+      },
+      "troop_cap_pct": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 3
+      }
+    },
+    {
+      "id": 10,
+      "rank_level": 3,
+      "stage": 1,
+      "name": "Warrant Officer I",
+      "icon": "UIHeroMilitaryRank_icon_3",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 6
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 480,
+        "prof_2": 480,
+        "prof_3": 480
+      },
+      "atk_pct": {
+        "prof_1": 61,
+        "prof_2": 39,
+        "prof_3": 20
+      },
+      "def_pct": {
+        "prof_1": 61,
+        "prof_2": 39,
+        "prof_3": 20
+      },
+      "troop_cap_pct": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 3
+      }
+    },
+    {
+      "id": 11,
+      "rank_level": 3,
+      "stage": 2,
+      "name": "Warrant Officer II",
+      "icon": "UIHeroMilitaryRank_icon_3",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 6
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 480,
+        "prof_2": 480,
+        "prof_3": 480
+      },
+      "atk_pct": {
+        "prof_1": 66,
+        "prof_2": 43,
+        "prof_3": 22
+      },
+      "def_pct": {
+        "prof_1": 66,
+        "prof_2": 43,
+        "prof_3": 22
+      },
+      "troop_cap_pct": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 3
+      }
+    },
+    {
+      "id": 12,
+      "rank_level": 3,
+      "stage": 3,
+      "name": "Warrant Officer III",
+      "icon": "UIHeroMilitaryRank_icon_3",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 6
+      },
+      "cost_medals": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "cost_coins": {
+        "prof_1": 480,
+        "prof_2": 480,
+        "prof_3": 480
+      },
+      "atk_pct": {
+        "prof_1": 71,
+        "prof_2": 47,
+        "prof_3": 24
+      },
+      "def_pct": {
+        "prof_1": 71,
+        "prof_2": 47,
+        "prof_3": 24
+      },
+      "troop_cap_pct": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 4
+      }
+    },
+    {
+      "id": 13,
+      "rank_level": 3,
+      "stage": 4,
+      "name": "Private IV",
+      "icon": "UIHeroMilitaryRank_icon_3",
+      "skill_slot_by_prof": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 3
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 13,
+        "prof_2": 13,
+        "prof_3": 13
+      },
+      "cost_coins": {
+        "prof_1": 960,
+        "prof_2": 960,
+        "prof_3": 960
+      },
+      "atk_pct": {
+        "prof_1": 76,
+        "prof_2": 50,
+        "prof_3": 26
+      },
+      "def_pct": {
+        "prof_1": 76,
+        "prof_2": 50,
+        "prof_3": 26
+      },
+      "troop_cap_pct": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 4
+      }
+    },
+    {
+      "id": 14,
+      "rank_level": 4,
+      "stage": 1,
+      "name": "1st Private I",
+      "icon": "UIHeroMilitaryRank_icon_4",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 4
+      },
+      "cost_coins": {
+        "prof_1": 900,
+        "prof_2": 900,
+        "prof_3": 900
+      },
+      "atk_pct": {
+        "prof_1": 81,
+        "prof_2": 54,
+        "prof_3": 28
+      },
+      "def_pct": {
+        "prof_1": 81,
+        "prof_2": 54,
+        "prof_3": 28
+      },
+      "troop_cap_pct": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 4
+      }
+    },
+    {
+      "id": 15,
+      "rank_level": 4,
+      "stage": 2,
+      "name": "1st Private II",
+      "icon": "UIHeroMilitaryRank_icon_4",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 4
+      },
+      "cost_coins": {
+        "prof_1": 900,
+        "prof_2": 900,
+        "prof_3": 900
+      },
+      "atk_pct": {
+        "prof_1": 86,
+        "prof_2": 58,
+        "prof_3": 30
+      },
+      "def_pct": {
+        "prof_1": 86,
+        "prof_2": 58,
+        "prof_3": 30
+      },
+      "troop_cap_pct": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 5
+      }
+    },
+    {
+      "id": 16,
+      "rank_level": 4,
+      "stage": 3,
+      "name": "1st Private III",
+      "icon": "UIHeroMilitaryRank_icon_4",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 4
+      },
+      "cost_coins": {
+        "prof_1": 900,
+        "prof_2": 900,
+        "prof_3": 900
+      },
+      "atk_pct": {
+        "prof_1": 91,
+        "prof_2": 61,
+        "prof_3": 32
+      },
+      "def_pct": {
+        "prof_1": 91,
+        "prof_2": 61,
+        "prof_3": 32
+      },
+      "troop_cap_pct": {
+        "prof_1": 8,
+        "prof_2": 8,
+        "prof_3": 5
+      }
+    },
+    {
+      "id": 17,
+      "rank_level": 4,
+      "stage": 4,
+      "name": "1st Private IV",
+      "icon": "UIHeroMilitaryRank_icon_4",
+      "skill_slot_by_prof": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 1
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 15,
+        "prof_2": 15,
+        "prof_3": 15
+      },
+      "cost_coins": {
+        "prof_1": 1800,
+        "prof_2": 1800,
+        "prof_3": 1800
+      },
+      "atk_pct": {
+        "prof_1": 96,
+        "prof_2": 65,
+        "prof_3": 34
+      },
+      "def_pct": {
+        "prof_1": 96,
+        "prof_2": 65,
+        "prof_3": 34
+      },
+      "troop_cap_pct": {
+        "prof_1": 8,
+        "prof_2": 8,
+        "prof_3": 5
+      }
+    },
+    {
+      "id": 18,
+      "rank_level": 5,
+      "stage": 1,
+      "name": "Corporal I",
+      "icon": "UIHeroMilitaryRank_icon_5",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 5
+      },
+      "cost_coins": {
+        "prof_1": 1500,
+        "prof_2": 1500,
+        "prof_3": 1500
+      },
+      "atk_pct": {
+        "prof_1": 106,
+        "prof_2": 72,
+        "prof_3": 39
+      },
+      "def_pct": {
+        "prof_1": 106,
+        "prof_2": 72,
+        "prof_3": 39
+      },
+      "troop_cap_pct": {
+        "prof_1": 9,
+        "prof_2": 9,
+        "prof_3": 6
+      }
+    },
+    {
+      "id": 19,
+      "rank_level": 5,
+      "stage": 2,
+      "name": "Corporal II",
+      "icon": "UIHeroMilitaryRank_icon_5",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 5
+      },
+      "cost_coins": {
+        "prof_1": 1500,
+        "prof_2": 1500,
+        "prof_3": 1500
+      },
+      "atk_pct": {
+        "prof_1": 116,
+        "prof_2": 79,
+        "prof_3": 43
+      },
+      "def_pct": {
+        "prof_1": 116,
+        "prof_2": 79,
+        "prof_3": 43
+      },
+      "troop_cap_pct": {
+        "prof_1": 10,
+        "prof_2": 10,
+        "prof_3": 6
+      }
+    },
+    {
+      "id": 20,
+      "rank_level": 5,
+      "stage": 3,
+      "name": "Corporal III",
+      "icon": "UIHeroMilitaryRank_icon_5",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 5,
+        "prof_2": 5,
+        "prof_3": 5
+      },
+      "cost_coins": {
+        "prof_1": 1500,
+        "prof_2": 1500,
+        "prof_3": 1500
+      },
+      "atk_pct": {
+        "prof_1": 126,
+        "prof_2": 86,
+        "prof_3": 47
+      },
+      "def_pct": {
+        "prof_1": 126,
+        "prof_2": 86,
+        "prof_3": 47
+      },
+      "troop_cap_pct": {
+        "prof_1": 11,
+        "prof_2": 11,
+        "prof_3": 7
+      }
+    },
+    {
+      "id": 21,
+      "rank_level": 5,
+      "stage": 4,
+      "name": "Corporal IV",
+      "icon": "UIHeroMilitaryRank_icon_5",
+      "skill_slot_by_prof": {
+        "prof_1": 1,
+        "prof_2": 1,
+        "prof_3": 2
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 17,
+        "prof_2": 17,
+        "prof_3": 17
+      },
+      "cost_coins": {
+        "prof_1": 3000,
+        "prof_2": 3000,
+        "prof_3": 3000
+      },
+      "atk_pct": {
+        "prof_1": 136,
+        "prof_2": 94,
+        "prof_3": 51
+      },
+      "def_pct": {
+        "prof_1": 136,
+        "prof_2": 94,
+        "prof_3": 51
+      },
+      "troop_cap_pct": {
+        "prof_1": 12,
+        "prof_2": 12,
+        "prof_3": 8
+      }
+    },
+    {
+      "id": 22,
+      "rank_level": 6,
+      "stage": 1,
+      "name": "Sergeant I",
+      "icon": "UIHeroMilitaryRank_icon_6",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 6
+      },
+      "cost_coins": {
+        "prof_1": 3000,
+        "prof_2": 3000,
+        "prof_3": 3000
+      },
+      "atk_pct": {
+        "prof_1": 146,
+        "prof_2": 101,
+        "prof_3": 55
+      },
+      "def_pct": {
+        "prof_1": 146,
+        "prof_2": 101,
+        "prof_3": 55
+      },
+      "troop_cap_pct": {
+        "prof_1": 13,
+        "prof_2": 13,
+        "prof_3": 8
+      }
+    },
+    {
+      "id": 23,
+      "rank_level": 6,
+      "stage": 2,
+      "name": "Sergeant II",
+      "icon": "UIHeroMilitaryRank_icon_6",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 6
+      },
+      "cost_coins": {
+        "prof_1": 3000,
+        "prof_2": 3000,
+        "prof_3": 3000
+      },
+      "atk_pct": {
+        "prof_1": 156,
+        "prof_2": 108,
+        "prof_3": 59
+      },
+      "def_pct": {
+        "prof_1": 156,
+        "prof_2": 108,
+        "prof_3": 59
+      },
+      "troop_cap_pct": {
+        "prof_1": 14,
+        "prof_2": 14,
+        "prof_3": 9
+      }
+    },
+    {
+      "id": 24,
+      "rank_level": 6,
+      "stage": 3,
+      "name": "Sergeant III",
+      "icon": "UIHeroMilitaryRank_icon_6",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 6,
+        "prof_2": 6,
+        "prof_3": 6
+      },
+      "cost_coins": {
+        "prof_1": 3000,
+        "prof_2": 3000,
+        "prof_3": 3000
+      },
+      "atk_pct": {
+        "prof_1": 166,
+        "prof_2": 115,
+        "prof_3": 63
+      },
+      "def_pct": {
+        "prof_1": 166,
+        "prof_2": 115,
+        "prof_3": 63
+      },
+      "troop_cap_pct": {
+        "prof_1": 15,
+        "prof_2": 15,
+        "prof_3": 10
+      }
+    },
+    {
+      "id": 25,
+      "rank_level": 6,
+      "stage": 4,
+      "name": "Sergeant IV",
+      "icon": "UIHeroMilitaryRank_icon_6",
+      "skill_slot_by_prof": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 3
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 20,
+        "prof_2": 20,
+        "prof_3": 20
+      },
+      "cost_coins": {
+        "prof_1": 6000,
+        "prof_2": 6000,
+        "prof_3": 6000
+      },
+      "atk_pct": {
+        "prof_1": 176,
+        "prof_2": 123,
+        "prof_3": 67
+      },
+      "def_pct": {
+        "prof_1": 176,
+        "prof_2": 123,
+        "prof_3": 67
+      },
+      "troop_cap_pct": {
+        "prof_1": 17,
+        "prof_2": 17,
+        "prof_3": 10
+      }
+    },
+    {
+      "id": 26,
+      "rank_level": 7,
+      "stage": 1,
+      "name": "1st Sergeant I",
+      "icon": "UIHeroMilitaryRank_icon_7",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_coins": {
+        "prof_1": 6000,
+        "prof_2": 6000,
+        "prof_3": 6000
+      },
+      "atk_pct": {
+        "prof_1": 186,
+        "prof_2": 130,
+        "prof_3": 72
+      },
+      "def_pct": {
+        "prof_1": 186,
+        "prof_2": 130,
+        "prof_3": 72
+      },
+      "troop_cap_pct": {
+        "prof_1": 18,
+        "prof_2": 18,
+        "prof_3": 11
+      }
+    },
+    {
+      "id": 27,
+      "rank_level": 7,
+      "stage": 2,
+      "name": "1st Sergeant II",
+      "icon": "UIHeroMilitaryRank_icon_7",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_coins": {
+        "prof_1": 6000,
+        "prof_2": 6000,
+        "prof_3": 6000
+      },
+      "atk_pct": {
+        "prof_1": 196,
+        "prof_2": 137,
+        "prof_3": 76
+      },
+      "def_pct": {
+        "prof_1": 196,
+        "prof_2": 137,
+        "prof_3": 76
+      },
+      "troop_cap_pct": {
+        "prof_1": 19,
+        "prof_2": 19,
+        "prof_3": 11
+      }
+    },
+    {
+      "id": 28,
+      "rank_level": 7,
+      "stage": 3,
+      "name": "1st Sergeant III",
+      "icon": "UIHeroMilitaryRank_icon_7",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_coins": {
+        "prof_1": 6000,
+        "prof_2": 6000,
+        "prof_3": 6000
+      },
+      "atk_pct": {
+        "prof_1": 206,
+        "prof_2": 144,
+        "prof_3": 80
+      },
+      "def_pct": {
+        "prof_1": 206,
+        "prof_2": 144,
+        "prof_3": 80
+      },
+      "troop_cap_pct": {
+        "prof_1": 20,
+        "prof_2": 20,
+        "prof_3": 12
+      }
+    },
+    {
+      "id": 29,
+      "rank_level": 7,
+      "stage": 4,
+      "name": "1st Sergeant IV",
+      "icon": "UIHeroMilitaryRank_icon_7",
+      "skill_slot_by_prof": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 1
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 25,
+        "prof_2": 25,
+        "prof_3": 25
+      },
+      "cost_coins": {
+        "prof_1": 12000,
+        "prof_2": 12000,
+        "prof_3": 12000
+      },
+      "atk_pct": {
+        "prof_1": 216,
+        "prof_2": 152,
+        "prof_3": 84
+      },
+      "def_pct": {
+        "prof_1": 216,
+        "prof_2": 152,
+        "prof_3": 84
+      },
+      "troop_cap_pct": {
+        "prof_1": 21,
+        "prof_2": 21,
+        "prof_3": 13
+      }
+    },
+    {
+      "id": 30,
+      "rank_level": 8,
+      "stage": 1,
+      "name": "1 Star",
+      "icon": "UIHeroMilitaryRank_icon_8",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 8,
+        "prof_2": 8,
+        "prof_3": 8
+      },
+      "cost_coins": {
+        "prof_1": 12000,
+        "prof_2": 12000,
+        "prof_3": 12000
+      },
+      "atk_pct": {
+        "prof_1": 226,
+        "prof_2": 159,
+        "prof_3": 88
+      },
+      "def_pct": {
+        "prof_1": 226,
+        "prof_2": 159,
+        "prof_3": 88
+      },
+      "troop_cap_pct": {
+        "prof_1": 22,
+        "prof_2": 22,
+        "prof_3": 13
+      }
+    },
+    {
+      "id": 31,
+      "rank_level": 8,
+      "stage": 2,
+      "name": "Star 1 Tier 1",
+      "icon": "UIHeroMilitaryRank_icon_8",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 8,
+        "prof_2": 8,
+        "prof_3": 8
+      },
+      "cost_coins": {
+        "prof_1": 12000,
+        "prof_2": 12000,
+        "prof_3": 12000
+      },
+      "atk_pct": {
+        "prof_1": 236,
+        "prof_2": 166,
+        "prof_3": 92
+      },
+      "def_pct": {
+        "prof_1": 236,
+        "prof_2": 166,
+        "prof_3": 92
+      },
+      "troop_cap_pct": {
+        "prof_1": 23,
+        "prof_2": 23,
+        "prof_3": 14
+      }
+    },
+    {
+      "id": 32,
+      "rank_level": 8,
+      "stage": 3,
+      "name": "Star 1 Tier 2",
+      "icon": "UIHeroMilitaryRank_icon_8",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 8,
+        "prof_2": 8,
+        "prof_3": 8
+      },
+      "cost_coins": {
+        "prof_1": 12000,
+        "prof_2": 12000,
+        "prof_3": 12000
+      },
+      "atk_pct": {
+        "prof_1": 246,
+        "prof_2": 173,
+        "prof_3": 96
+      },
+      "def_pct": {
+        "prof_1": 246,
+        "prof_2": 173,
+        "prof_3": 96
+      },
+      "troop_cap_pct": {
+        "prof_1": 24,
+        "prof_2": 24,
+        "prof_3": 15
+      }
+    },
+    {
+      "id": 33,
+      "rank_level": 8,
+      "stage": 4,
+      "name": "Star 1 Tier 3",
+      "icon": "UIHeroMilitaryRank_icon_8",
+      "skill_slot_by_prof": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 2
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 27,
+        "prof_2": 27,
+        "prof_3": 27
+      },
+      "cost_coins": {
+        "prof_1": 24000,
+        "prof_2": 24000,
+        "prof_3": 24000
+      },
+      "atk_pct": {
+        "prof_1": 256,
+        "prof_2": 180,
+        "prof_3": 100
+      },
+      "def_pct": {
+        "prof_1": 256,
+        "prof_2": 180,
+        "prof_3": 100
+      },
+      "troop_cap_pct": {
+        "prof_1": 25,
+        "prof_2": 25,
+        "prof_3": 15
+      }
+    },
+    {
+      "id": 34,
+      "rank_level": 9,
+      "stage": 1,
+      "name": "Star 1 Tier 4",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 9,
+        "prof_2": 9,
+        "prof_3": 9
+      },
+      "cost_coins": {
+        "prof_1": 24000,
+        "prof_2": 24000,
+        "prof_3": 24000
+      },
+      "atk_pct": {
+        "prof_1": 266,
+        "prof_2": 188,
+        "prof_3": 105
+      },
+      "def_pct": {
+        "prof_1": 266,
+        "prof_2": 188,
+        "prof_3": 105
+      },
+      "troop_cap_pct": {
+        "prof_1": 26,
+        "prof_2": 26,
+        "prof_3": 16
+      }
+    },
+    {
+      "id": 35,
+      "rank_level": 9,
+      "stage": 2,
+      "name": "2 Stars",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 9,
+        "prof_2": 9,
+        "prof_3": 9
+      },
+      "cost_coins": {
+        "prof_1": 24000,
+        "prof_2": 24000,
+        "prof_3": 24000
+      },
+      "atk_pct": {
+        "prof_1": 276,
+        "prof_2": 195,
+        "prof_3": 109
+      },
+      "def_pct": {
+        "prof_1": 276,
+        "prof_2": 195,
+        "prof_3": 109
+      },
+      "troop_cap_pct": {
+        "prof_1": 27,
+        "prof_2": 27,
+        "prof_3": 17
+      }
+    },
+    {
+      "id": 36,
+      "rank_level": 9,
+      "stage": 3,
+      "name": "Star 2 Tier 1",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 9,
+        "prof_2": 9,
+        "prof_3": 9
+      },
+      "cost_coins": {
+        "prof_1": 24000,
+        "prof_2": 24000,
+        "prof_3": 24000
+      },
+      "atk_pct": {
+        "prof_1": 286,
+        "prof_2": 202,
+        "prof_3": 113
+      },
+      "def_pct": {
+        "prof_1": 286,
+        "prof_2": 202,
+        "prof_3": 113
+      },
+      "troop_cap_pct": {
+        "prof_1": 28,
+        "prof_2": 28,
+        "prof_3": 17
+      }
+    },
+    {
+      "id": 37,
+      "rank_level": 9,
+      "stage": 4,
+      "name": "Star 2 Tier 2",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 1,
+        "prof_2": 1,
+        "prof_3": 3
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 30,
+        "prof_2": 30,
+        "prof_3": 30
+      },
+      "cost_coins": {
+        "prof_1": 48000,
+        "prof_2": 48000,
+        "prof_3": 48000
+      },
+      "atk_pct": {
+        "prof_1": 297,
+        "prof_2": 209,
+        "prof_3": 117
+      },
+      "def_pct": {
+        "prof_1": 297,
+        "prof_2": 209,
+        "prof_3": 117
+      },
+      "troop_cap_pct": {
+        "prof_1": 29,
+        "prof_2": 29,
+        "prof_3": 18
+      }
+    },
+    {
+      "id": 38,
+      "rank_level": 10,
+      "stage": 1,
+      "name": "Star 2 Tier 3",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 10,
+        "prof_2": 10,
+        "prof_3": 10
+      },
+      "cost_coins": {
+        "prof_1": 40000,
+        "prof_2": 40000,
+        "prof_3": 40000
+      },
+      "atk_pct": {
+        "prof_1": 307,
+        "prof_2": 217,
+        "prof_3": 121
+      },
+      "def_pct": {
+        "prof_1": 307,
+        "prof_2": 217,
+        "prof_3": 121
+      },
+      "troop_cap_pct": {
+        "prof_1": 30,
+        "prof_2": 30,
+        "prof_3": 18
+      }
+    },
+    {
+      "id": 39,
+      "rank_level": 10,
+      "stage": 2,
+      "name": "Star 2 Tier 4",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 10,
+        "prof_2": 10,
+        "prof_3": 10
+      },
+      "cost_coins": {
+        "prof_1": 40000,
+        "prof_2": 40000,
+        "prof_3": 40000
+      },
+      "atk_pct": {
+        "prof_1": 317,
+        "prof_2": 224,
+        "prof_3": 125
+      },
+      "def_pct": {
+        "prof_1": 317,
+        "prof_2": 224,
+        "prof_3": 125
+      },
+      "troop_cap_pct": {
+        "prof_1": 31,
+        "prof_2": 31,
+        "prof_3": 19
+      }
+    },
+    {
+      "id": 40,
+      "rank_level": 10,
+      "stage": 3,
+      "name": "3 Stars",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 10,
+        "prof_2": 10,
+        "prof_3": 10
+      },
+      "cost_coins": {
+        "prof_1": 40000,
+        "prof_2": 40000,
+        "prof_3": 40000
+      },
+      "atk_pct": {
+        "prof_1": 327,
+        "prof_2": 231,
+        "prof_3": 129
+      },
+      "def_pct": {
+        "prof_1": 327,
+        "prof_2": 231,
+        "prof_3": 129
+      },
+      "troop_cap_pct": {
+        "prof_1": 32,
+        "prof_2": 32,
+        "prof_3": 20
+      }
+    },
+    {
+      "id": 41,
+      "rank_level": 10,
+      "stage": 4,
+      "name": "Star 3 Tier 1",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 1
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 35,
+        "prof_2": 35,
+        "prof_3": 35
+      },
+      "cost_coins": {
+        "prof_1": 80000,
+        "prof_2": 80000,
+        "prof_3": 80000
+      },
+      "atk_pct": {
+        "prof_1": 337,
+        "prof_2": 238,
+        "prof_3": 133
+      },
+      "def_pct": {
+        "prof_1": 337,
+        "prof_2": 238,
+        "prof_3": 133
+      },
+      "troop_cap_pct": {
+        "prof_1": 33,
+        "prof_2": 33,
+        "prof_3": 20
+      }
+    },
+    {
+      "id": 42,
+      "rank_level": 11,
+      "stage": 1,
+      "name": "Star 3 Tier 2",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 11,
+        "prof_2": 11,
+        "prof_3": 11
+      },
+      "cost_coins": {
+        "prof_1": 60000,
+        "prof_2": 60000,
+        "prof_3": 60000
+      },
+      "atk_pct": {
+        "prof_1": 349,
+        "prof_2": 247,
+        "prof_3": 139
+      },
+      "def_pct": {
+        "prof_1": 349,
+        "prof_2": 247,
+        "prof_3": 139
+      },
+      "troop_cap_pct": {
+        "prof_1": 34,
+        "prof_2": 34,
+        "prof_3": 21
+      }
+    },
+    {
+      "id": 43,
+      "rank_level": 11,
+      "stage": 2,
+      "name": "Star 3 Tier 3",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 11,
+        "prof_2": 11,
+        "prof_3": 11
+      },
+      "cost_coins": {
+        "prof_1": 60000,
+        "prof_2": 60000,
+        "prof_3": 60000
+      },
+      "atk_pct": {
+        "prof_1": 362,
+        "prof_2": 256,
+        "prof_3": 144
+      },
+      "def_pct": {
+        "prof_1": 362,
+        "prof_2": 256,
+        "prof_3": 144
+      },
+      "troop_cap_pct": {
+        "prof_1": 36,
+        "prof_2": 36,
+        "prof_3": 22
+      }
+    },
+    {
+      "id": 44,
+      "rank_level": 11,
+      "stage": 3,
+      "name": "Star 3 Tier 4",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 11,
+        "prof_2": 11,
+        "prof_3": 11
+      },
+      "cost_coins": {
+        "prof_1": 60000,
+        "prof_2": 60000,
+        "prof_3": 60000
+      },
+      "atk_pct": {
+        "prof_1": 374,
+        "prof_2": 265,
+        "prof_3": 149
+      },
+      "def_pct": {
+        "prof_1": 374,
+        "prof_2": 265,
+        "prof_3": 149
+      },
+      "troop_cap_pct": {
+        "prof_1": 37,
+        "prof_2": 37,
+        "prof_3": 23
+      }
+    },
+    {
+      "id": 45,
+      "rank_level": 11,
+      "stage": 4,
+      "name": "4 Stars",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 2
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 40,
+        "prof_2": 40,
+        "prof_3": 40
+      },
+      "cost_coins": {
+        "prof_1": 120000,
+        "prof_2": 120000,
+        "prof_3": 120000
+      },
+      "atk_pct": {
+        "prof_1": 387,
+        "prof_2": 274,
+        "prof_3": 154
+      },
+      "def_pct": {
+        "prof_1": 387,
+        "prof_2": 274,
+        "prof_3": 154
+      },
+      "troop_cap_pct": {
+        "prof_1": 38,
+        "prof_2": 38,
+        "prof_3": 23
+      }
+    },
+    {
+      "id": 46,
+      "rank_level": 12,
+      "stage": 1,
+      "name": "Star 4 Tier 1",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 13,
+        "prof_2": 13,
+        "prof_3": 13
+      },
+      "cost_coins": {
+        "prof_1": 80000,
+        "prof_2": 80000,
+        "prof_3": 80000
+      },
+      "atk_pct": {
+        "prof_1": 399,
+        "prof_2": 284,
+        "prof_3": 159
+      },
+      "def_pct": {
+        "prof_1": 399,
+        "prof_2": 284,
+        "prof_3": 159
+      },
+      "troop_cap_pct": {
+        "prof_1": 40,
+        "prof_2": 40,
+        "prof_3": 24
+      }
+    },
+    {
+      "id": 47,
+      "rank_level": 12,
+      "stage": 2,
+      "name": "Star 4 Tier 2",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 13,
+        "prof_2": 13,
+        "prof_3": 13
+      },
+      "cost_coins": {
+        "prof_1": 80000,
+        "prof_2": 80000,
+        "prof_3": 80000
+      },
+      "atk_pct": {
+        "prof_1": 412,
+        "prof_2": 293,
+        "prof_3": 164
+      },
+      "def_pct": {
+        "prof_1": 412,
+        "prof_2": 293,
+        "prof_3": 164
+      },
+      "troop_cap_pct": {
+        "prof_1": 41,
+        "prof_2": 41,
+        "prof_3": 25
+      }
+    },
+    {
+      "id": 48,
+      "rank_level": 12,
+      "stage": 3,
+      "name": "Star 4 Tier 3",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 13,
+        "prof_2": 13,
+        "prof_3": 13
+      },
+      "cost_coins": {
+        "prof_1": 80000,
+        "prof_2": 80000,
+        "prof_3": 80000
+      },
+      "atk_pct": {
+        "prof_1": 424,
+        "prof_2": 302,
+        "prof_3": 170
+      },
+      "def_pct": {
+        "prof_1": 424,
+        "prof_2": 302,
+        "prof_3": 170
+      },
+      "troop_cap_pct": {
+        "prof_1": 42,
+        "prof_2": 42,
+        "prof_3": 26
+      }
+    },
+    {
+      "id": 49,
+      "rank_level": 12,
+      "stage": 4,
+      "name": "Star 4 Tier 4",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 3
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 45,
+        "prof_2": 45,
+        "prof_3": 45
+      },
+      "cost_coins": {
+        "prof_1": 160000,
+        "prof_2": 160000,
+        "prof_3": 160000
+      },
+      "atk_pct": {
+        "prof_1": 437,
+        "prof_2": 311,
+        "prof_3": 175
+      },
+      "def_pct": {
+        "prof_1": 437,
+        "prof_2": 311,
+        "prof_3": 175
+      },
+      "troop_cap_pct": {
+        "prof_1": 43,
+        "prof_2": 43,
+        "prof_3": 27
+      }
+    },
+    {
+      "id": 50,
+      "rank_level": 13,
+      "stage": 1,
+      "name": "5 Stars",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 15,
+        "prof_2": 15,
+        "prof_3": 15
+      },
+      "cost_coins": {
+        "prof_1": 100000,
+        "prof_2": 100000,
+        "prof_3": 100000
+      },
+      "atk_pct": {
+        "prof_1": 450,
+        "prof_2": 320,
+        "prof_3": 180
+      },
+      "def_pct": {
+        "prof_1": 450,
+        "prof_2": 320,
+        "prof_3": 180
+      },
+      "troop_cap_pct": {
+        "prof_1": 45,
+        "prof_2": 45,
+        "prof_3": 27
+      }
+    },
+    {
+      "id": 51,
+      "rank_level": 13,
+      "stage": 2,
+      "name": "Colonel II",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 15,
+        "prof_2": 15,
+        "prof_3": 15
+      },
+      "cost_coins": {
+        "prof_1": 100000,
+        "prof_2": 100000,
+        "prof_3": 100000
+      },
+      "atk_pct": {
+        "prof_1": 462,
+        "prof_2": 329,
+        "prof_3": 185
+      },
+      "def_pct": {
+        "prof_1": 462,
+        "prof_2": 329,
+        "prof_3": 185
+      },
+      "troop_cap_pct": {
+        "prof_1": 46,
+        "prof_2": 46,
+        "prof_3": 28
+      }
+    },
+    {
+      "id": 52,
+      "rank_level": 13,
+      "stage": 3,
+      "name": "Colonel III",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 7
+      },
+      "cost_medals": {
+        "prof_1": 15,
+        "prof_2": 15,
+        "prof_3": 15
+      },
+      "cost_coins": {
+        "prof_1": 100000,
+        "prof_2": 100000,
+        "prof_3": 100000
+      },
+      "atk_pct": {
+        "prof_1": 475,
+        "prof_2": 338,
+        "prof_3": 190
+      },
+      "def_pct": {
+        "prof_1": 475,
+        "prof_2": 338,
+        "prof_3": 190
+      },
+      "troop_cap_pct": {
+        "prof_1": 47,
+        "prof_2": 47,
+        "prof_3": 29
+      }
+    },
+    {
+      "id": 53,
+      "rank_level": 13,
+      "stage": 4,
+      "name": "Colonel IV",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 1,
+        "prof_2": 1,
+        "prof_3": 0
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 50,
+        "prof_2": 50,
+        "prof_3": 50
+      },
+      "cost_coins": {
+        "prof_1": 200000,
+        "prof_2": 200000,
+        "prof_3": 200000
+      },
+      "atk_pct": {
+        "prof_1": 487,
+        "prof_2": 347,
+        "prof_3": 195
+      },
+      "def_pct": {
+        "prof_1": 487,
+        "prof_2": 347,
+        "prof_3": 195
+      },
+      "troop_cap_pct": {
+        "prof_1": 49,
+        "prof_2": 49,
+        "prof_3": 30
+      }
+    },
+    {
+      "id": 54,
+      "rank_level": 14,
+      "stage": 1,
+      "name": "Brigadier I",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 17,
+        "prof_2": 17,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 120000,
+        "prof_2": 120000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 500,
+        "prof_2": 356,
+        "prof_3": 200
+      },
+      "def_pct": {
+        "prof_1": 500,
+        "prof_2": 356,
+        "prof_3": 200
+      },
+      "troop_cap_pct": {
+        "prof_1": 50,
+        "prof_2": 50,
+        "prof_3": 30
+      }
+    },
+    {
+      "id": 55,
+      "rank_level": 14,
+      "stage": 2,
+      "name": "Brigadier II",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 17,
+        "prof_2": 17,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 120000,
+        "prof_2": 120000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 512,
+        "prof_2": 365,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 512,
+        "prof_2": 365,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 51,
+        "prof_2": 51,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 56,
+      "rank_level": 14,
+      "stage": 3,
+      "name": "Brigadier III",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 17,
+        "prof_2": 17,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 120000,
+        "prof_2": 120000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 525,
+        "prof_2": 374,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 525,
+        "prof_2": 374,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 52,
+        "prof_2": 52,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 57,
+      "rank_level": 14,
+      "stage": 4,
+      "name": "Brigadier IV",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 2,
+        "prof_2": 2,
+        "prof_3": 0
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 55,
+        "prof_2": 55,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 240000,
+        "prof_2": 240000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 537,
+        "prof_2": 383,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 537,
+        "prof_2": 383,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 54,
+        "prof_2": 54,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 58,
+      "rank_level": 15,
+      "stage": 1,
+      "name": "Maj.General I",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 20,
+        "prof_2": 20,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 140000,
+        "prof_2": 140000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 550,
+        "prof_2": 392,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 550,
+        "prof_2": 392,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 55,
+        "prof_2": 55,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 59,
+      "rank_level": 15,
+      "stage": 2,
+      "name": "Maj.General II",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 20,
+        "prof_2": 20,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 140000,
+        "prof_2": 140000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 562,
+        "prof_2": 401,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 562,
+        "prof_2": 401,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 56,
+        "prof_2": 56,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 60,
+      "rank_level": 15,
+      "stage": 3,
+      "name": "Maj.General III",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 20,
+        "prof_2": 20,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 140000,
+        "prof_2": 140000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 575,
+        "prof_2": 410,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 575,
+        "prof_2": 410,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 58,
+        "prof_2": 58,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 61,
+      "rank_level": 15,
+      "stage": 4,
+      "name": "Maj.General IV",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 3,
+        "prof_2": 3,
+        "prof_3": 0
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 60,
+        "prof_2": 60,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 280000,
+        "prof_2": 280000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 588,
+        "prof_2": 419,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 588,
+        "prof_2": 419,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 59,
+        "prof_2": 59,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 62,
+      "rank_level": 16,
+      "stage": 1,
+      "name": "Lt.General I",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 25,
+        "prof_2": 25,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 160000,
+        "prof_2": 160000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 600,
+        "prof_2": 428,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 600,
+        "prof_2": 428,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 60,
+        "prof_2": 60,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 63,
+      "rank_level": 16,
+      "stage": 2,
+      "name": "Lt.General II",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 25,
+        "prof_2": 25,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 160000,
+        "prof_2": 160000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 613,
+        "prof_2": 437,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 613,
+        "prof_2": 437,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 61,
+        "prof_2": 61,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 64,
+      "rank_level": 16,
+      "stage": 3,
+      "name": "Lt.General III",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 25,
+        "prof_2": 25,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 160000,
+        "prof_2": 160000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 625,
+        "prof_2": 446,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 625,
+        "prof_2": 446,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 63,
+        "prof_2": 63,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 65,
+      "rank_level": 16,
+      "stage": 4,
+      "name": "Lt.General IV",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": {
+        "prof_1": 4,
+        "prof_2": 4,
+        "prof_3": 0
+      },
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 70,
+        "prof_2": 70,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 320000,
+        "prof_2": 320000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 638,
+        "prof_2": 455,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 638,
+        "prof_2": 455,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 64,
+        "prof_2": 64,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 66,
+      "rank_level": 17,
+      "stage": 1,
+      "name": "General I",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 30,
+        "prof_2": 30,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 180000,
+        "prof_2": 180000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 650,
+        "prof_2": 464,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 650,
+        "prof_2": 464,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 65,
+        "prof_2": 65,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 67,
+      "rank_level": 17,
+      "stage": 2,
+      "name": "General II",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 30,
+        "prof_2": 30,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 180000,
+        "prof_2": 180000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 663,
+        "prof_2": 473,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 663,
+        "prof_2": 473,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 67,
+        "prof_2": 67,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 68,
+      "rank_level": 17,
+      "stage": 3,
+      "name": "General III",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 30,
+        "prof_2": 30,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 180000,
+        "prof_2": 180000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 675,
+        "prof_2": 482,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 675,
+        "prof_2": 482,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 68,
+        "prof_2": 68,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 69,
+      "rank_level": 17,
+      "stage": 4,
+      "name": "General IV",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 100,
+        "prof_2": 100,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 360000,
+        "prof_2": 360000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 688,
+        "prof_2": 491,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 688,
+        "prof_2": 491,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 69,
+        "prof_2": 69,
+        "prof_3": 0
+      }
+    },
+    {
+      "id": 70,
+      "rank_level": 18,
+      "stage": 1,
+      "name": "Marshal",
+      "icon": "UIHeroMilitaryRank_icon_9",
+      "skill_slot_by_prof": null,
+      "require_hero_lv": {
+        "prof_1": 7,
+        "prof_2": 7,
+        "prof_3": 0
+      },
+      "cost_medals": {
+        "prof_1": 100,
+        "prof_2": 100,
+        "prof_3": 0
+      },
+      "cost_coins": {
+        "prof_1": 360000,
+        "prof_2": 360000,
+        "prof_3": 0
+      },
+      "atk_pct": {
+        "prof_1": 700,
+        "prof_2": 500,
+        "prof_3": 0
+      },
+      "def_pct": {
+        "prof_1": 700,
+        "prof_2": 500,
+        "prof_3": 0
+      },
+      "troop_cap_pct": {
+        "prof_1": 70,
+        "prof_2": 70,
+        "prof_3": 0
+      }
+    }
+  ]
+}

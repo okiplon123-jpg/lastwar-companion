@@ -1,0 +1,41 @@
+{
+  "_note": "Promote milestone stat bonuses for M5-A gear. Quality 5=legendary. Per milestone (cumulative apply: 1..stars). Known from game screenshots; milestones 3-5 flat only (pct unknown).",
+  "5": {
+    "1": {
+      "milestones": [
+        {"heroAtkPct": 0.01125, "critRatePct": 0.025, "heroFlatAtk": 250},
+        {"critRatePct": 0.025, "heroFlatAtk": 250},
+        {"critRatePct": 0.025, "heroFlatAtk": 250},
+        {"critRatePct": 0.025, "heroFlatAtk": 250},
+        {"critRatePct": 0.025, "heroFlatAtk": 250}
+      ]
+    },
+    "2": {
+      "milestones": [
+        {"heroHpPct": 0.02625, "heroDefPct": 0.02625, "heroFlatHp": 63000},
+        {"heroFlatHp": 21000},
+        {"heroFlatHp": 21000},
+        {"heroFlatHp": 21000},
+        {"heroFlatHp": 21000}
+      ]
+    },
+    "3": {
+      "milestones": [
+        {"heroAtkPct": 0.01125, "heroFlatAtk": 250},
+        {"heroFlatAtk": 250},
+        {"heroFlatAtk": 250},
+        {"heroFlatAtk": 250},
+        {"heroFlatAtk": 250}
+      ]
+    },
+    "4": {
+      "milestones": [
+        {"heroHpPct": 0.02625, "heroDefPct": 0.02625, "heroFlatDef": 300},
+        {"heroFlatDef": 100},
+        {"heroFlatDef": 100},
+        {"heroFlatDef": 100},
+        {"heroFlatDef": 100}
+      ]
+    }
+  }
+}

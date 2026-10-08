@@ -1,0 +1,7651 @@
+{
+  "meta": {
+    "table": "ew_weapon_effects",
+    "game_version": "352",
+    "extraction_run_id": "936697b4",
+    "extracted_at": "2026-07-16T20:20:19.068284+00:00",
+    "record_count": 764
+  },
+  "records": [
+    {
+      "id": 10010,
+      "group": 1001,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10011,
+      "group": 1001,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10012,
+      "group": 1001,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10013,
+      "group": 1001,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10014,
+      "group": 1001,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10015,
+      "group": 1001,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10020,
+      "group": 1002,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10021,
+      "group": 1002,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10022,
+      "group": 1002,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10023,
+      "group": 1002,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10024,
+      "group": 1002,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10025,
+      "group": 1002,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10030,
+      "group": 1003,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10031,
+      "group": 1003,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10032,
+      "group": 1003,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10033,
+      "group": 1003,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10034,
+      "group": 1003,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10035,
+      "group": 1003,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10040,
+      "group": 1004,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10041,
+      "group": 1004,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10042,
+      "group": 1004,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10043,
+      "group": 1004,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10044,
+      "group": 1004,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10045,
+      "group": 1004,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10050,
+      "group": 1005,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10051,
+      "group": 1005,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10052,
+      "group": 1005,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10053,
+      "group": 1005,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10054,
+      "group": 1005,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10055,
+      "group": 1005,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10060,
+      "group": 1006,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10061,
+      "group": 1006,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10062,
+      "group": 1006,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10063,
+      "group": 1006,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10064,
+      "group": 1006,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10065,
+      "group": 1006,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10070,
+      "group": 1007,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10071,
+      "group": 1007,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10072,
+      "group": 1007,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10073,
+      "group": 1007,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10074,
+      "group": 1007,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10075,
+      "group": 1007,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10080,
+      "group": 1008,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10081,
+      "group": 1008,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10082,
+      "group": 1008,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10083,
+      "group": 1008,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10084,
+      "group": 1008,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10085,
+      "group": 1008,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10090,
+      "group": 1009,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10091,
+      "group": 1009,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10092,
+      "group": 1009,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10093,
+      "group": 1009,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10094,
+      "group": 1009,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10095,
+      "group": 1009,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10100,
+      "group": 1010,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10101,
+      "group": 1010,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10102,
+      "group": 1010,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10103,
+      "group": 1010,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10104,
+      "group": 1010,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10105,
+      "group": 1010,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10110,
+      "group": 1011,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10111,
+      "group": 1011,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10112,
+      "group": 1011,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10113,
+      "group": 1011,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10114,
+      "group": 1011,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10115,
+      "group": 1011,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10120,
+      "group": 1012,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10121,
+      "group": 1012,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10122,
+      "group": 1012,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10123,
+      "group": 1012,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10124,
+      "group": 1012,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10125,
+      "group": 1012,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10130,
+      "group": 1013,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10131,
+      "group": 1013,
+      "level": 1,
+      "level_max": 5,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10132,
+      "group": 1013,
+      "level": 2,
+      "level_max": 5,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10133,
+      "group": 1013,
+      "level": 3,
+      "level_max": 5,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10134,
+      "group": 1013,
+      "level": 4,
+      "level_max": 5,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 10135,
+      "group": 1013,
+      "level": 5,
+      "level_max": 5,
+      "power": 30000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 100101,
+      "group": 1001,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 200101,
+      "group": 2001,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300111,
+      "group": 3001,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300112,
+      "group": 3001,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300113,
+      "group": 3001,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300114,
+      "group": 3001,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300115,
+      "group": 3001,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300116,
+      "group": 3001,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300121,
+      "group": 3001,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300122,
+      "group": 3001,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300123,
+      "group": 3001,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300124,
+      "group": 3001,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300125,
+      "group": 3001,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300126,
+      "group": 3001,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300131,
+      "group": 3001,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300132,
+      "group": 3001,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300133,
+      "group": 3001,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300134,
+      "group": 3001,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300135,
+      "group": 3001,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300136,
+      "group": 3001,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300211,
+      "group": 3002,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300212,
+      "group": 3002,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300213,
+      "group": 3002,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300214,
+      "group": 3002,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300215,
+      "group": 3002,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300216,
+      "group": 3002,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300221,
+      "group": 3002,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300222,
+      "group": 3002,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300223,
+      "group": 3002,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300224,
+      "group": 3002,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300225,
+      "group": 3002,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300226,
+      "group": 3002,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300231,
+      "group": 3002,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300232,
+      "group": 3002,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300233,
+      "group": 3002,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300234,
+      "group": 3002,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300235,
+      "group": 3002,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300236,
+      "group": 3002,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300311,
+      "group": 3003,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300312,
+      "group": 3003,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300313,
+      "group": 3003,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300314,
+      "group": 3003,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300315,
+      "group": 3003,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300316,
+      "group": 3003,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300321,
+      "group": 3003,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300322,
+      "group": 3003,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300323,
+      "group": 3003,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300324,
+      "group": 3003,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300325,
+      "group": 3003,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300326,
+      "group": 3003,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300331,
+      "group": 3003,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300332,
+      "group": 3003,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300333,
+      "group": 3003,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300334,
+      "group": 3003,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300335,
+      "group": 3003,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 300336,
+      "group": 3003,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400611,
+      "group": 4006,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400612,
+      "group": 4006,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400613,
+      "group": 4006,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400614,
+      "group": 4006,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400615,
+      "group": 4006,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400616,
+      "group": 4006,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400621,
+      "group": 4006,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400622,
+      "group": 4006,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400623,
+      "group": 4006,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400624,
+      "group": 4006,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400625,
+      "group": 4006,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400626,
+      "group": 4006,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400631,
+      "group": 4006,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400632,
+      "group": 4006,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400633,
+      "group": 4006,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400634,
+      "group": 4006,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400635,
+      "group": 4006,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400636,
+      "group": 4006,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400641,
+      "group": 4006,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400642,
+      "group": 4006,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400643,
+      "group": 4006,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400644,
+      "group": 4006,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400645,
+      "group": 4006,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400646,
+      "group": 4006,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400711,
+      "group": 4007,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400712,
+      "group": 4007,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400713,
+      "group": 4007,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400714,
+      "group": 4007,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400715,
+      "group": 4007,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400716,
+      "group": 4007,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400721,
+      "group": 4007,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400722,
+      "group": 4007,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400723,
+      "group": 4007,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400724,
+      "group": 4007,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400725,
+      "group": 4007,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400726,
+      "group": 4007,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400731,
+      "group": 4007,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400732,
+      "group": 4007,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400733,
+      "group": 4007,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400734,
+      "group": 4007,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400735,
+      "group": 4007,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400736,
+      "group": 4007,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400741,
+      "group": 4007,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400742,
+      "group": 4007,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400743,
+      "group": 4007,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400744,
+      "group": 4007,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400745,
+      "group": 4007,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400746,
+      "group": 4007,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400811,
+      "group": 4008,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400812,
+      "group": 4008,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400813,
+      "group": 4008,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400814,
+      "group": 4008,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400815,
+      "group": 4008,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400816,
+      "group": 4008,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400821,
+      "group": 4008,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400822,
+      "group": 4008,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400823,
+      "group": 4008,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400824,
+      "group": 4008,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400825,
+      "group": 4008,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400826,
+      "group": 4008,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400831,
+      "group": 4008,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400832,
+      "group": 4008,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400833,
+      "group": 4008,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400834,
+      "group": 4008,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400835,
+      "group": 4008,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400836,
+      "group": 4008,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400841,
+      "group": 4008,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400842,
+      "group": 4008,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400843,
+      "group": 4008,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400844,
+      "group": 4008,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400845,
+      "group": 4008,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400846,
+      "group": 4008,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400911,
+      "group": 4009,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400912,
+      "group": 4009,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400913,
+      "group": 4009,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400914,
+      "group": 4009,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400915,
+      "group": 4009,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400916,
+      "group": 4009,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400921,
+      "group": 4009,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400922,
+      "group": 4009,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400923,
+      "group": 4009,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400924,
+      "group": 4009,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400925,
+      "group": 4009,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400926,
+      "group": 4009,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400931,
+      "group": 4009,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400932,
+      "group": 4009,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400933,
+      "group": 4009,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400934,
+      "group": 4009,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400935,
+      "group": 4009,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400936,
+      "group": 4009,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400941,
+      "group": 4009,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400942,
+      "group": 4009,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400943,
+      "group": 4009,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400944,
+      "group": 4009,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400945,
+      "group": 4009,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 400946,
+      "group": 4009,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401011,
+      "group": 4010,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401012,
+      "group": 4010,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401013,
+      "group": 4010,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401014,
+      "group": 4010,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401015,
+      "group": 4010,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401016,
+      "group": 4010,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401021,
+      "group": 4010,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401022,
+      "group": 4010,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401023,
+      "group": 4010,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401024,
+      "group": 4010,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401025,
+      "group": 4010,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401026,
+      "group": 4010,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401031,
+      "group": 4010,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401032,
+      "group": 4010,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401033,
+      "group": 4010,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401034,
+      "group": 4010,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401035,
+      "group": 4010,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401036,
+      "group": 4010,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401041,
+      "group": 4010,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401042,
+      "group": 4010,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401043,
+      "group": 4010,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401044,
+      "group": 4010,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401045,
+      "group": 4010,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401046,
+      "group": 4010,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401111,
+      "group": 4011,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401112,
+      "group": 4011,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401113,
+      "group": 4011,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401114,
+      "group": 4011,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401115,
+      "group": 4011,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401116,
+      "group": 4011,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401121,
+      "group": 4011,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401122,
+      "group": 4011,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401123,
+      "group": 4011,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401124,
+      "group": 4011,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401125,
+      "group": 4011,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401126,
+      "group": 4011,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401131,
+      "group": 4011,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401132,
+      "group": 4011,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401133,
+      "group": 4011,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401134,
+      "group": 4011,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401135,
+      "group": 4011,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401136,
+      "group": 4011,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401141,
+      "group": 4011,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401142,
+      "group": 4011,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401143,
+      "group": 4011,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401144,
+      "group": 4011,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401145,
+      "group": 4011,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401146,
+      "group": 4011,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401211,
+      "group": 4012,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401212,
+      "group": 4012,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401213,
+      "group": 4012,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401214,
+      "group": 4012,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401215,
+      "group": 4012,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401216,
+      "group": 4012,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401221,
+      "group": 4012,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401222,
+      "group": 4012,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401223,
+      "group": 4012,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401224,
+      "group": 4012,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401225,
+      "group": 4012,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401226,
+      "group": 4012,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401231,
+      "group": 4012,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401232,
+      "group": 4012,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401233,
+      "group": 4012,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401234,
+      "group": 4012,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401235,
+      "group": 4012,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401236,
+      "group": 4012,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401241,
+      "group": 4012,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401242,
+      "group": 4012,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401243,
+      "group": 4012,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401244,
+      "group": 4012,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401245,
+      "group": 4012,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401246,
+      "group": 4012,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401311,
+      "group": 4013,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401312,
+      "group": 4013,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401313,
+      "group": 4013,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401314,
+      "group": 4013,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401315,
+      "group": 4013,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401316,
+      "group": 4013,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401321,
+      "group": 4013,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401322,
+      "group": 4013,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401323,
+      "group": 4013,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401324,
+      "group": 4013,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401325,
+      "group": 4013,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401326,
+      "group": 4013,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401331,
+      "group": 4013,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401332,
+      "group": 4013,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401333,
+      "group": 4013,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401334,
+      "group": 4013,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401335,
+      "group": 4013,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401336,
+      "group": 4013,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401341,
+      "group": 4013,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401342,
+      "group": 4013,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401343,
+      "group": 4013,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401344,
+      "group": 4013,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401345,
+      "group": 4013,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401346,
+      "group": 4013,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401411,
+      "group": 4014,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401412,
+      "group": 4014,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401413,
+      "group": 4014,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401414,
+      "group": 4014,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401415,
+      "group": 4014,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401416,
+      "group": 4014,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401421,
+      "group": 4014,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401422,
+      "group": 4014,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401423,
+      "group": 4014,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401424,
+      "group": 4014,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401425,
+      "group": 4014,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401426,
+      "group": 4014,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401431,
+      "group": 4014,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401432,
+      "group": 4014,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401433,
+      "group": 4014,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401434,
+      "group": 4014,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401435,
+      "group": 4014,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401436,
+      "group": 4014,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401441,
+      "group": 4014,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401442,
+      "group": 4014,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401443,
+      "group": 4014,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401444,
+      "group": 4014,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401445,
+      "group": 4014,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401446,
+      "group": 4014,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401511,
+      "group": 4015,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401512,
+      "group": 4015,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401513,
+      "group": 4015,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401514,
+      "group": 4015,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401515,
+      "group": 4015,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401516,
+      "group": 4015,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401521,
+      "group": 4015,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401522,
+      "group": 4015,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401523,
+      "group": 4015,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401524,
+      "group": 4015,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401525,
+      "group": 4015,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401526,
+      "group": 4015,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401531,
+      "group": 4015,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401532,
+      "group": 4015,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401533,
+      "group": 4015,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401534,
+      "group": 4015,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401535,
+      "group": 4015,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401536,
+      "group": 4015,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401541,
+      "group": 4015,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401542,
+      "group": 4015,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401543,
+      "group": 4015,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401544,
+      "group": 4015,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401545,
+      "group": 4015,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401546,
+      "group": 4015,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401611,
+      "group": 4016,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401612,
+      "group": 4016,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401613,
+      "group": 4016,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401614,
+      "group": 4016,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401615,
+      "group": 4016,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401616,
+      "group": 4016,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401621,
+      "group": 4016,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401622,
+      "group": 4016,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401623,
+      "group": 4016,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401624,
+      "group": 4016,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401625,
+      "group": 4016,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401626,
+      "group": 4016,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401631,
+      "group": 4016,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401632,
+      "group": 4016,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401633,
+      "group": 4016,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401634,
+      "group": 4016,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401635,
+      "group": 4016,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401636,
+      "group": 4016,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401641,
+      "group": 4016,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401642,
+      "group": 4016,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401643,
+      "group": 4016,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401644,
+      "group": 4016,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401645,
+      "group": 4016,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401646,
+      "group": 4016,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401711,
+      "group": 4017,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401712,
+      "group": 4017,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401713,
+      "group": 4017,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401714,
+      "group": 4017,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401715,
+      "group": 4017,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401716,
+      "group": 4017,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401721,
+      "group": 4017,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401722,
+      "group": 4017,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401723,
+      "group": 4017,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401724,
+      "group": 4017,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401725,
+      "group": 4017,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401726,
+      "group": 4017,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401731,
+      "group": 4017,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401732,
+      "group": 4017,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401733,
+      "group": 4017,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401734,
+      "group": 4017,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401735,
+      "group": 4017,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401736,
+      "group": 4017,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401741,
+      "group": 4017,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401742,
+      "group": 4017,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401743,
+      "group": 4017,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401744,
+      "group": 4017,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401745,
+      "group": 4017,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401746,
+      "group": 4017,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401811,
+      "group": 4018,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401812,
+      "group": 4018,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401813,
+      "group": 4018,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401814,
+      "group": 4018,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401815,
+      "group": 4018,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401816,
+      "group": 4018,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401821,
+      "group": 4018,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401822,
+      "group": 4018,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401823,
+      "group": 4018,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401824,
+      "group": 4018,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401825,
+      "group": 4018,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401826,
+      "group": 4018,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401831,
+      "group": 4018,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401832,
+      "group": 4018,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401833,
+      "group": 4018,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401834,
+      "group": 4018,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401835,
+      "group": 4018,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401836,
+      "group": 4018,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401841,
+      "group": 4018,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401842,
+      "group": 4018,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401843,
+      "group": 4018,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401844,
+      "group": 4018,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401845,
+      "group": 4018,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401846,
+      "group": 4018,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401911,
+      "group": 4019,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401912,
+      "group": 4019,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401913,
+      "group": 4019,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401914,
+      "group": 4019,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401915,
+      "group": 4019,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401916,
+      "group": 4019,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401921,
+      "group": 4019,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401922,
+      "group": 4019,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401923,
+      "group": 4019,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401924,
+      "group": 4019,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401925,
+      "group": 4019,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401926,
+      "group": 4019,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401931,
+      "group": 4019,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401932,
+      "group": 4019,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401933,
+      "group": 4019,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401934,
+      "group": 4019,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401935,
+      "group": 4019,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401936,
+      "group": 4019,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401941,
+      "group": 4019,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401942,
+      "group": 4019,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401943,
+      "group": 4019,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401944,
+      "group": 4019,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401945,
+      "group": 4019,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 401946,
+      "group": 4019,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500611,
+      "group": 5006,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500612,
+      "group": 5006,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500613,
+      "group": 5006,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500614,
+      "group": 5006,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500615,
+      "group": 5006,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500616,
+      "group": 5006,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500621,
+      "group": 5006,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500622,
+      "group": 5006,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500623,
+      "group": 5006,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500624,
+      "group": 5006,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500625,
+      "group": 5006,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500626,
+      "group": 5006,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500631,
+      "group": 5006,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500632,
+      "group": 5006,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500633,
+      "group": 5006,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500634,
+      "group": 5006,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500635,
+      "group": 5006,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500636,
+      "group": 5006,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500641,
+      "group": 5006,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500642,
+      "group": 5006,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500643,
+      "group": 5006,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500644,
+      "group": 5006,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500645,
+      "group": 5006,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500646,
+      "group": 5006,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500651,
+      "group": 5006,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500652,
+      "group": 5006,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500653,
+      "group": 5006,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500654,
+      "group": 5006,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500655,
+      "group": 5006,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500656,
+      "group": 5006,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500711,
+      "group": 5007,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500712,
+      "group": 5007,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500713,
+      "group": 5007,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500714,
+      "group": 5007,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500715,
+      "group": 5007,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500716,
+      "group": 5007,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500721,
+      "group": 5007,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500722,
+      "group": 5007,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500723,
+      "group": 5007,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500724,
+      "group": 5007,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500725,
+      "group": 5007,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500726,
+      "group": 5007,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500731,
+      "group": 5007,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500732,
+      "group": 5007,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500733,
+      "group": 5007,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500734,
+      "group": 5007,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500735,
+      "group": 5007,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500736,
+      "group": 5007,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500741,
+      "group": 5007,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500742,
+      "group": 5007,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500743,
+      "group": 5007,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500744,
+      "group": 5007,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500745,
+      "group": 5007,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500746,
+      "group": 5007,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500751,
+      "group": 5007,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500752,
+      "group": 5007,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500753,
+      "group": 5007,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500754,
+      "group": 5007,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500755,
+      "group": 5007,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500756,
+      "group": 5007,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500811,
+      "group": 5008,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500812,
+      "group": 5008,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500813,
+      "group": 5008,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500814,
+      "group": 5008,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500815,
+      "group": 5008,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500816,
+      "group": 5008,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500821,
+      "group": 5008,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500822,
+      "group": 5008,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500823,
+      "group": 5008,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500824,
+      "group": 5008,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500825,
+      "group": 5008,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500826,
+      "group": 5008,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500831,
+      "group": 5008,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500832,
+      "group": 5008,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500833,
+      "group": 5008,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500834,
+      "group": 5008,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500835,
+      "group": 5008,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500836,
+      "group": 5008,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500841,
+      "group": 5008,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500842,
+      "group": 5008,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500843,
+      "group": 5008,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500844,
+      "group": 5008,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500845,
+      "group": 5008,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500846,
+      "group": 5008,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500851,
+      "group": 5008,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500852,
+      "group": 5008,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500853,
+      "group": 5008,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500854,
+      "group": 5008,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500855,
+      "group": 5008,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500856,
+      "group": 5008,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500911,
+      "group": 5009,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500912,
+      "group": 5009,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500913,
+      "group": 5009,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500914,
+      "group": 5009,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500915,
+      "group": 5009,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500916,
+      "group": 5009,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500921,
+      "group": 5009,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500922,
+      "group": 5009,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500923,
+      "group": 5009,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500924,
+      "group": 5009,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500925,
+      "group": 5009,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500926,
+      "group": 5009,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500931,
+      "group": 5009,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500932,
+      "group": 5009,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500933,
+      "group": 5009,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500934,
+      "group": 5009,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500935,
+      "group": 5009,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500936,
+      "group": 5009,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500941,
+      "group": 5009,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500942,
+      "group": 5009,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500943,
+      "group": 5009,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500944,
+      "group": 5009,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500945,
+      "group": 5009,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500946,
+      "group": 5009,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500951,
+      "group": 5009,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500952,
+      "group": 5009,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500953,
+      "group": 5009,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500954,
+      "group": 5009,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500955,
+      "group": 5009,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 500956,
+      "group": 5009,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501011,
+      "group": 5010,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501012,
+      "group": 5010,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501013,
+      "group": 5010,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501014,
+      "group": 5010,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501015,
+      "group": 5010,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501016,
+      "group": 5010,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501021,
+      "group": 5010,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501022,
+      "group": 5010,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501023,
+      "group": 5010,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501024,
+      "group": 5010,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501025,
+      "group": 5010,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501026,
+      "group": 5010,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501031,
+      "group": 5010,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501032,
+      "group": 5010,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501033,
+      "group": 5010,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501034,
+      "group": 5010,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501035,
+      "group": 5010,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501036,
+      "group": 5010,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501041,
+      "group": 5010,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501042,
+      "group": 5010,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501043,
+      "group": 5010,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501044,
+      "group": 5010,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501045,
+      "group": 5010,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501046,
+      "group": 5010,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501051,
+      "group": 5010,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501052,
+      "group": 5010,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501053,
+      "group": 5010,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501054,
+      "group": 5010,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501055,
+      "group": 5010,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501056,
+      "group": 5010,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501111,
+      "group": 5011,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501112,
+      "group": 5011,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501113,
+      "group": 5011,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501114,
+      "group": 5011,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501115,
+      "group": 5011,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501116,
+      "group": 5011,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501121,
+      "group": 5011,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501122,
+      "group": 5011,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501123,
+      "group": 5011,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501124,
+      "group": 5011,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501125,
+      "group": 5011,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501126,
+      "group": 5011,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501131,
+      "group": 5011,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501132,
+      "group": 5011,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501133,
+      "group": 5011,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501134,
+      "group": 5011,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501135,
+      "group": 5011,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501136,
+      "group": 5011,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501141,
+      "group": 5011,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501142,
+      "group": 5011,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501143,
+      "group": 5011,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501144,
+      "group": 5011,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501145,
+      "group": 5011,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501146,
+      "group": 5011,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501151,
+      "group": 5011,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501152,
+      "group": 5011,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501153,
+      "group": 5011,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501154,
+      "group": 5011,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501155,
+      "group": 5011,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501156,
+      "group": 5011,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501211,
+      "group": 5012,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501212,
+      "group": 5012,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501213,
+      "group": 5012,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501214,
+      "group": 5012,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501215,
+      "group": 5012,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501216,
+      "group": 5012,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501221,
+      "group": 5012,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501222,
+      "group": 5012,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501223,
+      "group": 5012,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501224,
+      "group": 5012,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501225,
+      "group": 5012,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501226,
+      "group": 5012,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501231,
+      "group": 5012,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501232,
+      "group": 5012,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501233,
+      "group": 5012,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501234,
+      "group": 5012,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501235,
+      "group": 5012,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501236,
+      "group": 5012,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501241,
+      "group": 5012,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501242,
+      "group": 5012,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501243,
+      "group": 5012,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501244,
+      "group": 5012,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501245,
+      "group": 5012,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501246,
+      "group": 5012,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501251,
+      "group": 5012,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501252,
+      "group": 5012,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501253,
+      "group": 5012,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501254,
+      "group": 5012,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501255,
+      "group": 5012,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501256,
+      "group": 5012,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501311,
+      "group": 5013,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501312,
+      "group": 5013,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501313,
+      "group": 5013,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501314,
+      "group": 5013,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501315,
+      "group": 5013,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501316,
+      "group": 5013,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501321,
+      "group": 5013,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501322,
+      "group": 5013,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501323,
+      "group": 5013,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501324,
+      "group": 5013,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501325,
+      "group": 5013,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501326,
+      "group": 5013,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501331,
+      "group": 5013,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501332,
+      "group": 5013,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501333,
+      "group": 5013,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501334,
+      "group": 5013,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501335,
+      "group": 5013,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501336,
+      "group": 5013,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501341,
+      "group": 5013,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501342,
+      "group": 5013,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501343,
+      "group": 5013,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501344,
+      "group": 5013,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501345,
+      "group": 5013,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501346,
+      "group": 5013,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501351,
+      "group": 5013,
+      "level": 0,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501352,
+      "group": 5013,
+      "level": 1,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501353,
+      "group": 5013,
+      "level": 2,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501354,
+      "group": 5013,
+      "level": 3,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501355,
+      "group": 5013,
+      "level": 4,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501356,
+      "group": 5013,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501411,
+      "group": 5014,
+      "level": 0,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501412,
+      "group": 5014,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501413,
+      "group": 5014,
+      "level": 2,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501414,
+      "group": 5014,
+      "level": 3,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501415,
+      "group": 5014,
+      "level": 4,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501416,
+      "group": 5014,
+      "level": 5,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501421,
+      "group": 5014,
+      "level": 0,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501422,
+      "group": 5014,
+      "level": 1,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501423,
+      "group": 5014,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501424,
+      "group": 5014,
+      "level": 3,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501425,
+      "group": 5014,
+      "level": 4,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501426,
+      "group": 5014,
+      "level": 5,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501431,
+      "group": 5014,
+      "level": 0,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501432,
+      "group": 5014,
+      "level": 1,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501433,
+      "group": 5014,
+      "level": 2,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501434,
+      "group": 5014,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501435,
+      "group": 5014,
+      "level": 4,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501436,
+      "group": 5014,
+      "level": 5,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501441,
+      "group": 5014,
+      "level": 0,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501442,
+      "group": 5014,
+      "level": 1,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501443,
+      "group": 5014,
+      "level": 2,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501444,
+      "group": 5014,
+      "level": 3,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501445,
+      "group": 5014,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 501446,
+      "group": 5014,
+      "level": 5,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750010,
+      "group": 75001,
+      "level": 0,
+      "level_max": 5,
+      "power": 0,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750011,
+      "group": 75001,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750012,
+      "group": 75001,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750013,
+      "group": 75001,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750014,
+      "group": 75001,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750015,
+      "group": 75001,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750020,
+      "group": 75002,
+      "level": 0,
+      "level_max": 5,
+      "power": 0,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750021,
+      "group": 75002,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750022,
+      "group": 75002,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750023,
+      "group": 75002,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750024,
+      "group": 75002,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750025,
+      "group": 75002,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750030,
+      "group": 75003,
+      "level": 0,
+      "level_max": 5,
+      "power": 0,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750031,
+      "group": 75003,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750032,
+      "group": 75003,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750033,
+      "group": 75003,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750034,
+      "group": 75003,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750035,
+      "group": 75003,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750040,
+      "group": 75004,
+      "level": 0,
+      "level_max": 5,
+      "power": 0,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750041,
+      "group": 75004,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750042,
+      "group": 75004,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750043,
+      "group": 75004,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750044,
+      "group": 75004,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750045,
+      "group": 75004,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750050,
+      "group": 75005,
+      "level": 0,
+      "level_max": 5,
+      "power": 0,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750051,
+      "group": 75005,
+      "level": 1,
+      "level_max": 5,
+      "power": 5000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750052,
+      "group": 75005,
+      "level": 2,
+      "level_max": 10,
+      "power": 10000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750053,
+      "group": 75005,
+      "level": 3,
+      "level_max": 15,
+      "power": 15000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750054,
+      "group": 75005,
+      "level": 4,
+      "level_max": 20,
+      "power": 20000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    },
+    {
+      "id": 750055,
+      "group": 75005,
+      "level": 5,
+      "level_max": 25,
+      "power": 25000,
+      "_source_table": "lw_hero_unique_weapon_effect",
+      "_game_version": "352",
+      "_extraction_run_id": "936697b4"
+    }
+  ]
+}

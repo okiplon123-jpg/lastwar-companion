@@ -1,0 +1,2762 @@
+{
+  "common_Cannon": {
+    "quality": "common",
+    "slot": "Cannon",
+    "max_level": 1,
+    "levels": {
+      "1": {
+        "heroFlatAtk": 28.93,
+        "heroFlatDef": 4.83
+      }
+    }
+  },
+  "common_Chip": {
+    "quality": "common",
+    "slot": "Chip",
+    "max_level": 1,
+    "levels": {
+      "1": {
+        "heroFlatHp": 810.0,
+        "heroFlatDef": 4.83
+      }
+    }
+  },
+  "common_Armor": {
+    "quality": "common",
+    "slot": "Armor",
+    "max_level": 1,
+    "levels": {
+      "1": {
+        "heroFlatHp": 1215.0
+      }
+    }
+  },
+  "common_Radar": {
+    "quality": "common",
+    "slot": "Radar",
+    "max_level": 1,
+    "levels": {
+      "1": {
+        "heroFlatAtk": 19.29
+      }
+    }
+  },
+  "rare_Cannon": {
+    "quality": "rare",
+    "slot": "Cannon",
+    "max_level": 16,
+    "levels": {
+      "1": {
+        "heroFlatAtk": 62.49,
+        "heroFlatDef": 10.42
+      },
+      "2": {
+        "heroFlatAtk": 65.61,
+        "heroFlatDef": 10.94
+      },
+      "3": {
+        "heroFlatAtk": 68.74,
+        "heroFlatDef": 11.46
+      },
+      "4": {
+        "heroFlatAtk": 71.86,
+        "heroFlatDef": 11.98
+      },
+      "5": {
+        "heroFlatAtk": 74.99,
+        "heroFlatDef": 12.5
+      },
+      "6": {
+        "heroFlatAtk": 78.11,
+        "heroFlatDef": 13.02
+      },
+      "7": {
+        "heroFlatAtk": 81.24,
+        "heroFlatDef": 13.54
+      },
+      "8": {
+        "heroFlatAtk": 84.36,
+        "heroFlatDef": 14.06
+      },
+      "9": {
+        "heroFlatAtk": 87.48,
+        "heroFlatDef": 14.58
+      },
+      "10": {
+        "heroFlatAtk": 90.61,
+        "heroFlatDef": 15.11
+      },
+      "11": {
+        "heroFlatAtk": 93.73,
+        "heroFlatDef": 15.63
+      },
+      "12": {
+        "heroFlatAtk": 96.86,
+        "heroFlatDef": 16.15
+      },
+      "13": {
+        "heroFlatAtk": 99.98,
+        "heroFlatDef": 16.67
+      },
+      "14": {
+        "heroFlatAtk": 103.11,
+        "heroFlatDef": 17.19
+      },
+      "15": {
+        "heroFlatAtk": 106.23,
+        "heroFlatDef": 17.71
+      },
+      "16": {
+        "heroFlatAtk": 109.35,
+        "heroFlatDef": 18.23
+      }
+    }
+  },
+  "rare_Chip": {
+    "quality": "rare",
+    "slot": "Chip",
+    "max_level": 16,
+    "levels": {
+      "1": {
+        "heroFlatHp": 1749.6,
+        "heroFlatDef": 10.42
+      },
+      "2": {
+        "heroFlatHp": 1837.08,
+        "heroFlatDef": 10.94
+      },
+      "3": {
+        "heroFlatHp": 1924.56,
+        "heroFlatDef": 11.46
+      },
+      "4": {
+        "heroFlatHp": 2012.04,
+        "heroFlatDef": 11.98
+      },
+      "5": {
+        "heroFlatHp": 2099.52,
+        "heroFlatDef": 12.5
+      },
+      "6": {
+        "heroFlatHp": 2187.0,
+        "heroFlatDef": 13.02
+      },
+      "7": {
+        "heroFlatHp": 2274.48,
+        "heroFlatDef": 13.54
+      },
+      "8": {
+        "heroFlatHp": 2361.96,
+        "heroFlatDef": 14.06
+      },
+      "9": {
+        "heroFlatHp": 2449.44,
+        "heroFlatDef": 14.58
+      },
+      "10": {
+        "heroFlatHp": 2536.92,
+        "heroFlatDef": 15.11
+      },
+      "11": {
+        "heroFlatHp": 2624.4,
+        "heroFlatDef": 15.63
+      },
+      "12": {
+        "heroFlatHp": 2711.88,
+        "heroFlatDef": 16.15
+      },
+      "13": {
+        "heroFlatHp": 2799.36,
+        "heroFlatDef": 16.67
+      },
+      "14": {
+        "heroFlatHp": 2886.84,
+        "heroFlatDef": 17.19
+      },
+      "15": {
+        "heroFlatHp": 2974.32,
+        "heroFlatDef": 17.71
+      },
+      "16": {
+        "heroFlatHp": 3061.8,
+        "heroFlatDef": 18.23
+      }
+    }
+  },
+  "rare_Armor": {
+    "quality": "rare",
+    "slot": "Armor",
+    "max_level": 16,
+    "levels": {
+      "1": {
+        "heroFlatHp": 2624.4
+      },
+      "2": {
+        "heroFlatHp": 2755.62
+      },
+      "3": {
+        "heroFlatHp": 2886.84
+      },
+      "4": {
+        "heroFlatHp": 3018.06
+      },
+      "5": {
+        "heroFlatHp": 3149.28
+      },
+      "6": {
+        "heroFlatHp": 3280.5
+      },
+      "7": {
+        "heroFlatHp": 3411.72
+      },
+      "8": {
+        "heroFlatHp": 3542.94
+      },
+      "9": {
+        "heroFlatHp": 3674.16
+      },
+      "10": {
+        "heroFlatHp": 3805.38
+      },
+      "11": {
+        "heroFlatHp": 3936.6
+      },
+      "12": {
+        "heroFlatHp": 4067.82
+      },
+      "13": {
+        "heroFlatHp": 4199.04
+      },
+      "14": {
+        "heroFlatHp": 4330.26
+      },
+      "15": {
+        "heroFlatHp": 4461.48
+      },
+      "16": {
+        "heroFlatHp": 4592.7
+      }
+    }
+  },
+  "rare_Radar": {
+    "quality": "rare",
+    "slot": "Radar",
+    "max_level": 16,
+    "levels": {
+      "1": {
+        "heroFlatAtk": 41.66
+      },
+      "2": {
+        "heroFlatAtk": 43.74
+      },
+      "3": {
+        "heroFlatAtk": 45.83
+      },
+      "4": {
+        "heroFlatAtk": 47.91
+      },
+      "5": {
+        "heroFlatAtk": 49.99
+      },
+      "6": {
+        "heroFlatAtk": 52.08
+      },
+      "7": {
+        "heroFlatAtk": 54.16
+      },
+      "8": {
+        "heroFlatAtk": 56.24
+      },
+      "9": {
+        "heroFlatAtk": 58.32
+      },
+      "10": {
+        "heroFlatAtk": 60.41
+      },
+      "11": {
+        "heroFlatAtk": 62.49
+      },
+      "12": {
+        "heroFlatAtk": 64.57
+      },
+      "13": {
+        "heroFlatAtk": 66.66
+      },
+      "14": {
+        "heroFlatAtk": 68.74
+      },
+      "15": {
+        "heroFlatAtk": 70.82
+      },
+      "16": {
+        "heroFlatAtk": 72.9
+      }
+    }
+  },
+  "epic_Cannon": {
+    "quality": "epic",
+    "slot": "Cannon",
+    "max_level": 31,
+    "levels": {
+      "1": {
+        "heroFlatAtk": 192.56,
+        "heroFlatDef": 25.68
+      },
+      "2": {
+        "heroFlatAtk": 202.19,
+        "heroFlatDef": 26.96
+      },
+      "3": {
+        "heroFlatAtk": 211.82,
+        "heroFlatDef": 28.25
+      },
+      "4": {
+        "heroFlatAtk": 221.44,
+        "heroFlatDef": 29.53
+      },
+      "5": {
+        "heroFlatAtk": 231.07,
+        "heroFlatDef": 30.81
+      },
+      "6": {
+        "heroFlatAtk": 240.7,
+        "heroFlatDef": 32.1
+      },
+      "7": {
+        "heroFlatAtk": 250.33,
+        "heroFlatDef": 33.38
+      },
+      "8": {
+        "heroFlatAtk": 259.96,
+        "heroFlatDef": 34.67
+      },
+      "9": {
+        "heroFlatAtk": 269.58,
+        "heroFlatDef": 35.95
+      },
+      "10": {
+        "heroFlatAtk": 279.21,
+        "heroFlatDef": 37.23
+      },
+      "11": {
+        "heroFlatAtk": 288.84,
+        "heroFlatDef": 38.52
+      },
+      "12": {
+        "heroFlatAtk": 298.47,
+        "heroFlatDef": 39.8
+      },
+      "13": {
+        "heroFlatAtk": 308.09,
+        "heroFlatDef": 41.08
+      },
+      "14": {
+        "heroFlatAtk": 317.72,
+        "heroFlatDef": 42.37
+      },
+      "15": {
+        "heroFlatAtk": 327.35,
+        "heroFlatDef": 43.65
+      },
+      "16": {
+        "heroFlatAtk": 336.98,
+        "heroFlatDef": 44.93
+      },
+      "17": {
+        "heroFlatAtk": 346.61,
+        "heroFlatDef": 46.22
+      },
+      "18": {
+        "heroFlatAtk": 356.23,
+        "heroFlatDef": 47.5
+      },
+      "19": {
+        "heroFlatAtk": 365.86,
+        "heroFlatDef": 48.79
+      },
+      "20": {
+        "heroFlatAtk": 375.49,
+        "heroFlatDef": 50.07
+      },
+      "21": {
+        "heroFlatAtk": 385.12,
+        "heroFlatDef": 51.35
+      },
+      "22": {
+        "heroFlatAtk": 394.74,
+        "heroFlatDef": 52.64
+      },
+      "23": {
+        "heroFlatAtk": 404.37,
+        "heroFlatDef": 53.92
+      },
+      "24": {
+        "heroFlatAtk": 414.0,
+        "heroFlatDef": 55.2
+      },
+      "25": {
+        "heroFlatAtk": 423.63,
+        "heroFlatDef": 56.49
+      },
+      "26": {
+        "heroFlatAtk": 433.26,
+        "heroFlatDef": 57.77
+      },
+      "27": {
+        "heroFlatAtk": 442.88,
+        "heroFlatDef": 59.06
+      },
+      "28": {
+        "heroFlatAtk": 452.51,
+        "heroFlatDef": 60.34
+      },
+      "29": {
+        "heroFlatAtk": 462.14,
+        "heroFlatDef": 61.62
+      },
+      "30": {
+        "heroFlatAtk": 471.77,
+        "heroFlatDef": 62.91
+      },
+      "31": {
+        "heroFlatAtk": 481.39,
+        "heroFlatDef": 64.19
+      }
+    }
+  },
+  "epic_Chip": {
+    "quality": "epic",
+    "slot": "Chip",
+    "max_level": 31,
+    "levels": {
+      "1": {
+        "heroFlatHp": 6739.46,
+        "heroFlatDef": 12.84
+      },
+      "2": {
+        "heroFlatHp": 7076.43,
+        "heroFlatDef": 13.48
+      },
+      "3": {
+        "heroFlatHp": 7413.4,
+        "heroFlatDef": 14.13
+      },
+      "4": {
+        "heroFlatHp": 7750.38,
+        "heroFlatDef": 14.77
+      },
+      "5": {
+        "heroFlatHp": 8087.35,
+        "heroFlatDef": 15.41
+      },
+      "6": {
+        "heroFlatHp": 8424.32,
+        "heroFlatDef": 16.05
+      },
+      "7": {
+        "heroFlatHp": 8761.29,
+        "heroFlatDef": 16.69
+      },
+      "8": {
+        "heroFlatHp": 9098.27,
+        "heroFlatDef": 17.34
+      },
+      "9": {
+        "heroFlatHp": 9435.24,
+        "heroFlatDef": 17.98
+      },
+      "10": {
+        "heroFlatHp": 9772.21,
+        "heroFlatDef": 18.62
+      },
+      "11": {
+        "heroFlatHp": 10109.18,
+        "heroFlatDef": 19.26
+      },
+      "12": {
+        "heroFlatHp": 10446.16,
+        "heroFlatDef": 19.9
+      },
+      "13": {
+        "heroFlatHp": 10783.13,
+        "heroFlatDef": 20.54
+      },
+      "14": {
+        "heroFlatHp": 11120.1,
+        "heroFlatDef": 21.19
+      },
+      "15": {
+        "heroFlatHp": 11457.08,
+        "heroFlatDef": 21.83
+      },
+      "16": {
+        "heroFlatHp": 11794.05,
+        "heroFlatDef": 22.47
+      },
+      "17": {
+        "heroFlatHp": 12131.02,
+        "heroFlatDef": 23.11
+      },
+      "18": {
+        "heroFlatHp": 12467.99,
+        "heroFlatDef": 23.75
+      },
+      "19": {
+        "heroFlatHp": 12804.97,
+        "heroFlatDef": 24.4
+      },
+      "20": {
+        "heroFlatHp": 13141.94,
+        "heroFlatDef": 25.04
+      },
+      "21": {
+        "heroFlatHp": 13478.91,
+        "heroFlatDef": 25.68
+      },
+      "22": {
+        "heroFlatHp": 13815.88,
+        "heroFlatDef": 26.32
+      },
+      "23": {
+        "heroFlatHp": 14152.86,
+        "heroFlatDef": 26.96
+      },
+      "24": {
+        "heroFlatHp": 14489.83,
+        "heroFlatDef": 27.6
+      },
+      "25": {
+        "heroFlatHp": 14826.8,
+        "heroFlatDef": 28.25
+      },
+      "26": {
+        "heroFlatHp": 15163.77,
+        "heroFlatDef": 28.89
+      },
+      "27": {
+        "heroFlatHp": 15500.75,
+        "heroFlatDef": 29.53
+      },
+      "28": {
+        "heroFlatHp": 15837.72,
+        "heroFlatDef": 30.17
+      },
+      "29": {
+        "heroFlatHp": 16174.69,
+        "heroFlatDef": 30.81
+      },
+      "30": {
+        "heroFlatHp": 16511.67,
+        "heroFlatDef": 31.46
+      },
+      "31": {
+        "heroFlatHp": 16848.64,
+        "heroFlatDef": 32.1
+      }
+    }
+  },
+  "epic_Armor": {
+    "quality": "epic",
+    "slot": "Armor",
+    "max_level": 31,
+    "levels": {
+      "1": {
+        "heroFlatHp": 2695.79,
+        "heroFlatAtk": 128.38
+      },
+      "2": {
+        "heroFlatHp": 2830.58,
+        "heroFlatAtk": 134.79
+      },
+      "3": {
+        "heroFlatHp": 2965.36,
+        "heroFlatAtk": 141.21
+      },
+      "4": {
+        "heroFlatHp": 3100.15,
+        "heroFlatAtk": 147.63
+      },
+      "5": {
+        "heroFlatHp": 3234.94,
+        "heroFlatAtk": 154.05
+      },
+      "6": {
+        "heroFlatHp": 3369.73,
+        "heroFlatAtk": 160.47
+      },
+      "7": {
+        "heroFlatHp": 3504.52,
+        "heroFlatAtk": 166.89
+      },
+      "8": {
+        "heroFlatHp": 3639.31,
+        "heroFlatAtk": 173.31
+      },
+      "9": {
+        "heroFlatHp": 3774.1,
+        "heroFlatAtk": 179.72
+      },
+      "10": {
+        "heroFlatHp": 3908.89,
+        "heroFlatAtk": 186.14
+      },
+      "11": {
+        "heroFlatHp": 4043.68,
+        "heroFlatAtk": 192.56
+      },
+      "12": {
+        "heroFlatHp": 4178.47,
+        "heroFlatAtk": 198.98
+      },
+      "13": {
+        "heroFlatHp": 4313.25,
+        "heroFlatAtk": 205.4
+      },
+      "14": {
+        "heroFlatHp": 4448.04,
+        "heroFlatAtk": 211.82
+      },
+      "15": {
+        "heroFlatHp": 4582.83,
+        "heroFlatAtk": 218.23
+      },
+      "16": {
+        "heroFlatHp": 4717.62,
+        "heroFlatAtk": 224.65
+      },
+      "17": {
+        "heroFlatHp": 4852.41,
+        "heroFlatAtk": 231.07
+      },
+      "18": {
+        "heroFlatHp": 4987.2,
+        "heroFlatAtk": 237.49
+      },
+      "19": {
+        "heroFlatHp": 5121.99,
+        "heroFlatAtk": 243.91
+      },
+      "20": {
+        "heroFlatHp": 5256.78,
+        "heroFlatAtk": 250.33
+      },
+      "21": {
+        "heroFlatHp": 5391.57,
+        "heroFlatAtk": 256.75
+      },
+      "22": {
+        "heroFlatHp": 5526.36,
+        "heroFlatAtk": 263.16
+      },
+      "23": {
+        "heroFlatHp": 5661.15,
+        "heroFlatAtk": 269.58
+      },
+      "24": {
+        "heroFlatHp": 5795.93,
+        "heroFlatAtk": 276.0
+      },
+      "25": {
+        "heroFlatHp": 5930.72,
+        "heroFlatAtk": 282.42
+      },
+      "26": {
+        "heroFlatHp": 6065.51,
+        "heroFlatAtk": 288.84
+      },
+      "27": {
+        "heroFlatHp": 6200.3,
+        "heroFlatAtk": 295.26
+      },
+      "28": {
+        "heroFlatHp": 6335.09,
+        "heroFlatAtk": 301.68
+      },
+      "29": {
+        "heroFlatHp": 6469.88,
+        "heroFlatAtk": 308.09
+      },
+      "30": {
+        "heroFlatHp": 6604.67,
+        "heroFlatAtk": 314.51
+      },
+      "31": {
+        "heroFlatHp": 6739.46,
+        "heroFlatAtk": 320.93
+      }
+    }
+  },
+  "epic_Radar": {
+    "quality": "epic",
+    "slot": "Radar",
+    "max_level": 31,
+    "levels": {
+      "1": {
+        "heroFlatHp": 4043.68,
+        "heroFlatDef": 25.68
+      },
+      "2": {
+        "heroFlatHp": 4245.86,
+        "heroFlatDef": 26.96
+      },
+      "3": {
+        "heroFlatHp": 4448.04,
+        "heroFlatDef": 28.25
+      },
+      "4": {
+        "heroFlatHp": 4650.23,
+        "heroFlatDef": 29.53
+      },
+      "5": {
+        "heroFlatHp": 4852.41,
+        "heroFlatDef": 30.81
+      },
+      "6": {
+        "heroFlatHp": 5054.59,
+        "heroFlatDef": 32.1
+      },
+      "7": {
+        "heroFlatHp": 5256.78,
+        "heroFlatDef": 33.38
+      },
+      "8": {
+        "heroFlatHp": 5458.96,
+        "heroFlatDef": 34.67
+      },
+      "9": {
+        "heroFlatHp": 5661.15,
+        "heroFlatDef": 35.95
+      },
+      "10": {
+        "heroFlatHp": 5863.33,
+        "heroFlatDef": 37.23
+      },
+      "11": {
+        "heroFlatHp": 6065.51,
+        "heroFlatDef": 38.52
+      },
+      "12": {
+        "heroFlatHp": 6267.7,
+        "heroFlatDef": 39.8
+      },
+      "13": {
+        "heroFlatHp": 6469.88,
+        "heroFlatDef": 41.08
+      },
+      "14": {
+        "heroFlatHp": 6672.06,
+        "heroFlatDef": 42.37
+      },
+      "15": {
+        "heroFlatHp": 6874.25,
+        "heroFlatDef": 43.65
+      },
+      "16": {
+        "heroFlatHp": 7076.43,
+        "heroFlatDef": 44.93
+      },
+      "17": {
+        "heroFlatHp": 7278.61,
+        "heroFlatDef": 46.22
+      },
+      "18": {
+        "heroFlatHp": 7480.8,
+        "heroFlatDef": 47.5
+      },
+      "19": {
+        "heroFlatHp": 7682.98,
+        "heroFlatDef": 48.79
+      },
+      "20": {
+        "heroFlatHp": 7885.17,
+        "heroFlatDef": 50.07
+      },
+      "21": {
+        "heroFlatHp": 8087.35,
+        "heroFlatDef": 51.35
+      },
+      "22": {
+        "heroFlatHp": 8289.53,
+        "heroFlatDef": 52.64
+      },
+      "23": {
+        "heroFlatHp": 8491.72,
+        "heroFlatDef": 53.92
+      },
+      "24": {
+        "heroFlatHp": 8693.9,
+        "heroFlatDef": 55.2
+      },
+      "25": {
+        "heroFlatHp": 8896.08,
+        "heroFlatDef": 56.49
+      },
+      "26": {
+        "heroFlatHp": 9098.27,
+        "heroFlatDef": 57.77
+      },
+      "27": {
+        "heroFlatHp": 9300.45,
+        "heroFlatDef": 59.06
+      },
+      "28": {
+        "heroFlatHp": 9502.63,
+        "heroFlatDef": 60.34
+      },
+      "29": {
+        "heroFlatHp": 9704.82,
+        "heroFlatDef": 61.62
+      },
+      "30": {
+        "heroFlatHp": 9907.0,
+        "heroFlatDef": 62.91
+      },
+      "31": {
+        "heroFlatHp": 10109.18,
+        "heroFlatDef": 64.19
+      }
+    }
+  },
+  "legendary_Cannon": {
+    "quality": "legendary",
+    "slot": "Cannon",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatAtk": 895.87,
+        "heroFlatDef": 119.45,
+        "heroAtkPct": 0.025,
+        "critRatePct": 0.12125
+      },
+      "2": {
+        "heroFlatAtk": 940.66,
+        "heroFlatDef": 125.43,
+        "heroAtkPct": 0.02625,
+        "critRatePct": 0.1225
+      },
+      "3": {
+        "heroFlatAtk": 985.45,
+        "heroFlatDef": 131.4,
+        "heroAtkPct": 0.0275,
+        "critRatePct": 0.12375
+      },
+      "4": {
+        "heroFlatAtk": 1030.25,
+        "heroFlatDef": 137.37,
+        "heroAtkPct": 0.02875,
+        "critRatePct": 0.125
+      },
+      "5": {
+        "heroFlatAtk": 1075.04,
+        "heroFlatDef": 143.34,
+        "heroAtkPct": 0.03,
+        "critRatePct": 0.12625
+      },
+      "6": {
+        "heroFlatAtk": 1119.83,
+        "heroFlatDef": 149.32,
+        "heroAtkPct": 0.03125,
+        "critRatePct": 0.1275
+      },
+      "7": {
+        "heroFlatAtk": 1164.63,
+        "heroFlatDef": 155.29,
+        "heroAtkPct": 0.0325,
+        "critRatePct": 0.12875
+      },
+      "8": {
+        "heroFlatAtk": 1209.42,
+        "heroFlatDef": 161.26,
+        "heroAtkPct": 0.03375,
+        "critRatePct": 0.13
+      },
+      "9": {
+        "heroFlatAtk": 1254.21,
+        "heroFlatDef": 167.23,
+        "heroAtkPct": 0.035,
+        "critRatePct": 0.13125
+      },
+      "10": {
+        "heroFlatAtk": 1549.01,
+        "heroFlatDef": 173.21,
+        "heroAtkPct": 0.03625,
+        "critRatePct": 0.1325
+      },
+      "11": {
+        "heroFlatAtk": 1593.8,
+        "heroFlatDef": 179.18,
+        "heroAtkPct": 0.0375,
+        "critRatePct": 0.13375
+      },
+      "12": {
+        "heroFlatAtk": 1638.59,
+        "heroFlatDef": 185.15,
+        "heroAtkPct": 0.03875,
+        "critRatePct": 0.135
+      },
+      "13": {
+        "heroFlatAtk": 1683.39,
+        "heroFlatDef": 191.12,
+        "heroAtkPct": 0.04,
+        "critRatePct": 0.13625
+      },
+      "14": {
+        "heroFlatAtk": 1728.18,
+        "heroFlatDef": 197.09,
+        "heroAtkPct": 0.04125,
+        "critRatePct": 0.1375
+      },
+      "15": {
+        "heroFlatAtk": 1772.97,
+        "heroFlatDef": 203.07,
+        "heroAtkPct": 0.0425,
+        "critRatePct": 0.13875
+      },
+      "16": {
+        "heroFlatAtk": 1817.76,
+        "heroFlatDef": 209.04,
+        "heroAtkPct": 0.04375,
+        "critRatePct": 0.14
+      },
+      "17": {
+        "heroFlatAtk": 1862.56,
+        "heroFlatDef": 215.01,
+        "heroAtkPct": 0.045,
+        "critRatePct": 0.14125
+      },
+      "18": {
+        "heroFlatAtk": 1907.35,
+        "heroFlatDef": 220.98,
+        "heroAtkPct": 0.04625,
+        "critRatePct": 0.1425
+      },
+      "19": {
+        "heroFlatAtk": 1952.14,
+        "heroFlatDef": 226.96,
+        "heroAtkPct": 0.0475,
+        "critRatePct": 0.14375
+      },
+      "20": {
+        "heroFlatAtk": 1996.94,
+        "heroFlatDef": 232.93,
+        "heroAtkPct": 0.04875,
+        "critRatePct": 0.145
+      },
+      "21": {
+        "heroFlatAtk": 2041.73,
+        "heroFlatDef": 238.9,
+        "heroAtkPct": 0.05,
+        "critRatePct": 0.14625
+      },
+      "22": {
+        "heroFlatAtk": 2086.52,
+        "heroFlatDef": 244.87,
+        "heroAtkPct": 0.05125,
+        "critRatePct": 0.1475
+      },
+      "23": {
+        "heroFlatAtk": 2131.32,
+        "heroFlatDef": 250.85,
+        "heroAtkPct": 0.0525,
+        "critRatePct": 0.14875
+      },
+      "24": {
+        "heroFlatAtk": 2176.11,
+        "heroFlatDef": 256.82,
+        "heroAtkPct": 0.05375,
+        "critRatePct": 0.15
+      },
+      "25": {
+        "heroFlatAtk": 2220.9,
+        "heroFlatDef": 262.79,
+        "heroAtkPct": 0.055,
+        "critRatePct": 0.15125
+      },
+      "26": {
+        "heroFlatAtk": 2265.7,
+        "heroFlatDef": 268.76,
+        "heroAtkPct": 0.05625,
+        "critRatePct": 0.1525
+      },
+      "27": {
+        "heroFlatAtk": 2310.49,
+        "heroFlatDef": 274.74,
+        "heroAtkPct": 0.0575,
+        "critRatePct": 0.15375
+      },
+      "28": {
+        "heroFlatAtk": 2355.28,
+        "heroFlatDef": 280.71,
+        "heroAtkPct": 0.05875,
+        "critRatePct": 0.155
+      },
+      "29": {
+        "heroFlatAtk": 2400.08,
+        "heroFlatDef": 286.68,
+        "heroAtkPct": 0.06,
+        "critRatePct": 0.15625
+      },
+      "30": {
+        "heroFlatAtk": 2694.87,
+        "heroFlatDef": 292.65,
+        "heroAtkPct": 0.06125,
+        "critRatePct": 0.1575
+      },
+      "31": {
+        "heroFlatAtk": 2739.66,
+        "heroFlatDef": 298.63,
+        "heroAtkPct": 0.0625,
+        "critRatePct": 0.15875
+      },
+      "32": {
+        "heroFlatAtk": 2784.45,
+        "heroFlatDef": 304.6,
+        "heroAtkPct": 0.06375,
+        "critRatePct": 0.16
+      },
+      "33": {
+        "heroFlatAtk": 2829.25,
+        "heroFlatDef": 310.57,
+        "heroAtkPct": 0.065,
+        "critRatePct": 0.16125
+      },
+      "34": {
+        "heroFlatAtk": 2874.04,
+        "heroFlatDef": 316.54,
+        "heroAtkPct": 0.06625,
+        "critRatePct": 0.1625
+      },
+      "35": {
+        "heroFlatAtk": 2918.83,
+        "heroFlatDef": 322.52,
+        "heroAtkPct": 0.0675,
+        "critRatePct": 0.16375
+      },
+      "36": {
+        "heroFlatAtk": 2963.63,
+        "heroFlatDef": 328.49,
+        "heroAtkPct": 0.06875,
+        "critRatePct": 0.165
+      },
+      "37": {
+        "heroFlatAtk": 3008.42,
+        "heroFlatDef": 334.46,
+        "heroAtkPct": 0.07,
+        "critRatePct": 0.16625
+      },
+      "38": {
+        "heroFlatAtk": 3053.21,
+        "heroFlatDef": 340.43,
+        "heroAtkPct": 0.07125,
+        "critRatePct": 0.1675
+      },
+      "39": {
+        "heroFlatAtk": 3098.01,
+        "heroFlatDef": 346.41,
+        "heroAtkPct": 0.0725,
+        "critRatePct": 0.16875
+      },
+      "40": {
+        "heroFlatAtk": 3142.8,
+        "heroFlatDef": 352.38,
+        "heroAtkPct": 0.07375,
+        "critRatePct": 0.17
+      },
+      "41": {
+        "heroFlatAtk": 3187.59,
+        "heroFlatDef": 358.35,
+        "heroAtkPct": 0.075,
+        "critRatePct": 0.17125
+      }
+    }
+  },
+  "legendary_Chip": {
+    "quality": "legendary",
+    "slot": "Chip",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatHp": 31355.19,
+        "heroFlatDef": 59.73,
+        "heroHpPct": 0.025,
+        "heroDefPct": 0.025
+      },
+      "2": {
+        "heroFlatHp": 32922.95,
+        "heroFlatDef": 62.72,
+        "heroHpPct": 0.02625,
+        "heroDefPct": 0.02625
+      },
+      "3": {
+        "heroFlatHp": 34490.71,
+        "heroFlatDef": 65.7,
+        "heroHpPct": 0.0275,
+        "heroDefPct": 0.0275
+      },
+      "4": {
+        "heroFlatHp": 36058.47,
+        "heroFlatDef": 68.69,
+        "heroHpPct": 0.02875,
+        "heroDefPct": 0.02875
+      },
+      "5": {
+        "heroFlatHp": 37626.23,
+        "heroFlatDef": 71.67,
+        "heroHpPct": 0.03,
+        "heroDefPct": 0.03
+      },
+      "6": {
+        "heroFlatHp": 39193.99,
+        "heroFlatDef": 74.66,
+        "heroHpPct": 0.03125,
+        "heroDefPct": 0.03125
+      },
+      "7": {
+        "heroFlatHp": 40761.75,
+        "heroFlatDef": 77.65,
+        "heroHpPct": 0.0325,
+        "heroDefPct": 0.0325
+      },
+      "8": {
+        "heroFlatHp": 42329.51,
+        "heroFlatDef": 80.63,
+        "heroHpPct": 0.03375,
+        "heroDefPct": 0.03375
+      },
+      "9": {
+        "heroFlatHp": 43897.27,
+        "heroFlatDef": 83.62,
+        "heroHpPct": 0.035,
+        "heroDefPct": 0.035
+      },
+      "10": {
+        "heroFlatHp": 66465.03,
+        "heroFlatDef": 86.61,
+        "heroHpPct": 0.03625,
+        "heroDefPct": 0.03625
+      },
+      "11": {
+        "heroFlatHp": 68032.79,
+        "heroFlatDef": 89.59,
+        "heroHpPct": 0.0375,
+        "heroDefPct": 0.0375
+      },
+      "12": {
+        "heroFlatHp": 69600.55,
+        "heroFlatDef": 92.58,
+        "heroHpPct": 0.03875,
+        "heroDefPct": 0.03875
+      },
+      "13": {
+        "heroFlatHp": 71168.31,
+        "heroFlatDef": 95.56,
+        "heroHpPct": 0.04,
+        "heroDefPct": 0.04
+      },
+      "14": {
+        "heroFlatHp": 72736.06,
+        "heroFlatDef": 98.55,
+        "heroHpPct": 0.04125,
+        "heroDefPct": 0.04125
+      },
+      "15": {
+        "heroFlatHp": 74303.82,
+        "heroFlatDef": 101.54,
+        "heroHpPct": 0.0425,
+        "heroDefPct": 0.0425
+      },
+      "16": {
+        "heroFlatHp": 75871.58,
+        "heroFlatDef": 104.52,
+        "heroHpPct": 0.04375,
+        "heroDefPct": 0.04375
+      },
+      "17": {
+        "heroFlatHp": 77439.34,
+        "heroFlatDef": 107.51,
+        "heroHpPct": 0.045,
+        "heroDefPct": 0.045
+      },
+      "18": {
+        "heroFlatHp": 79007.1,
+        "heroFlatDef": 110.49,
+        "heroHpPct": 0.04625,
+        "heroDefPct": 0.04625
+      },
+      "19": {
+        "heroFlatHp": 80574.86,
+        "heroFlatDef": 113.48,
+        "heroHpPct": 0.0475,
+        "heroDefPct": 0.0475
+      },
+      "20": {
+        "heroFlatHp": 82142.62,
+        "heroFlatDef": 116.47,
+        "heroHpPct": 0.04875,
+        "heroDefPct": 0.04875
+      },
+      "21": {
+        "heroFlatHp": 83710.38,
+        "heroFlatDef": 119.45,
+        "heroHpPct": 0.05,
+        "heroDefPct": 0.05
+      },
+      "22": {
+        "heroFlatHp": 85278.14,
+        "heroFlatDef": 122.44,
+        "heroHpPct": 0.05125,
+        "heroDefPct": 0.05125
+      },
+      "23": {
+        "heroFlatHp": 86845.9,
+        "heroFlatDef": 125.43,
+        "heroHpPct": 0.0525,
+        "heroDefPct": 0.0525
+      },
+      "24": {
+        "heroFlatHp": 88413.66,
+        "heroFlatDef": 128.41,
+        "heroHpPct": 0.05375,
+        "heroDefPct": 0.05375
+      },
+      "25": {
+        "heroFlatHp": 89981.42,
+        "heroFlatDef": 131.4,
+        "heroHpPct": 0.055,
+        "heroDefPct": 0.055
+      },
+      "26": {
+        "heroFlatHp": 91549.18,
+        "heroFlatDef": 134.38,
+        "heroHpPct": 0.05625,
+        "heroDefPct": 0.05625
+      },
+      "27": {
+        "heroFlatHp": 93116.94,
+        "heroFlatDef": 137.37,
+        "heroHpPct": 0.0575,
+        "heroDefPct": 0.0575
+      },
+      "28": {
+        "heroFlatHp": 94684.7,
+        "heroFlatDef": 140.36,
+        "heroHpPct": 0.05875,
+        "heroDefPct": 0.05875
+      },
+      "29": {
+        "heroFlatHp": 96252.46,
+        "heroFlatDef": 143.34,
+        "heroHpPct": 0.06,
+        "heroDefPct": 0.06
+      },
+      "30": {
+        "heroFlatHp": 118820.21,
+        "heroFlatDef": 146.33,
+        "heroHpPct": 0.06125,
+        "heroDefPct": 0.06125
+      },
+      "31": {
+        "heroFlatHp": 120387.97,
+        "heroFlatDef": 149.32,
+        "heroHpPct": 0.0625,
+        "heroDefPct": 0.0625
+      },
+      "32": {
+        "heroFlatHp": 121955.73,
+        "heroFlatDef": 152.3,
+        "heroHpPct": 0.06375,
+        "heroDefPct": 0.06375
+      },
+      "33": {
+        "heroFlatHp": 123523.49,
+        "heroFlatDef": 155.29,
+        "heroHpPct": 0.065,
+        "heroDefPct": 0.065
+      },
+      "34": {
+        "heroFlatHp": 125091.25,
+        "heroFlatDef": 158.27,
+        "heroHpPct": 0.06625,
+        "heroDefPct": 0.06625
+      },
+      "35": {
+        "heroFlatHp": 126659.01,
+        "heroFlatDef": 161.26,
+        "heroHpPct": 0.0675,
+        "heroDefPct": 0.0675
+      },
+      "36": {
+        "heroFlatHp": 128226.77,
+        "heroFlatDef": 164.25,
+        "heroHpPct": 0.06875,
+        "heroDefPct": 0.06875
+      },
+      "37": {
+        "heroFlatHp": 129794.53,
+        "heroFlatDef": 167.23,
+        "heroHpPct": 0.07,
+        "heroDefPct": 0.07
+      },
+      "38": {
+        "heroFlatHp": 131362.29,
+        "heroFlatDef": 170.22,
+        "heroHpPct": 0.07125,
+        "heroDefPct": 0.07125
+      },
+      "39": {
+        "heroFlatHp": 132930.05,
+        "heroFlatDef": 173.21,
+        "heroHpPct": 0.0725,
+        "heroDefPct": 0.0725
+      },
+      "40": {
+        "heroFlatHp": 134497.81,
+        "heroFlatDef": 176.19,
+        "heroHpPct": 0.07375,
+        "heroDefPct": 0.07375
+      },
+      "41": {
+        "heroFlatHp": 136065.57,
+        "heroFlatDef": 179.18,
+        "heroHpPct": 0.075,
+        "heroDefPct": 0.075
+      }
+    }
+  },
+  "legendary_Armor": {
+    "quality": "legendary",
+    "slot": "Armor",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatHp": 12542.08,
+        "heroFlatAtk": 597.25,
+        "heroAtkPct": 0.025
+      },
+      "2": {
+        "heroFlatHp": 13169.18,
+        "heroFlatAtk": 627.11,
+        "heroAtkPct": 0.02625
+      },
+      "3": {
+        "heroFlatHp": 13796.29,
+        "heroFlatAtk": 656.97,
+        "heroAtkPct": 0.0275
+      },
+      "4": {
+        "heroFlatHp": 14423.39,
+        "heroFlatAtk": 686.83,
+        "heroAtkPct": 0.02875
+      },
+      "5": {
+        "heroFlatHp": 15050.5,
+        "heroFlatAtk": 716.7,
+        "heroAtkPct": 0.03
+      },
+      "6": {
+        "heroFlatHp": 15677.6,
+        "heroFlatAtk": 746.56,
+        "heroAtkPct": 0.03125
+      },
+      "7": {
+        "heroFlatHp": 16304.7,
+        "heroFlatAtk": 776.42,
+        "heroAtkPct": 0.0325
+      },
+      "8": {
+        "heroFlatHp": 16931.81,
+        "heroFlatAtk": 806.28,
+        "heroAtkPct": 0.03375
+      },
+      "9": {
+        "heroFlatHp": 17558.91,
+        "heroFlatAtk": 836.14,
+        "heroAtkPct": 0.035
+      },
+      "10": {
+        "heroFlatHp": 18186.01,
+        "heroFlatAtk": 1116.01,
+        "heroAtkPct": 0.03625
+      },
+      "11": {
+        "heroFlatHp": 18813.12,
+        "heroFlatAtk": 1145.87,
+        "heroAtkPct": 0.0375
+      },
+      "12": {
+        "heroFlatHp": 19440.22,
+        "heroFlatAtk": 1175.73,
+        "heroAtkPct": 0.03875
+      },
+      "13": {
+        "heroFlatHp": 20067.33,
+        "heroFlatAtk": 1205.59,
+        "heroAtkPct": 0.04
+      },
+      "14": {
+        "heroFlatHp": 20694.43,
+        "heroFlatAtk": 1235.45,
+        "heroAtkPct": 0.04125
+      },
+      "15": {
+        "heroFlatHp": 21321.53,
+        "heroFlatAtk": 1265.32,
+        "heroAtkPct": 0.0425
+      },
+      "16": {
+        "heroFlatHp": 21948.64,
+        "heroFlatAtk": 1295.18,
+        "heroAtkPct": 0.04375
+      },
+      "17": {
+        "heroFlatHp": 22575.74,
+        "heroFlatAtk": 1325.04,
+        "heroAtkPct": 0.045
+      },
+      "18": {
+        "heroFlatHp": 23202.84,
+        "heroFlatAtk": 1354.9,
+        "heroAtkPct": 0.04625
+      },
+      "19": {
+        "heroFlatHp": 23829.95,
+        "heroFlatAtk": 1384.76,
+        "heroAtkPct": 0.0475
+      },
+      "20": {
+        "heroFlatHp": 24457.05,
+        "heroFlatAtk": 1414.63,
+        "heroAtkPct": 0.04875
+      },
+      "21": {
+        "heroFlatHp": 25084.16,
+        "heroFlatAtk": 1444.49,
+        "heroAtkPct": 0.05
+      },
+      "22": {
+        "heroFlatHp": 25711.26,
+        "heroFlatAtk": 1474.35,
+        "heroAtkPct": 0.05125
+      },
+      "23": {
+        "heroFlatHp": 26338.36,
+        "heroFlatAtk": 1504.21,
+        "heroAtkPct": 0.0525
+      },
+      "24": {
+        "heroFlatHp": 26965.47,
+        "heroFlatAtk": 1534.07,
+        "heroAtkPct": 0.05375
+      },
+      "25": {
+        "heroFlatHp": 27592.57,
+        "heroFlatAtk": 1563.94,
+        "heroAtkPct": 0.055
+      },
+      "26": {
+        "heroFlatHp": 28219.67,
+        "heroFlatAtk": 1593.8,
+        "heroAtkPct": 0.05625
+      },
+      "27": {
+        "heroFlatHp": 28846.78,
+        "heroFlatAtk": 1623.66,
+        "heroAtkPct": 0.0575
+      },
+      "28": {
+        "heroFlatHp": 29473.88,
+        "heroFlatAtk": 1653.52,
+        "heroAtkPct": 0.05875
+      },
+      "29": {
+        "heroFlatHp": 30100.99,
+        "heroFlatAtk": 1683.39,
+        "heroAtkPct": 0.06
+      },
+      "30": {
+        "heroFlatHp": 30728.09,
+        "heroFlatAtk": 1963.25,
+        "heroAtkPct": 0.06125
+      },
+      "31": {
+        "heroFlatHp": 31355.19,
+        "heroFlatAtk": 1993.11,
+        "heroAtkPct": 0.0625
+      },
+      "32": {
+        "heroFlatHp": 31982.3,
+        "heroFlatAtk": 2022.97,
+        "heroAtkPct": 0.06375
+      },
+      "33": {
+        "heroFlatHp": 32609.4,
+        "heroFlatAtk": 2052.83,
+        "heroAtkPct": 0.065
+      },
+      "34": {
+        "heroFlatHp": 33236.5,
+        "heroFlatAtk": 2082.7,
+        "heroAtkPct": 0.06625
+      },
+      "35": {
+        "heroFlatHp": 33863.61,
+        "heroFlatAtk": 2112.56,
+        "heroAtkPct": 0.0675
+      },
+      "36": {
+        "heroFlatHp": 34490.71,
+        "heroFlatAtk": 2142.42,
+        "heroAtkPct": 0.06875
+      },
+      "37": {
+        "heroFlatHp": 35117.82,
+        "heroFlatAtk": 2172.28,
+        "heroAtkPct": 0.07
+      },
+      "38": {
+        "heroFlatHp": 35744.92,
+        "heroFlatAtk": 2202.14,
+        "heroAtkPct": 0.07125
+      },
+      "39": {
+        "heroFlatHp": 36372.02,
+        "heroFlatAtk": 2232.01,
+        "heroAtkPct": 0.0725
+      },
+      "40": {
+        "heroFlatHp": 36999.13,
+        "heroFlatAtk": 2261.87,
+        "heroAtkPct": 0.07375
+      },
+      "41": {
+        "heroFlatHp": 37626.23,
+        "heroFlatAtk": 2291.73,
+        "heroAtkPct": 0.075
+      }
+    }
+  },
+  "legendary_Radar": {
+    "quality": "legendary",
+    "slot": "Radar",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatHp": 18813.12,
+        "heroFlatDef": 119.45,
+        "heroHpPct": 0.025,
+        "heroDefPct": 0.025
+      },
+      "2": {
+        "heroFlatHp": 19753.77,
+        "heroFlatDef": 125.43,
+        "heroHpPct": 0.02625,
+        "heroDefPct": 0.02625
+      },
+      "3": {
+        "heroFlatHp": 20694.43,
+        "heroFlatDef": 131.4,
+        "heroHpPct": 0.0275,
+        "heroDefPct": 0.0275
+      },
+      "4": {
+        "heroFlatHp": 21635.08,
+        "heroFlatDef": 137.37,
+        "heroHpPct": 0.02875,
+        "heroDefPct": 0.02875
+      },
+      "5": {
+        "heroFlatHp": 22575.74,
+        "heroFlatDef": 143.34,
+        "heroHpPct": 0.03,
+        "heroDefPct": 0.03
+      },
+      "6": {
+        "heroFlatHp": 23516.4,
+        "heroFlatDef": 149.32,
+        "heroHpPct": 0.03125,
+        "heroDefPct": 0.03125
+      },
+      "7": {
+        "heroFlatHp": 24457.05,
+        "heroFlatDef": 155.29,
+        "heroHpPct": 0.0325,
+        "heroDefPct": 0.0325
+      },
+      "8": {
+        "heroFlatHp": 25397.71,
+        "heroFlatDef": 161.26,
+        "heroHpPct": 0.03375,
+        "heroDefPct": 0.03375
+      },
+      "9": {
+        "heroFlatHp": 26338.36,
+        "heroFlatDef": 167.23,
+        "heroHpPct": 0.035,
+        "heroDefPct": 0.035
+      },
+      "10": {
+        "heroFlatHp": 27279.02,
+        "heroFlatDef": 273.21,
+        "heroHpPct": 0.03625,
+        "heroDefPct": 0.03625
+      },
+      "11": {
+        "heroFlatHp": 28219.67,
+        "heroFlatDef": 279.18,
+        "heroHpPct": 0.0375,
+        "heroDefPct": 0.0375
+      },
+      "12": {
+        "heroFlatHp": 29160.33,
+        "heroFlatDef": 285.15,
+        "heroHpPct": 0.03875,
+        "heroDefPct": 0.03875
+      },
+      "13": {
+        "heroFlatHp": 30100.99,
+        "heroFlatDef": 291.12,
+        "heroHpPct": 0.04,
+        "heroDefPct": 0.04
+      },
+      "14": {
+        "heroFlatHp": 31041.64,
+        "heroFlatDef": 297.09,
+        "heroHpPct": 0.04125,
+        "heroDefPct": 0.04125
+      },
+      "15": {
+        "heroFlatHp": 31982.3,
+        "heroFlatDef": 303.07,
+        "heroHpPct": 0.0425,
+        "heroDefPct": 0.0425
+      },
+      "16": {
+        "heroFlatHp": 32922.95,
+        "heroFlatDef": 309.04,
+        "heroHpPct": 0.04375,
+        "heroDefPct": 0.04375
+      },
+      "17": {
+        "heroFlatHp": 33863.61,
+        "heroFlatDef": 315.01,
+        "heroHpPct": 0.045,
+        "heroDefPct": 0.045
+      },
+      "18": {
+        "heroFlatHp": 34804.26,
+        "heroFlatDef": 320.98,
+        "heroHpPct": 0.04625,
+        "heroDefPct": 0.04625
+      },
+      "19": {
+        "heroFlatHp": 35744.92,
+        "heroFlatDef": 326.96,
+        "heroHpPct": 0.0475,
+        "heroDefPct": 0.0475
+      },
+      "20": {
+        "heroFlatHp": 36685.57,
+        "heroFlatDef": 332.93,
+        "heroHpPct": 0.04875,
+        "heroDefPct": 0.04875
+      },
+      "21": {
+        "heroFlatHp": 37626.23,
+        "heroFlatDef": 338.9,
+        "heroHpPct": 0.05,
+        "heroDefPct": 0.05
+      },
+      "22": {
+        "heroFlatHp": 38566.89,
+        "heroFlatDef": 344.87,
+        "heroHpPct": 0.05125,
+        "heroDefPct": 0.05125
+      },
+      "23": {
+        "heroFlatHp": 39507.54,
+        "heroFlatDef": 350.85,
+        "heroHpPct": 0.0525,
+        "heroDefPct": 0.0525
+      },
+      "24": {
+        "heroFlatHp": 40448.2,
+        "heroFlatDef": 356.82,
+        "heroHpPct": 0.05375,
+        "heroDefPct": 0.05375
+      },
+      "25": {
+        "heroFlatHp": 41388.85,
+        "heroFlatDef": 362.79,
+        "heroHpPct": 0.055,
+        "heroDefPct": 0.055
+      },
+      "26": {
+        "heroFlatHp": 42329.51,
+        "heroFlatDef": 368.76,
+        "heroHpPct": 0.05625,
+        "heroDefPct": 0.05625
+      },
+      "27": {
+        "heroFlatHp": 43270.16,
+        "heroFlatDef": 374.74,
+        "heroHpPct": 0.0575,
+        "heroDefPct": 0.0575
+      },
+      "28": {
+        "heroFlatHp": 44210.82,
+        "heroFlatDef": 380.71,
+        "heroHpPct": 0.05875,
+        "heroDefPct": 0.05875
+      },
+      "29": {
+        "heroFlatHp": 45151.48,
+        "heroFlatDef": 386.68,
+        "heroHpPct": 0.06,
+        "heroDefPct": 0.06
+      },
+      "30": {
+        "heroFlatHp": 46092.13,
+        "heroFlatDef": 492.65,
+        "heroHpPct": 0.06125,
+        "heroDefPct": 0.06125
+      },
+      "31": {
+        "heroFlatHp": 47032.79,
+        "heroFlatDef": 498.63,
+        "heroHpPct": 0.0625,
+        "heroDefPct": 0.0625
+      },
+      "32": {
+        "heroFlatHp": 47973.44,
+        "heroFlatDef": 504.6,
+        "heroHpPct": 0.06375,
+        "heroDefPct": 0.06375
+      },
+      "33": {
+        "heroFlatHp": 48914.1,
+        "heroFlatDef": 510.57,
+        "heroHpPct": 0.065,
+        "heroDefPct": 0.065
+      },
+      "34": {
+        "heroFlatHp": 49854.75,
+        "heroFlatDef": 516.54,
+        "heroHpPct": 0.06625,
+        "heroDefPct": 0.06625
+      },
+      "35": {
+        "heroFlatHp": 50795.41,
+        "heroFlatDef": 522.52,
+        "heroHpPct": 0.0675,
+        "heroDefPct": 0.0675
+      },
+      "36": {
+        "heroFlatHp": 51736.06,
+        "heroFlatDef": 528.49,
+        "heroHpPct": 0.06875,
+        "heroDefPct": 0.06875
+      },
+      "37": {
+        "heroFlatHp": 52676.72,
+        "heroFlatDef": 534.46,
+        "heroHpPct": 0.07,
+        "heroDefPct": 0.07
+      },
+      "38": {
+        "heroFlatHp": 53617.38,
+        "heroFlatDef": 540.43,
+        "heroHpPct": 0.07125,
+        "heroDefPct": 0.07125
+      },
+      "39": {
+        "heroFlatHp": 54558.03,
+        "heroFlatDef": 546.41,
+        "heroHpPct": 0.0725,
+        "heroDefPct": 0.0725
+      },
+      "40": {
+        "heroFlatHp": 55498.69,
+        "heroFlatDef": 552.38,
+        "heroHpPct": 0.07375,
+        "heroDefPct": 0.07375
+      },
+      "41": {
+        "heroFlatHp": 56439.34,
+        "heroFlatDef": 558.35,
+        "heroHpPct": 0.075,
+        "heroDefPct": 0.075
+      }
+    }
+  },
+  "mythic_Cannon": {
+    "quality": "mythic",
+    "slot": "Cannon",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatAtk": 895.87,
+        "heroFlatDef": 119.45,
+        "heroAtkPct": 0.025,
+        "critRatePct": 0.12125
+      },
+      "2": {
+        "heroFlatAtk": 940.66,
+        "heroFlatDef": 125.43,
+        "heroAtkPct": 0.02625,
+        "critRatePct": 0.1225
+      },
+      "3": {
+        "heroFlatAtk": 985.45,
+        "heroFlatDef": 131.4,
+        "heroAtkPct": 0.0275,
+        "critRatePct": 0.12375
+      },
+      "4": {
+        "heroFlatAtk": 1030.25,
+        "heroFlatDef": 137.37,
+        "heroAtkPct": 0.02875,
+        "critRatePct": 0.125
+      },
+      "5": {
+        "heroFlatAtk": 1075.04,
+        "heroFlatDef": 143.34,
+        "heroAtkPct": 0.03,
+        "critRatePct": 0.12625
+      },
+      "6": {
+        "heroFlatAtk": 1119.83,
+        "heroFlatDef": 149.32,
+        "heroAtkPct": 0.03125,
+        "critRatePct": 0.1275
+      },
+      "7": {
+        "heroFlatAtk": 1164.63,
+        "heroFlatDef": 155.29,
+        "heroAtkPct": 0.0325,
+        "critRatePct": 0.12875
+      },
+      "8": {
+        "heroFlatAtk": 1209.42,
+        "heroFlatDef": 161.26,
+        "heroAtkPct": 0.03375,
+        "critRatePct": 0.13
+      },
+      "9": {
+        "heroFlatAtk": 1254.21,
+        "heroFlatDef": 167.23,
+        "heroAtkPct": 0.035,
+        "critRatePct": 0.13125
+      },
+      "10": {
+        "heroFlatAtk": 1299.01,
+        "heroFlatDef": 173.21,
+        "heroAtkPct": 0.03625,
+        "critRatePct": 0.1325
+      },
+      "11": {
+        "heroFlatAtk": 1343.8,
+        "heroFlatDef": 179.18,
+        "heroAtkPct": 0.0375,
+        "critRatePct": 0.13375
+      },
+      "12": {
+        "heroFlatAtk": 1388.59,
+        "heroFlatDef": 185.15,
+        "heroAtkPct": 0.03875,
+        "critRatePct": 0.135
+      },
+      "13": {
+        "heroFlatAtk": 1433.39,
+        "heroFlatDef": 191.12,
+        "heroAtkPct": 0.04,
+        "critRatePct": 0.13625
+      },
+      "14": {
+        "heroFlatAtk": 1478.18,
+        "heroFlatDef": 197.09,
+        "heroAtkPct": 0.04125,
+        "critRatePct": 0.1375
+      },
+      "15": {
+        "heroFlatAtk": 1522.97,
+        "heroFlatDef": 203.07,
+        "heroAtkPct": 0.0425,
+        "critRatePct": 0.13875
+      },
+      "16": {
+        "heroFlatAtk": 1567.76,
+        "heroFlatDef": 209.04,
+        "heroAtkPct": 0.04375,
+        "critRatePct": 0.14
+      },
+      "17": {
+        "heroFlatAtk": 1612.56,
+        "heroFlatDef": 215.01,
+        "heroAtkPct": 0.045,
+        "critRatePct": 0.14125
+      },
+      "18": {
+        "heroFlatAtk": 1657.35,
+        "heroFlatDef": 220.98,
+        "heroAtkPct": 0.04625,
+        "critRatePct": 0.1425
+      },
+      "19": {
+        "heroFlatAtk": 1702.14,
+        "heroFlatDef": 226.96,
+        "heroAtkPct": 0.0475,
+        "critRatePct": 0.14375
+      },
+      "20": {
+        "heroFlatAtk": 1746.94,
+        "heroFlatDef": 232.93,
+        "heroAtkPct": 0.04875,
+        "critRatePct": 0.145
+      },
+      "21": {
+        "heroFlatAtk": 1791.73,
+        "heroFlatDef": 238.9,
+        "heroAtkPct": 0.05,
+        "critRatePct": 0.14625
+      },
+      "22": {
+        "heroFlatAtk": 1836.52,
+        "heroFlatDef": 244.87,
+        "heroAtkPct": 0.05125,
+        "critRatePct": 0.1475
+      },
+      "23": {
+        "heroFlatAtk": 1881.32,
+        "heroFlatDef": 250.85,
+        "heroAtkPct": 0.0525,
+        "critRatePct": 0.14875
+      },
+      "24": {
+        "heroFlatAtk": 1926.11,
+        "heroFlatDef": 256.82,
+        "heroAtkPct": 0.05375,
+        "critRatePct": 0.15
+      },
+      "25": {
+        "heroFlatAtk": 1970.9,
+        "heroFlatDef": 262.79,
+        "heroAtkPct": 0.055,
+        "critRatePct": 0.15125
+      },
+      "26": {
+        "heroFlatAtk": 2015.7,
+        "heroFlatDef": 268.76,
+        "heroAtkPct": 0.05625,
+        "critRatePct": 0.1525
+      },
+      "27": {
+        "heroFlatAtk": 2060.49,
+        "heroFlatDef": 274.74,
+        "heroAtkPct": 0.0575,
+        "critRatePct": 0.15375
+      },
+      "28": {
+        "heroFlatAtk": 2105.28,
+        "heroFlatDef": 280.71,
+        "heroAtkPct": 0.05875,
+        "critRatePct": 0.155
+      },
+      "29": {
+        "heroFlatAtk": 2150.08,
+        "heroFlatDef": 286.68,
+        "heroAtkPct": 0.06,
+        "critRatePct": 0.15625
+      },
+      "30": {
+        "heroFlatAtk": 2194.87,
+        "heroFlatDef": 292.65,
+        "heroAtkPct": 0.06125,
+        "critRatePct": 0.1575
+      },
+      "31": {
+        "heroFlatAtk": 2239.66,
+        "heroFlatDef": 298.63,
+        "heroAtkPct": 0.0625,
+        "critRatePct": 0.15875
+      },
+      "32": {
+        "heroFlatAtk": 2284.45,
+        "heroFlatDef": 304.6,
+        "heroAtkPct": 0.06375,
+        "critRatePct": 0.16
+      },
+      "33": {
+        "heroFlatAtk": 2329.25,
+        "heroFlatDef": 310.57,
+        "heroAtkPct": 0.065,
+        "critRatePct": 0.16125
+      },
+      "34": {
+        "heroFlatAtk": 2374.04,
+        "heroFlatDef": 316.54,
+        "heroAtkPct": 0.06625,
+        "critRatePct": 0.1625
+      },
+      "35": {
+        "heroFlatAtk": 2418.83,
+        "heroFlatDef": 322.52,
+        "heroAtkPct": 0.0675,
+        "critRatePct": 0.16375
+      },
+      "36": {
+        "heroFlatAtk": 2463.63,
+        "heroFlatDef": 328.49,
+        "heroAtkPct": 0.06875,
+        "critRatePct": 0.165
+      },
+      "37": {
+        "heroFlatAtk": 2508.42,
+        "heroFlatDef": 334.46,
+        "heroAtkPct": 0.07,
+        "critRatePct": 0.16625
+      },
+      "38": {
+        "heroFlatAtk": 2553.21,
+        "heroFlatDef": 340.43,
+        "heroAtkPct": 0.07125,
+        "critRatePct": 0.1675
+      },
+      "39": {
+        "heroFlatAtk": 2598.01,
+        "heroFlatDef": 346.41,
+        "heroAtkPct": 0.0725,
+        "critRatePct": 0.16875
+      },
+      "40": {
+        "heroFlatAtk": 2642.8,
+        "heroFlatDef": 352.38,
+        "heroAtkPct": 0.07375,
+        "critRatePct": 0.17
+      },
+      "41": {
+        "heroFlatAtk": 2687.59,
+        "heroFlatDef": 358.35,
+        "heroAtkPct": 0.075,
+        "critRatePct": 0.17125
+      }
+    }
+  },
+  "mythic_Chip": {
+    "quality": "mythic",
+    "slot": "Chip",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatHp": 31355.19,
+        "heroFlatDef": 59.73,
+        "heroHpPct": 0.025,
+        "heroDefPct": 0.025
+      },
+      "2": {
+        "heroFlatHp": 32922.95,
+        "heroFlatDef": 62.72,
+        "heroHpPct": 0.02625,
+        "heroDefPct": 0.02625
+      },
+      "3": {
+        "heroFlatHp": 34490.71,
+        "heroFlatDef": 65.7,
+        "heroHpPct": 0.0275,
+        "heroDefPct": 0.0275
+      },
+      "4": {
+        "heroFlatHp": 36058.47,
+        "heroFlatDef": 68.69,
+        "heroHpPct": 0.02875,
+        "heroDefPct": 0.02875
+      },
+      "5": {
+        "heroFlatHp": 37626.23,
+        "heroFlatDef": 71.67,
+        "heroHpPct": 0.03,
+        "heroDefPct": 0.03
+      },
+      "6": {
+        "heroFlatHp": 39193.99,
+        "heroFlatDef": 74.66,
+        "heroHpPct": 0.03125,
+        "heroDefPct": 0.03125
+      },
+      "7": {
+        "heroFlatHp": 40761.75,
+        "heroFlatDef": 77.65,
+        "heroHpPct": 0.0325,
+        "heroDefPct": 0.0325
+      },
+      "8": {
+        "heroFlatHp": 42329.51,
+        "heroFlatDef": 80.63,
+        "heroHpPct": 0.03375,
+        "heroDefPct": 0.03375
+      },
+      "9": {
+        "heroFlatHp": 43897.27,
+        "heroFlatDef": 83.62,
+        "heroHpPct": 0.035,
+        "heroDefPct": 0.035
+      },
+      "10": {
+        "heroFlatHp": 45465.03,
+        "heroFlatDef": 86.61,
+        "heroHpPct": 0.03625,
+        "heroDefPct": 0.03625
+      },
+      "11": {
+        "heroFlatHp": 47032.79,
+        "heroFlatDef": 89.59,
+        "heroHpPct": 0.0375,
+        "heroDefPct": 0.0375
+      },
+      "12": {
+        "heroFlatHp": 48600.55,
+        "heroFlatDef": 92.58,
+        "heroHpPct": 0.03875,
+        "heroDefPct": 0.03875
+      },
+      "13": {
+        "heroFlatHp": 50168.31,
+        "heroFlatDef": 95.56,
+        "heroHpPct": 0.04,
+        "heroDefPct": 0.04
+      },
+      "14": {
+        "heroFlatHp": 51736.06,
+        "heroFlatDef": 98.55,
+        "heroHpPct": 0.04125,
+        "heroDefPct": 0.04125
+      },
+      "15": {
+        "heroFlatHp": 53303.82,
+        "heroFlatDef": 101.54,
+        "heroHpPct": 0.0425,
+        "heroDefPct": 0.0425
+      },
+      "16": {
+        "heroFlatHp": 54871.58,
+        "heroFlatDef": 104.52,
+        "heroHpPct": 0.04375,
+        "heroDefPct": 0.04375
+      },
+      "17": {
+        "heroFlatHp": 56439.34,
+        "heroFlatDef": 107.51,
+        "heroHpPct": 0.045,
+        "heroDefPct": 0.045
+      },
+      "18": {
+        "heroFlatHp": 58007.1,
+        "heroFlatDef": 110.49,
+        "heroHpPct": 0.04625,
+        "heroDefPct": 0.04625
+      },
+      "19": {
+        "heroFlatHp": 59574.86,
+        "heroFlatDef": 113.48,
+        "heroHpPct": 0.0475,
+        "heroDefPct": 0.0475
+      },
+      "20": {
+        "heroFlatHp": 61142.62,
+        "heroFlatDef": 116.47,
+        "heroHpPct": 0.04875,
+        "heroDefPct": 0.04875
+      },
+      "21": {
+        "heroFlatHp": 62710.38,
+        "heroFlatDef": 119.45,
+        "heroHpPct": 0.05,
+        "heroDefPct": 0.05
+      },
+      "22": {
+        "heroFlatHp": 64278.14,
+        "heroFlatDef": 122.44,
+        "heroHpPct": 0.05125,
+        "heroDefPct": 0.05125
+      },
+      "23": {
+        "heroFlatHp": 65845.9,
+        "heroFlatDef": 125.43,
+        "heroHpPct": 0.0525,
+        "heroDefPct": 0.0525
+      },
+      "24": {
+        "heroFlatHp": 67413.66,
+        "heroFlatDef": 128.41,
+        "heroHpPct": 0.05375,
+        "heroDefPct": 0.05375
+      },
+      "25": {
+        "heroFlatHp": 68981.42,
+        "heroFlatDef": 131.4,
+        "heroHpPct": 0.055,
+        "heroDefPct": 0.055
+      },
+      "26": {
+        "heroFlatHp": 70549.18,
+        "heroFlatDef": 134.38,
+        "heroHpPct": 0.05625,
+        "heroDefPct": 0.05625
+      },
+      "27": {
+        "heroFlatHp": 72116.94,
+        "heroFlatDef": 137.37,
+        "heroHpPct": 0.0575,
+        "heroDefPct": 0.0575
+      },
+      "28": {
+        "heroFlatHp": 73684.7,
+        "heroFlatDef": 140.36,
+        "heroHpPct": 0.05875,
+        "heroDefPct": 0.05875
+      },
+      "29": {
+        "heroFlatHp": 75252.46,
+        "heroFlatDef": 143.34,
+        "heroHpPct": 0.06,
+        "heroDefPct": 0.06
+      },
+      "30": {
+        "heroFlatHp": 76820.21,
+        "heroFlatDef": 146.33,
+        "heroHpPct": 0.06125,
+        "heroDefPct": 0.06125
+      },
+      "31": {
+        "heroFlatHp": 78387.97,
+        "heroFlatDef": 149.32,
+        "heroHpPct": 0.0625,
+        "heroDefPct": 0.0625
+      },
+      "32": {
+        "heroFlatHp": 79955.73,
+        "heroFlatDef": 152.3,
+        "heroHpPct": 0.06375,
+        "heroDefPct": 0.06375
+      },
+      "33": {
+        "heroFlatHp": 81523.49,
+        "heroFlatDef": 155.29,
+        "heroHpPct": 0.065,
+        "heroDefPct": 0.065
+      },
+      "34": {
+        "heroFlatHp": 83091.25,
+        "heroFlatDef": 158.27,
+        "heroHpPct": 0.06625,
+        "heroDefPct": 0.06625
+      },
+      "35": {
+        "heroFlatHp": 84659.01,
+        "heroFlatDef": 161.26,
+        "heroHpPct": 0.0675,
+        "heroDefPct": 0.0675
+      },
+      "36": {
+        "heroFlatHp": 86226.77,
+        "heroFlatDef": 164.25,
+        "heroHpPct": 0.06875,
+        "heroDefPct": 0.06875
+      },
+      "37": {
+        "heroFlatHp": 87794.53,
+        "heroFlatDef": 167.23,
+        "heroHpPct": 0.07,
+        "heroDefPct": 0.07
+      },
+      "38": {
+        "heroFlatHp": 89362.29,
+        "heroFlatDef": 170.22,
+        "heroHpPct": 0.07125,
+        "heroDefPct": 0.07125
+      },
+      "39": {
+        "heroFlatHp": 90930.05,
+        "heroFlatDef": 173.21,
+        "heroHpPct": 0.0725,
+        "heroDefPct": 0.0725
+      },
+      "40": {
+        "heroFlatHp": 92497.81,
+        "heroFlatDef": 176.19,
+        "heroHpPct": 0.07375,
+        "heroDefPct": 0.07375
+      },
+      "41": {
+        "heroFlatHp": 94065.57,
+        "heroFlatDef": 179.18,
+        "heroHpPct": 0.075,
+        "heroDefPct": 0.075
+      }
+    }
+  },
+  "mythic_Armor": {
+    "quality": "mythic",
+    "slot": "Armor",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatHp": 12542.08,
+        "heroFlatAtk": 597.25,
+        "heroAtkPct": 0.025
+      },
+      "2": {
+        "heroFlatHp": 13169.18,
+        "heroFlatAtk": 627.11,
+        "heroAtkPct": 0.02625
+      },
+      "3": {
+        "heroFlatHp": 13796.29,
+        "heroFlatAtk": 656.97,
+        "heroAtkPct": 0.0275
+      },
+      "4": {
+        "heroFlatHp": 14423.39,
+        "heroFlatAtk": 686.83,
+        "heroAtkPct": 0.02875
+      },
+      "5": {
+        "heroFlatHp": 15050.5,
+        "heroFlatAtk": 716.7,
+        "heroAtkPct": 0.03
+      },
+      "6": {
+        "heroFlatHp": 15677.6,
+        "heroFlatAtk": 746.56,
+        "heroAtkPct": 0.03125
+      },
+      "7": {
+        "heroFlatHp": 16304.7,
+        "heroFlatAtk": 776.42,
+        "heroAtkPct": 0.0325
+      },
+      "8": {
+        "heroFlatHp": 16931.81,
+        "heroFlatAtk": 806.28,
+        "heroAtkPct": 0.03375
+      },
+      "9": {
+        "heroFlatHp": 17558.91,
+        "heroFlatAtk": 836.14,
+        "heroAtkPct": 0.035
+      },
+      "10": {
+        "heroFlatHp": 18186.01,
+        "heroFlatAtk": 866.01,
+        "heroAtkPct": 0.03625
+      },
+      "11": {
+        "heroFlatHp": 18813.12,
+        "heroFlatAtk": 895.87,
+        "heroAtkPct": 0.0375
+      },
+      "12": {
+        "heroFlatHp": 19440.22,
+        "heroFlatAtk": 925.73,
+        "heroAtkPct": 0.03875
+      },
+      "13": {
+        "heroFlatHp": 20067.33,
+        "heroFlatAtk": 955.59,
+        "heroAtkPct": 0.04
+      },
+      "14": {
+        "heroFlatHp": 20694.43,
+        "heroFlatAtk": 985.45,
+        "heroAtkPct": 0.04125
+      },
+      "15": {
+        "heroFlatHp": 21321.53,
+        "heroFlatAtk": 1015.32,
+        "heroAtkPct": 0.0425
+      },
+      "16": {
+        "heroFlatHp": 21948.64,
+        "heroFlatAtk": 1045.18,
+        "heroAtkPct": 0.04375
+      },
+      "17": {
+        "heroFlatHp": 22575.74,
+        "heroFlatAtk": 1075.04,
+        "heroAtkPct": 0.045
+      },
+      "18": {
+        "heroFlatHp": 23202.84,
+        "heroFlatAtk": 1104.9,
+        "heroAtkPct": 0.04625
+      },
+      "19": {
+        "heroFlatHp": 23829.95,
+        "heroFlatAtk": 1134.76,
+        "heroAtkPct": 0.0475
+      },
+      "20": {
+        "heroFlatHp": 24457.05,
+        "heroFlatAtk": 1164.63,
+        "heroAtkPct": 0.04875
+      },
+      "21": {
+        "heroFlatHp": 25084.16,
+        "heroFlatAtk": 1194.49,
+        "heroAtkPct": 0.05
+      },
+      "22": {
+        "heroFlatHp": 25711.26,
+        "heroFlatAtk": 1224.35,
+        "heroAtkPct": 0.05125
+      },
+      "23": {
+        "heroFlatHp": 26338.36,
+        "heroFlatAtk": 1254.21,
+        "heroAtkPct": 0.0525
+      },
+      "24": {
+        "heroFlatHp": 26965.47,
+        "heroFlatAtk": 1284.07,
+        "heroAtkPct": 0.05375
+      },
+      "25": {
+        "heroFlatHp": 27592.57,
+        "heroFlatAtk": 1313.94,
+        "heroAtkPct": 0.055
+      },
+      "26": {
+        "heroFlatHp": 28219.67,
+        "heroFlatAtk": 1343.8,
+        "heroAtkPct": 0.05625
+      },
+      "27": {
+        "heroFlatHp": 28846.78,
+        "heroFlatAtk": 1373.66,
+        "heroAtkPct": 0.0575
+      },
+      "28": {
+        "heroFlatHp": 29473.88,
+        "heroFlatAtk": 1403.52,
+        "heroAtkPct": 0.05875
+      },
+      "29": {
+        "heroFlatHp": 30100.99,
+        "heroFlatAtk": 1433.39,
+        "heroAtkPct": 0.06
+      },
+      "30": {
+        "heroFlatHp": 30728.09,
+        "heroFlatAtk": 1463.25,
+        "heroAtkPct": 0.06125
+      },
+      "31": {
+        "heroFlatHp": 31355.19,
+        "heroFlatAtk": 1493.11,
+        "heroAtkPct": 0.0625
+      },
+      "32": {
+        "heroFlatHp": 31982.3,
+        "heroFlatAtk": 1522.97,
+        "heroAtkPct": 0.06375
+      },
+      "33": {
+        "heroFlatHp": 32609.4,
+        "heroFlatAtk": 1552.83,
+        "heroAtkPct": 0.065
+      },
+      "34": {
+        "heroFlatHp": 33236.5,
+        "heroFlatAtk": 1582.7,
+        "heroAtkPct": 0.06625
+      },
+      "35": {
+        "heroFlatHp": 33863.61,
+        "heroFlatAtk": 1612.56,
+        "heroAtkPct": 0.0675
+      },
+      "36": {
+        "heroFlatHp": 34490.71,
+        "heroFlatAtk": 1642.42,
+        "heroAtkPct": 0.06875
+      },
+      "37": {
+        "heroFlatHp": 35117.82,
+        "heroFlatAtk": 1672.28,
+        "heroAtkPct": 0.07
+      },
+      "38": {
+        "heroFlatHp": 35744.92,
+        "heroFlatAtk": 1702.14,
+        "heroAtkPct": 0.07125
+      },
+      "39": {
+        "heroFlatHp": 36372.02,
+        "heroFlatAtk": 1732.01,
+        "heroAtkPct": 0.0725
+      },
+      "40": {
+        "heroFlatHp": 36999.13,
+        "heroFlatAtk": 1761.87,
+        "heroAtkPct": 0.07375
+      },
+      "41": {
+        "heroFlatHp": 37626.23,
+        "heroFlatAtk": 1791.73,
+        "heroAtkPct": 0.075
+      }
+    }
+  },
+  "mythic_Radar": {
+    "quality": "mythic",
+    "slot": "Radar",
+    "max_level": 41,
+    "levels": {
+      "1": {
+        "heroFlatHp": 18813.12,
+        "heroFlatDef": 119.45,
+        "heroHpPct": 0.025,
+        "heroDefPct": 0.025
+      },
+      "2": {
+        "heroFlatHp": 19753.77,
+        "heroFlatDef": 125.43,
+        "heroHpPct": 0.02625,
+        "heroDefPct": 0.02625
+      },
+      "3": {
+        "heroFlatHp": 20694.43,
+        "heroFlatDef": 131.4,
+        "heroHpPct": 0.0275,
+        "heroDefPct": 0.0275
+      },
+      "4": {
+        "heroFlatHp": 21635.08,
+        "heroFlatDef": 137.37,
+        "heroHpPct": 0.02875,
+        "heroDefPct": 0.02875
+      },
+      "5": {
+        "heroFlatHp": 22575.74,
+        "heroFlatDef": 143.34,
+        "heroHpPct": 0.03,
+        "heroDefPct": 0.03
+      },
+      "6": {
+        "heroFlatHp": 23516.4,
+        "heroFlatDef": 149.32,
+        "heroHpPct": 0.03125,
+        "heroDefPct": 0.03125
+      },
+      "7": {
+        "heroFlatHp": 24457.05,
+        "heroFlatDef": 155.29,
+        "heroHpPct": 0.0325,
+        "heroDefPct": 0.0325
+      },
+      "8": {
+        "heroFlatHp": 25397.71,
+        "heroFlatDef": 161.26,
+        "heroHpPct": 0.03375,
+        "heroDefPct": 0.03375
+      },
+      "9": {
+        "heroFlatHp": 26338.36,
+        "heroFlatDef": 167.23,
+        "heroHpPct": 0.035,
+        "heroDefPct": 0.035
+      },
+      "10": {
+        "heroFlatHp": 27279.02,
+        "heroFlatDef": 173.21,
+        "heroHpPct": 0.03625,
+        "heroDefPct": 0.03625
+      },
+      "11": {
+        "heroFlatHp": 28219.67,
+        "heroFlatDef": 179.18,
+        "heroHpPct": 0.0375,
+        "heroDefPct": 0.0375
+      },
+      "12": {
+        "heroFlatHp": 29160.33,
+        "heroFlatDef": 185.15,
+        "heroHpPct": 0.03875,
+        "heroDefPct": 0.03875
+      },
+      "13": {
+        "heroFlatHp": 30100.99,
+        "heroFlatDef": 191.12,
+        "heroHpPct": 0.04,
+        "heroDefPct": 0.04
+      },
+      "14": {
+        "heroFlatHp": 31041.64,
+        "heroFlatDef": 197.09,
+        "heroHpPct": 0.04125,
+        "heroDefPct": 0.04125
+      },
+      "15": {
+        "heroFlatHp": 31982.3,
+        "heroFlatDef": 203.07,
+        "heroHpPct": 0.0425,
+        "heroDefPct": 0.0425
+      },
+      "16": {
+        "heroFlatHp": 32922.95,
+        "heroFlatDef": 209.04,
+        "heroHpPct": 0.04375,
+        "heroDefPct": 0.04375
+      },
+      "17": {
+        "heroFlatHp": 33863.61,
+        "heroFlatDef": 215.01,
+        "heroHpPct": 0.045,
+        "heroDefPct": 0.045
+      },
+      "18": {
+        "heroFlatHp": 34804.26,
+        "heroFlatDef": 220.98,
+        "heroHpPct": 0.04625,
+        "heroDefPct": 0.04625
+      },
+      "19": {
+        "heroFlatHp": 35744.92,
+        "heroFlatDef": 226.96,
+        "heroHpPct": 0.0475,
+        "heroDefPct": 0.0475
+      },
+      "20": {
+        "heroFlatHp": 36685.57,
+        "heroFlatDef": 232.93,
+        "heroHpPct": 0.04875,
+        "heroDefPct": 0.04875
+      },
+      "21": {
+        "heroFlatHp": 37626.23,
+        "heroFlatDef": 238.9,
+        "heroHpPct": 0.05,
+        "heroDefPct": 0.05
+      },
+      "22": {
+        "heroFlatHp": 38566.89,
+        "heroFlatDef": 244.87,
+        "heroHpPct": 0.05125,
+        "heroDefPct": 0.05125
+      },
+      "23": {
+        "heroFlatHp": 39507.54,
+        "heroFlatDef": 250.85,
+        "heroHpPct": 0.0525,
+        "heroDefPct": 0.0525
+      },
+      "24": {
+        "heroFlatHp": 40448.2,
+        "heroFlatDef": 256.82,
+        "heroHpPct": 0.05375,
+        "heroDefPct": 0.05375
+      },
+      "25": {
+        "heroFlatHp": 41388.85,
+        "heroFlatDef": 262.79,
+        "heroHpPct": 0.055,
+        "heroDefPct": 0.055
+      },
+      "26": {
+        "heroFlatHp": 42329.51,
+        "heroFlatDef": 268.76,
+        "heroHpPct": 0.05625,
+        "heroDefPct": 0.05625
+      },
+      "27": {
+        "heroFlatHp": 43270.16,
+        "heroFlatDef": 274.74,
+        "heroHpPct": 0.0575,
+        "heroDefPct": 0.0575
+      },
+      "28": {
+        "heroFlatHp": 44210.82,
+        "heroFlatDef": 280.71,
+        "heroHpPct": 0.05875,
+        "heroDefPct": 0.05875
+      },
+      "29": {
+        "heroFlatHp": 45151.48,
+        "heroFlatDef": 286.68,
+        "heroHpPct": 0.06,
+        "heroDefPct": 0.06
+      },
+      "30": {
+        "heroFlatHp": 46092.13,
+        "heroFlatDef": 292.65,
+        "heroHpPct": 0.06125,
+        "heroDefPct": 0.06125
+      },
+      "31": {
+        "heroFlatHp": 47032.79,
+        "heroFlatDef": 298.63,
+        "heroHpPct": 0.0625,
+        "heroDefPct": 0.0625
+      },
+      "32": {
+        "heroFlatHp": 47973.44,
+        "heroFlatDef": 304.6,
+        "heroHpPct": 0.06375,
+        "heroDefPct": 0.06375
+      },
+      "33": {
+        "heroFlatHp": 48914.1,
+        "heroFlatDef": 310.57,
+        "heroHpPct": 0.065,
+        "heroDefPct": 0.065
+      },
+      "34": {
+        "heroFlatHp": 49854.75,
+        "heroFlatDef": 316.54,
+        "heroHpPct": 0.06625,
+        "heroDefPct": 0.06625
+      },
+      "35": {
+        "heroFlatHp": 50795.41,
+        "heroFlatDef": 322.52,
+        "heroHpPct": 0.0675,
+        "heroDefPct": 0.0675
+      },
+      "36": {
+        "heroFlatHp": 51736.06,
+        "heroFlatDef": 328.49,
+        "heroHpPct": 0.06875,
+        "heroDefPct": 0.06875
+      },
+      "37": {
+        "heroFlatHp": 52676.72,
+        "heroFlatDef": 334.46,
+        "heroHpPct": 0.07,
+        "heroDefPct": 0.07
+      },
+      "38": {
+        "heroFlatHp": 53617.38,
+        "heroFlatDef": 340.43,
+        "heroHpPct": 0.07125,
+        "heroDefPct": 0.07125
+      },
+      "39": {
+        "heroFlatHp": 54558.03,
+        "heroFlatDef": 346.41,
+        "heroHpPct": 0.0725,
+        "heroDefPct": 0.0725
+      },
+      "40": {
+        "heroFlatHp": 55498.69,
+        "heroFlatDef": 352.38,
+        "heroHpPct": 0.07375,
+        "heroDefPct": 0.07375
+      },
+      "41": {
+        "heroFlatHp": 56439.34,
+        "heroFlatDef": 358.35,
+        "heroHpPct": 0.075,
+        "heroDefPct": 0.075
+      }
+    }
+  }
+}

@@ -1,0 +1,3402 @@
+{
+  "meta": {
+    "game_version": "1.0.352",
+    "extracted_at": "2026-07-16T07:04:09.957438+00:00",
+    "source_tables": [
+      "career_effect",
+      "player_career"
+    ],
+    "locale": "en",
+    "locale_entries": 52733,
+    "total_career_effects": 60,
+    "total_career_levels": 50,
+    "career_tracks": 5,
+    "name_locale_resolved": 11,
+    "desc_locale_resolved": 16,
+    "unresolved_stat_ids": [],
+    "locale_gap_note": "Locale keys 395151-395202 (effect names) and 395301-395361 (descriptions) are served OTA by game CDN; absent from shipped XAPK. 12 keys present in en.bin: 5 career track names + 7 description templates.",
+    "power_note": "career_effect uses description-template encoding (show_type 0-5 enum + raw values). No lw_effect_number stat_id mapping exists. show_type 4/5 = percentage troop combat buffs; 1/2 = absolute bonuses. Power cannot be quantified via standard stat_id x power_coeff formula from XAPK alone.",
+    "show_type_enum": {
+      "0": "internal",
+      "1": "absolute_plus",
+      "2": "absolute",
+      "4": "percentage",
+      "5": "percentage_highlighted"
+    },
+    "knowledge_status": "STRUCTURAL"
+  },
+  "career_progression": [
+    {
+      "career_type": 1,
+      "career_name": "[career_type_1]",
+      "career_name_locale_key": "395100",
+      "levels": [
+        {
+          "player_career_id": 1000,
+          "require_lv": 10,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": null,
+          "require_item": "200032;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1001,
+          "require_lv": 20,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10010,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1002,
+          "require_lv": 30,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10011,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1003,
+          "require_lv": 40,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10012,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1004,
+          "require_lv": 50,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10013,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1005,
+          "require_lv": 60,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10014,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1006,
+          "require_lv": 70,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10015,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1007,
+          "require_lv": 80,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10016,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1008,
+          "require_lv": 90,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10017,
+          "require_item": "200028;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 1009,
+          "require_lv": 100,
+          "base_effect_ids": [
+            10000,
+            10001,
+            10002
+          ],
+          "add_effect_id": 10018,
+          "require_item": "200028;1",
+          "require_resource": ""
+        }
+      ]
+    },
+    {
+      "career_type": 2,
+      "career_name": "[career_type_2]",
+      "career_name_locale_key": "395101",
+      "levels": [
+        {
+          "player_career_id": 2000,
+          "require_lv": 10,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": null,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2001,
+          "require_lv": 20,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10110,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2002,
+          "require_lv": 30,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10111,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2003,
+          "require_lv": 40,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10112,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2004,
+          "require_lv": 50,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10113,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2005,
+          "require_lv": 60,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10114,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2006,
+          "require_lv": 70,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10115,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2007,
+          "require_lv": 80,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10116,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2008,
+          "require_lv": 90,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10117,
+          "require_item": "200029;1",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 2009,
+          "require_lv": 100,
+          "base_effect_ids": [
+            10100,
+            10101,
+            10102
+          ],
+          "add_effect_id": 10118,
+          "require_item": "200029;1",
+          "require_resource": ""
+        }
+      ]
+    },
+    {
+      "career_type": 3,
+      "career_name": "[career_type_3]",
+      "career_name_locale_key": "395102",
+      "levels": [
+        {
+          "player_career_id": 3000,
+          "require_lv": 10,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": null,
+          "require_item": "",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 3001,
+          "require_lv": 20,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10210,
+          "require_item": "",
+          "require_resource": "14;40000"
+        },
+        {
+          "player_career_id": 3002,
+          "require_lv": 30,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10211,
+          "require_item": "",
+          "require_resource": "14;200000"
+        },
+        {
+          "player_career_id": 3003,
+          "require_lv": 40,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10212,
+          "require_item": "",
+          "require_resource": "14;800000"
+        },
+        {
+          "player_career_id": 3004,
+          "require_lv": 50,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10213,
+          "require_item": "",
+          "require_resource": "14;1200000"
+        },
+        {
+          "player_career_id": 3005,
+          "require_lv": 60,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10214,
+          "require_item": "",
+          "require_resource": "14;1500000"
+        },
+        {
+          "player_career_id": 3006,
+          "require_lv": 70,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10215,
+          "require_item": "",
+          "require_resource": "14;1800000"
+        },
+        {
+          "player_career_id": 3007,
+          "require_lv": 80,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10216,
+          "require_item": "",
+          "require_resource": "14;2100000"
+        },
+        {
+          "player_career_id": 3008,
+          "require_lv": 90,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10217,
+          "require_item": "",
+          "require_resource": "14;2300000"
+        },
+        {
+          "player_career_id": 3009,
+          "require_lv": 100,
+          "base_effect_ids": [
+            10200,
+            10201
+          ],
+          "add_effect_id": 10218,
+          "require_item": "",
+          "require_resource": "14;2500000"
+        }
+      ]
+    },
+    {
+      "career_type": 4,
+      "career_name": "[career_type_4]",
+      "career_name_locale_key": "395103",
+      "levels": [
+        {
+          "player_career_id": 4000,
+          "require_lv": 10,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": null,
+          "require_item": "",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 4001,
+          "require_lv": 20,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10310,
+          "require_item": "",
+          "require_resource": "14;40000"
+        },
+        {
+          "player_career_id": 4002,
+          "require_lv": 30,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10311,
+          "require_item": "",
+          "require_resource": "14;200000"
+        },
+        {
+          "player_career_id": 4003,
+          "require_lv": 40,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10312,
+          "require_item": "",
+          "require_resource": "14;800000"
+        },
+        {
+          "player_career_id": 4004,
+          "require_lv": 50,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10313,
+          "require_item": "",
+          "require_resource": "14;1200000"
+        },
+        {
+          "player_career_id": 4005,
+          "require_lv": 60,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10314,
+          "require_item": "",
+          "require_resource": "14;1500000"
+        },
+        {
+          "player_career_id": 4006,
+          "require_lv": 70,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10315,
+          "require_item": "",
+          "require_resource": "14;1800000"
+        },
+        {
+          "player_career_id": 4007,
+          "require_lv": 80,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10316,
+          "require_item": "",
+          "require_resource": "14;2100000"
+        },
+        {
+          "player_career_id": 4008,
+          "require_lv": 90,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10317,
+          "require_item": "",
+          "require_resource": "14;2300000"
+        },
+        {
+          "player_career_id": 4009,
+          "require_lv": 100,
+          "base_effect_ids": [
+            10300,
+            10301
+          ],
+          "add_effect_id": 10318,
+          "require_item": "",
+          "require_resource": "14;2500000"
+        }
+      ]
+    },
+    {
+      "career_type": 5,
+      "career_name": "[career_type_5]",
+      "career_name_locale_key": "395104",
+      "levels": [
+        {
+          "player_career_id": 5000,
+          "require_lv": 10,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": null,
+          "require_item": "",
+          "require_resource": ""
+        },
+        {
+          "player_career_id": 5001,
+          "require_lv": 20,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10410,
+          "require_item": "",
+          "require_resource": "14;40000"
+        },
+        {
+          "player_career_id": 5002,
+          "require_lv": 30,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10411,
+          "require_item": "",
+          "require_resource": "14;200000"
+        },
+        {
+          "player_career_id": 5003,
+          "require_lv": 40,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10412,
+          "require_item": "",
+          "require_resource": "14;800000"
+        },
+        {
+          "player_career_id": 5004,
+          "require_lv": 50,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10413,
+          "require_item": "",
+          "require_resource": "14;1200000"
+        },
+        {
+          "player_career_id": 5005,
+          "require_lv": 60,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10414,
+          "require_item": "",
+          "require_resource": "14;1500000"
+        },
+        {
+          "player_career_id": 5006,
+          "require_lv": 70,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10415,
+          "require_item": "",
+          "require_resource": "14;1800000"
+        },
+        {
+          "player_career_id": 5007,
+          "require_lv": 80,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10416,
+          "require_item": "",
+          "require_resource": "14;2100000"
+        },
+        {
+          "player_career_id": 5008,
+          "require_lv": 90,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10417,
+          "require_item": "",
+          "require_resource": "14;2300000"
+        },
+        {
+          "player_career_id": 5009,
+          "require_lv": 100,
+          "base_effect_ids": [
+            10400,
+            10401
+          ],
+          "add_effect_id": 10418,
+          "require_item": "",
+          "require_resource": "14;2500000"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": 10000,
+      "name": "[effect_10000]",
+      "name_locale_key": "395158",
+      "name_locale_resolved": false,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 20.0%.",
+      "career_type": 2,
+      "order": 2,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1000,
+          "career_type": 1,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1001,
+          "career_type": 1,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1002,
+          "career_type": 1,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1003,
+          "career_type": 1,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1004,
+          "career_type": 1,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1005,
+          "career_type": 1,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1006,
+          "career_type": 1,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1007,
+          "career_type": 1,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1008,
+          "career_type": 1,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1009,
+          "career_type": 1,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10001,
+      "name": "[effect_10001]",
+      "name_locale_key": "395151",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395301",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 3,
+      "icon": "career_icon10101",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1000,
+          "career_type": 1,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1001,
+          "career_type": 1,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1002,
+          "career_type": 1,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1003,
+          "career_type": 1,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1004,
+          "career_type": 1,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1005,
+          "career_type": 1,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1006,
+          "career_type": 1,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1007,
+          "career_type": 1,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1008,
+          "career_type": 1,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1009,
+          "career_type": 1,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10002,
+      "name": "[effect_10002]",
+      "name_locale_key": "395161",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395310",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 1,
+      "icon": "UITechnology_icon_28",
+      "cd_time_sec": 86400,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 100.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "100.0%",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 2,
+          "raw_value": 24.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "24",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1000,
+          "career_type": 1,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1001,
+          "career_type": 1,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1002,
+          "career_type": 1,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1003,
+          "career_type": 1,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1004,
+          "career_type": 1,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1005,
+          "career_type": 1,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1006,
+          "career_type": 1,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1007,
+          "career_type": 1,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1008,
+          "career_type": 1,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 1009,
+          "career_type": 1,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10010,
+      "name": "[effect_10010]",
+      "name_locale_key": "395158",
+      "name_locale_resolved": false,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 20.0%.",
+      "career_type": 2,
+      "order": 4,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1001,
+          "career_type": 1,
+          "require_lv": 20,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10011,
+      "name": "[effect_10011]",
+      "name_locale_key": "395157",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395307",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 5,
+      "icon": "UITechnology_icon_30",
+      "cd_time_sec": 129600,
+      "show": true,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 30.0,
+          "show_type": 5,
+          "show_type_label": "percentage_highlighted",
+          "rendered_value": "30.0%",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 36.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "36",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1002,
+          "career_type": 1,
+          "require_lv": 30,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10012,
+      "name": "[effect_10012]",
+      "name_locale_key": "395158",
+      "name_locale_resolved": false,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 20.0%.",
+      "career_type": 2,
+      "order": 6,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1003,
+          "career_type": 1,
+          "require_lv": 40,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10013,
+      "name": "[effect_10013]",
+      "name_locale_key": "395152",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395302",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 7,
+      "icon": "UITechnology_icon_24",
+      "cd_time_sec": null,
+      "show": true,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 10.0,
+          "show_type": 1,
+          "show_type_label": "absolute_plus",
+          "rendered_value": "+10",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 2,
+          "raw_value": 72.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "72",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1004,
+          "career_type": 1,
+          "require_lv": 50,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10014,
+      "name": "[effect_10014]",
+      "name_locale_key": "395158",
+      "name_locale_resolved": false,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 20.0%.",
+      "career_type": 2,
+      "order": 8,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1005,
+          "career_type": 1,
+          "require_lv": 60,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10015,
+      "name": "[effect_10015]",
+      "name_locale_key": "395159",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395308",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 9,
+      "icon": "career_icon10002",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 5000.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "5000",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1006,
+          "career_type": 1,
+          "require_lv": 70,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10016,
+      "name": "[effect_10016]",
+      "name_locale_key": "395156",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395306",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 10,
+      "icon": "career_icon10301",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 1.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "1",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1007,
+          "career_type": 1,
+          "require_lv": 80,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10017,
+      "name": "[effect_10017]",
+      "name_locale_key": "395158",
+      "name_locale_resolved": false,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 20.0%.",
+      "career_type": 2,
+      "order": 11,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1008,
+          "career_type": 1,
+          "require_lv": 90,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10018,
+      "name": "[effect_10018]",
+      "name_locale_key": "395153",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395309",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 12,
+      "icon": "career_icon10400",
+      "cd_time_sec": null,
+      "show": true,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 72.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "72",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 1009,
+          "career_type": 1,
+          "require_lv": 100,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10100,
+      "name": "[effect_10100]",
+      "name_locale_key": "395163",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395312",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 1,
+      "icon": "career_icon10101",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 30.0,
+          "show_type": 1,
+          "show_type_label": "absolute_plus",
+          "rendered_value": "+30",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2000,
+          "career_type": 2,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2001,
+          "career_type": 2,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2002,
+          "career_type": 2,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2003,
+          "career_type": 2,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2004,
+          "career_type": 2,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2005,
+          "career_type": 2,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2006,
+          "career_type": 2,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2007,
+          "career_type": 2,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2008,
+          "career_type": 2,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2009,
+          "career_type": 2,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10101,
+      "name": "Military Strategies",
+      "name_locale_key": "395150",
+      "name_locale_resolved": true,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 10.0%.",
+      "career_type": 2,
+      "order": 2,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 10.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "10.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2000,
+          "career_type": 2,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2001,
+          "career_type": 2,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2002,
+          "career_type": 2,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2003,
+          "career_type": 2,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2004,
+          "career_type": 2,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2005,
+          "career_type": 2,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2006,
+          "career_type": 2,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2007,
+          "career_type": 2,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2008,
+          "career_type": 2,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2009,
+          "career_type": 2,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10102,
+      "name": "[effect_10102]",
+      "name_locale_key": "395162",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395311",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 3,
+      "icon": "career_icon10100",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 50.0,
+          "show_type": 5,
+          "show_type_label": "percentage_highlighted",
+          "rendered_value": "50.0%",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 50.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "50.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2000,
+          "career_type": 2,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2001,
+          "career_type": 2,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2002,
+          "career_type": 2,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2003,
+          "career_type": 2,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2004,
+          "career_type": 2,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2005,
+          "career_type": 2,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2006,
+          "career_type": 2,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2007,
+          "career_type": 2,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2008,
+          "career_type": 2,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 2009,
+          "career_type": 2,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10110,
+      "name": "[effect_10110]",
+      "name_locale_key": "395164",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395313",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 5,
+      "icon": "career_icon10100",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2001,
+          "career_type": 2,
+          "require_lv": 20,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10111,
+      "name": "[effect_10111]",
+      "name_locale_key": "395167",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395315",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 9,
+      "icon": "career_icon10100",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [],
+      "career_refs": [
+        {
+          "player_career_id": 2002,
+          "career_type": 2,
+          "require_lv": 30,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10112,
+      "name": "Zombie Subway",
+      "name_locale_key": "104184",
+      "name_locale_resolved": true,
+      "desc_template": null,
+      "desc_locale_key": "395314",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 6,
+      "icon": "UITechnology_icon_35",
+      "cd_time_sec": null,
+      "show": true,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 90.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "90",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 2.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "2",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2003,
+          "career_type": 2,
+          "require_lv": 40,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10113,
+      "name": "Military Strategies",
+      "name_locale_key": "395150",
+      "name_locale_resolved": true,
+      "desc_template": null,
+      "desc_locale_key": "395353",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 4,
+      "icon": "career_icon10101",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 10.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "10.0%",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2004,
+          "career_type": 2,
+          "require_lv": 50,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10114,
+      "name": "[effect_10114]",
+      "name_locale_key": "395201",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395351",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 8,
+      "icon": "UITechnology_icon_24",
+      "cd_time_sec": null,
+      "show": true,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 8.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "8",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2005,
+          "career_type": 2,
+          "require_lv": 60,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10115,
+      "name": "Military Strategies",
+      "name_locale_key": "395150",
+      "name_locale_resolved": true,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 10.0%.",
+      "career_type": 2,
+      "order": 7,
+      "icon": "career_icon10101",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 10.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "10.0%",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2006,
+          "career_type": 2,
+          "require_lv": 70,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10116,
+      "name": "[effect_10116]",
+      "name_locale_key": "395158",
+      "name_locale_resolved": false,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 20.0%.",
+      "career_type": 2,
+      "order": 10,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2007,
+          "career_type": 2,
+          "require_lv": 80,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10117,
+      "name": "Zombie Subway",
+      "name_locale_key": "104184",
+      "name_locale_resolved": true,
+      "desc_template": null,
+      "desc_locale_key": "395316",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 11,
+      "icon": "UITechnology_icon_35",
+      "cd_time_sec": null,
+      "show": true,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 2.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "2",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2008,
+          "career_type": 2,
+          "require_lv": 90,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10118,
+      "name": "[effect_10118]",
+      "name_locale_key": "395158",
+      "name_locale_resolved": false,
+      "desc_template": "Troop's attack and defense {0}.",
+      "desc_locale_key": "395300",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Troop's attack and defense 20.0%.",
+      "career_type": 2,
+      "order": 12,
+      "icon": "career_icon10010",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 2009,
+          "career_type": 2,
+          "require_lv": 100,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10200,
+      "name": "Economic Theories",
+      "name_locale_key": "395169",
+      "name_locale_resolved": true,
+      "desc_template": "Coin bonus {0}",
+      "desc_locale_key": "395303",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Coin bonus 50.0%",
+      "career_type": 2,
+      "order": 1,
+      "icon": "career_icon10200",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 50.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "50.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3000,
+          "career_type": 3,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3001,
+          "career_type": 3,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3002,
+          "career_type": 3,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3003,
+          "career_type": 3,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3004,
+          "career_type": 3,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3005,
+          "career_type": 3,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3006,
+          "career_type": 3,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3007,
+          "career_type": 3,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3008,
+          "career_type": 3,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3009,
+          "career_type": 3,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10201,
+      "name": "Trade Theories",
+      "name_locale_key": "395170",
+      "name_locale_resolved": true,
+      "desc_template": null,
+      "desc_locale_key": "395317",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 2,
+      "icon": "career_icon10201",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 10.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "10",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3000,
+          "career_type": 3,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3001,
+          "career_type": 3,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3002,
+          "career_type": 3,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3003,
+          "career_type": 3,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3004,
+          "career_type": 3,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3005,
+          "career_type": 3,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3006,
+          "career_type": 3,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3007,
+          "career_type": 3,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3008,
+          "career_type": 3,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 3009,
+          "career_type": 3,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10202,
+      "name": "[effect_10202]",
+      "name_locale_key": "395202",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395356",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 3,
+      "icon": "Common_icon_lantern",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [],
+      "career_refs": [],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10210,
+      "name": "[effect_10210]",
+      "name_locale_key": "395175",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395322",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 4,
+      "icon": "career_icon10002",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 10.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "10",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3001,
+          "career_type": 3,
+          "require_lv": 20,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10211,
+      "name": "[effect_10211]",
+      "name_locale_key": "395176",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395323",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 5,
+      "icon": "UITechnology_icon_27",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 1.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "1",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3002,
+          "career_type": 3,
+          "require_lv": 30,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10212,
+      "name": "[effect_10212]",
+      "name_locale_key": "395174",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395321",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 6,
+      "icon": "career_icon10301",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 10.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "10.0%",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 10.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "10",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3003,
+          "career_type": 3,
+          "require_lv": 40,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10213,
+      "name": "[effect_10213]",
+      "name_locale_key": "395171",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395304",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 7,
+      "icon": "career_icon10213",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "20.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3004,
+          "career_type": 3,
+          "require_lv": 50,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10214,
+      "name": "[effect_10214]",
+      "name_locale_key": "395172",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395318",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 8,
+      "icon": "UITechnology_icon_41",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3005,
+          "career_type": 3,
+          "require_lv": 60,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10215,
+      "name": "Economic Theories",
+      "name_locale_key": "395169",
+      "name_locale_resolved": true,
+      "desc_template": "Coin bonus {0}",
+      "desc_locale_key": "395303",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Coin bonus 50.0%",
+      "career_type": 2,
+      "order": 9,
+      "icon": "career_icon10200",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 50.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "50.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3006,
+          "career_type": 3,
+          "require_lv": 70,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10216,
+      "name": "[effect_10216]",
+      "name_locale_key": "395178",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395325",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 10,
+      "icon": "UITechnology_icon_29",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "20",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3007,
+          "career_type": 3,
+          "require_lv": 80,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10217,
+      "name": "Economic Theories",
+      "name_locale_key": "395169",
+      "name_locale_resolved": true,
+      "desc_template": "Coin bonus {0}",
+      "desc_locale_key": "395303",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Coin bonus 50.0%",
+      "career_type": 2,
+      "order": 11,
+      "icon": "career_icon10200",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 50.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "50.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3008,
+          "career_type": 3,
+          "require_lv": 90,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10218,
+      "name": "Construction Theories",
+      "name_locale_key": "395198",
+      "name_locale_resolved": true,
+      "desc_template": "Construction speed {0}.",
+      "desc_locale_key": "395352",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Construction speed 30.0%.",
+      "career_type": 2,
+      "order": 12,
+      "icon": "UITechnology_icon_05",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 30.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "30.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 3009,
+          "career_type": 3,
+          "require_lv": 100,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10300,
+      "name": "[effect_10300]",
+      "name_locale_key": "395180",
+      "name_locale_resolved": false,
+      "desc_template": "Farmland amount {0}.",
+      "desc_locale_key": "395327",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Farmland amount 4.",
+      "career_type": 2,
+      "order": 1,
+      "icon": "career_icon10300",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 4.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "4",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4000,
+          "career_type": 4,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4001,
+          "career_type": 4,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4002,
+          "career_type": 4,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4003,
+          "career_type": 4,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4004,
+          "career_type": 4,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4005,
+          "career_type": 4,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4006,
+          "career_type": 4,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4007,
+          "career_type": 4,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4008,
+          "career_type": 4,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4009,
+          "career_type": 4,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10301,
+      "name": "[effect_10301]",
+      "name_locale_key": "395184",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395331",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 2,
+      "icon": "UITechnology_icon_36",
+      "cd_time_sec": 3600,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 100.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "100",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 10.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "10",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 2,
+          "raw_value": 1.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "1",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 3,
+          "raw_value": 300.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "300.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4000,
+          "career_type": 4,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4001,
+          "career_type": 4,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4002,
+          "career_type": 4,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4003,
+          "career_type": 4,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4004,
+          "career_type": 4,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4005,
+          "career_type": 4,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4006,
+          "career_type": 4,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4007,
+          "career_type": 4,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4008,
+          "career_type": 4,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 4009,
+          "career_type": 4,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10302,
+      "name": "[effect_10302]",
+      "name_locale_key": "395202",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395354",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 3,
+      "icon": "Common_icon_drill",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [],
+      "career_refs": [],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10310,
+      "name": "[effect_10310]",
+      "name_locale_key": "395174",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395357",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 4,
+      "icon": "career_icon10302",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4001,
+          "career_type": 4,
+          "require_lv": 20,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10311,
+      "name": "[effect_10311]",
+      "name_locale_key": "395186",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395333",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 5,
+      "icon": "career_icon10302",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 4.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "4",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 100.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "100",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 2,
+          "raw_value": 300.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "300.0%",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 3,
+          "raw_value": 4500.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "4500",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4002,
+          "career_type": 4,
+          "require_lv": 30,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10312,
+      "name": "[effect_10312]",
+      "name_locale_key": "395195",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395342",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 6,
+      "icon": "career_icon10002",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 2.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "2",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4003,
+          "career_type": 4,
+          "require_lv": 40,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10313,
+      "name": "[effect_10313]",
+      "name_locale_key": "395183",
+      "name_locale_resolved": false,
+      "desc_template": "Warehouse capacity {0}.",
+      "desc_locale_key": "395330",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Warehouse capacity 200.",
+      "career_type": 2,
+      "order": 7,
+      "icon": "career_icon10002",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 200.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "200",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4004,
+          "career_type": 4,
+          "require_lv": 50,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10314,
+      "name": "[effect_10314]",
+      "name_locale_key": "395190",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395337",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 8,
+      "icon": "career_icon10400",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 150.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "150.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4005,
+          "career_type": 4,
+          "require_lv": 60,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10315,
+      "name": "[effect_10315]",
+      "name_locale_key": "395187",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395334",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 9,
+      "icon": "UITechnology_icon_31",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 100.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "100.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4006,
+          "career_type": 4,
+          "require_lv": 70,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10316,
+      "name": "[effect_10316]",
+      "name_locale_key": "395174",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395358",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 10,
+      "icon": "career_icon10302",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "20",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4007,
+          "career_type": 4,
+          "require_lv": 80,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10317,
+      "name": "Technological Theories",
+      "name_locale_key": "395179",
+      "name_locale_resolved": true,
+      "desc_template": "Research Speed {0}",
+      "desc_locale_key": "395326",
+      "desc_locale_resolved": true,
+      "desc_rendered": "Research Speed 30.0%",
+      "career_type": 2,
+      "order": 11,
+      "icon": "UITechnology_icon_34",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 30.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "30.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4008,
+          "career_type": 4,
+          "require_lv": 90,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10318,
+      "name": "[effect_10318]",
+      "name_locale_key": "395197",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395344",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 12,
+      "icon": "career_icon10101",
+      "cd_time_sec": 129600,
+      "show": true,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 50.0,
+          "show_type": 1,
+          "show_type_label": "absolute_plus",
+          "rendered_value": "+50",
+          "is_displayed": true
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 36.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "36",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 4009,
+          "career_type": 4,
+          "require_lv": 100,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10400,
+      "name": "[effect_10400]",
+      "name_locale_key": "395162",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395361",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 1,
+      "icon": "career_icon10100",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5000,
+          "career_type": 5,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5001,
+          "career_type": 5,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5002,
+          "career_type": 5,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5003,
+          "career_type": 5,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5004,
+          "career_type": 5,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5005,
+          "career_type": 5,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5006,
+          "career_type": 5,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5007,
+          "career_type": 5,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5008,
+          "career_type": 5,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5009,
+          "career_type": 5,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10401,
+      "name": "[effect_10401]",
+      "name_locale_key": "395200",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395359",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 2,
+      "icon": "UITechnology_icon_24",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 50.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "50.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5000,
+          "career_type": 5,
+          "require_lv": 10,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5001,
+          "career_type": 5,
+          "require_lv": 20,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5002,
+          "career_type": 5,
+          "require_lv": 30,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5003,
+          "career_type": 5,
+          "require_lv": 40,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5004,
+          "career_type": 5,
+          "require_lv": 50,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5005,
+          "career_type": 5,
+          "require_lv": 60,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5006,
+          "career_type": 5,
+          "require_lv": 70,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5007,
+          "career_type": 5,
+          "require_lv": 80,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5008,
+          "career_type": 5,
+          "require_lv": 90,
+          "role": "base"
+        },
+        {
+          "player_career_id": 5009,
+          "career_type": 5,
+          "require_lv": 100,
+          "role": "base"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10402,
+      "name": "[effect_10402]",
+      "name_locale_key": "395202",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395355",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 3,
+      "icon": "Common_icon_rpg",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [],
+      "career_refs": [],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10410,
+      "name": "[effect_10410]",
+      "name_locale_key": "395193",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395340",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 4,
+      "icon": "career_icon10200",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "20",
+          "is_displayed": false
+        },
+        {
+          "slot_index": 1,
+          "raw_value": 4500.0,
+          "show_type": 0,
+          "show_type_label": "internal",
+          "rendered_value": "4500",
+          "is_displayed": false
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5001,
+          "career_type": 5,
+          "require_lv": 20,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10411,
+      "name": "[effect_10411]",
+      "name_locale_key": "395155",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395305",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 5,
+      "icon": "UITechnology_icon_24",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 250.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "250",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5002,
+          "career_type": 5,
+          "require_lv": 30,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10412,
+      "name": "[effect_10412]",
+      "name_locale_key": "395194",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395341",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 6,
+      "icon": "UITechnology_icon_31",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [],
+      "career_refs": [
+        {
+          "player_career_id": 5003,
+          "career_type": 5,
+          "require_lv": 40,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10413,
+      "name": "[effect_10413]",
+      "name_locale_key": "395197",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395301",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 7,
+      "icon": "UITechnology_icon_01",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 5.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "5.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5004,
+          "career_type": 5,
+          "require_lv": 50,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10414,
+      "name": "[effect_10414]",
+      "name_locale_key": "395164",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395315",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 8,
+      "icon": "career_icon10100",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [],
+      "career_refs": [
+        {
+          "player_career_id": 5005,
+          "career_type": 5,
+          "require_lv": 60,
+          "role": "add"
+        }
+      ],
+      "power_note": "internal_only"
+    },
+    {
+      "id": 10415,
+      "name": "[effect_10415]",
+      "name_locale_key": "395200",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395359",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 9,
+      "icon": "UITechnology_icon_24",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 100.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "100.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5006,
+          "career_type": 5,
+          "require_lv": 70,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10416,
+      "name": "[effect_10416]",
+      "name_locale_key": "395196",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395343",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 10,
+      "icon": "UITechnology_icon_30",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 20.0,
+          "show_type": 2,
+          "show_type_label": "absolute",
+          "rendered_value": "20",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5007,
+          "career_type": 5,
+          "require_lv": 80,
+          "role": "add"
+        }
+      ],
+      "power_note": "absolute_bonus"
+    },
+    {
+      "id": 10417,
+      "name": "[effect_10417]",
+      "name_locale_key": "395197",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395301",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 11,
+      "icon": "UITechnology_icon_01",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 5.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "5.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5008,
+          "career_type": 5,
+          "require_lv": 90,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    },
+    {
+      "id": 10418,
+      "name": "[effect_10418]",
+      "name_locale_key": "395168",
+      "name_locale_resolved": false,
+      "desc_template": null,
+      "desc_locale_key": "395360",
+      "desc_locale_resolved": false,
+      "desc_rendered": null,
+      "career_type": 2,
+      "order": 12,
+      "icon": "UITechnology_icon_30",
+      "cd_time_sec": null,
+      "show": false,
+      "effect_slots": [
+        {
+          "slot_index": 0,
+          "raw_value": 30.0,
+          "show_type": 4,
+          "show_type_label": "percentage",
+          "rendered_value": "30.0%",
+          "is_displayed": true
+        }
+      ],
+      "career_refs": [
+        {
+          "player_career_id": 5009,
+          "career_type": 5,
+          "require_lv": 100,
+          "role": "add"
+        }
+      ],
+      "power_note": "troop_combat_buff_pct"
+    }
+  ]
+}

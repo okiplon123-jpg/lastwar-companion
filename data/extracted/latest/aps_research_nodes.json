@@ -1,0 +1,3051 @@
+{
+  "meta": {
+    "table": "aps_research_nodes",
+    "game_version": "38076",
+    "extraction_run_id": "f7510fce",
+    "extracted_at": "2026-07-16T18:40:09.767115+00:00",
+    "record_count": 380
+  },
+  "records": [
+    {
+      "science_id": 10001200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10002100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10002300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10003200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10004100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10004300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10005200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10006200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10007100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10007300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10008200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10009100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10009300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10010200,
+      "max_level": 1,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10011200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10012100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10012300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10013200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10014100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10014300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10015200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10016200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10017100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10017300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10018200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10019100,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10019300,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10020200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 10021200,
+      "max_level": 5,
+      "tab": 1,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20001100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20001300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20002200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20003100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20003300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20004200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20005200,
+      "max_level": 1,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20006100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20006300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20007200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20008100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20008300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20009200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20010200,
+      "max_level": 1,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20011100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20011300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20012200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20013100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20013300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20014200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20015200,
+      "max_level": 1,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20016100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20016300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20017200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20018100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20018300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20019200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20020100,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20020300,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 20021200,
+      "max_level": 5,
+      "tab": 2,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30001200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30002100,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30002300,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30003200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30004200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30005100,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30005300,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30006200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30007200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30008100,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30008300,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30009200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30010200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30011100,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30011300,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30012200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30013200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30014100,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30014300,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30015200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30016200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30017100,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30017300,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30018200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30019200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30020100,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30020300,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 30021200,
+      "max_level": 5,
+      "tab": 3,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40001100,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40001300,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40002200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40003200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40004100,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40004300,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40005200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40006200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40007100,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40007300,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40008200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40009200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40010100,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40010300,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40011200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40012200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40013100,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40013300,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40014200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 40015200,
+      "max_level": 5,
+      "tab": 4,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50001200,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50002200,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50003100,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50003300,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50004200,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50005100,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50005300,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50006100,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50006200,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50006300,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50007200,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50008100,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50008300,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50009100,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50009300,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50010100,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50010300,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50011100,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50011300,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 50012200,
+      "max_level": 5,
+      "tab": 5,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60001200,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60002200,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60003100,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60003300,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60004200,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60005100,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60005300,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60006100,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60006200,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60006300,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60007200,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60008100,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60008300,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60009100,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60009300,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60010100,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60010300,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60011100,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60011300,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 60012200,
+      "max_level": 5,
+      "tab": 6,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70001200,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70002200,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70003100,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70003300,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70004200,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70005100,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70005300,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70006100,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70006200,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70006300,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70007200,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70008100,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70008300,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70009100,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70009300,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70010100,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70010300,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70011100,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70011300,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 70012200,
+      "max_level": 5,
+      "tab": 7,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80001200,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80002200,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80003100,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80003300,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80004200,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80005100,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80005300,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80006100,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80006200,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80006300,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80007200,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80008100,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80008300,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80009100,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80009300,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80010100,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80010300,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80011100,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80011300,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 80012200,
+      "max_level": 5,
+      "tab": 8,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90001100,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90001200,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90001300,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90002200,
+      "max_level": 1,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90003200,
+      "max_level": 20,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90004100,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90004300,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90005100,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90005300,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90006200,
+      "max_level": 1,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90007100,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90007200,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90007300,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90008200,
+      "max_level": 10,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90009200,
+      "max_level": 1,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 90010200,
+      "max_level": 1,
+      "tab": 9,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100001200,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100002100,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100002200,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100002300,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100003200,
+      "max_level": 1,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100004100,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100004300,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100005100,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100005200,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100005300,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100006200,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100007200,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100008100,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100008200,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100008300,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 100009200,
+      "max_level": 10,
+      "tab": 10,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110001200,
+      "max_level": 1,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110002100,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110002200,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110002300,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110003200,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110004100,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110004300,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110005100,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110005200,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110005300,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110006200,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110007200,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110008100,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110008200,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110008300,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 110009200,
+      "max_level": 10,
+      "tab": 11,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120001100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120001200,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120001300,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120002100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120003100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120003200,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120003300,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120004100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120004200,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120005100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120005200,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120005300,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120006100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120007100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120007200,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120007300,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120008100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120008200,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120009100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120010100,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120010200,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120010300,
+      "max_level": 10,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 120011100,
+      "max_level": 1,
+      "tab": 12,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130001200,
+      "max_level": 5,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130002100,
+      "max_level": 10,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130002300,
+      "max_level": 10,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130003200,
+      "max_level": 5,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130004100,
+      "max_level": 5,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130004300,
+      "max_level": 5,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130005200,
+      "max_level": 1,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130006100,
+      "max_level": 1,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 130006300,
+      "max_level": 1,
+      "tab": 13,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140001100,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140001200,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140001300,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140002200,
+      "max_level": 5,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140003200,
+      "max_level": 5,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140004100,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140004200,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140004300,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140005200,
+      "max_level": 5,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140006200,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140007100,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140007200,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140007300,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140008200,
+      "max_level": 5,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140009200,
+      "max_level": 5,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140010100,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140010200,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140010300,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140011200,
+      "max_level": 5,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 140012200,
+      "max_level": 10,
+      "tab": 14,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150001100,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150001200,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150001300,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150002200,
+      "max_level": 5,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150003200,
+      "max_level": 5,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150004100,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150004200,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150004300,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150005200,
+      "max_level": 5,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150006200,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150007100,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150007200,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150007300,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150008200,
+      "max_level": 5,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150009200,
+      "max_level": 5,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150010100,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150010200,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150010300,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150011200,
+      "max_level": 5,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 150012200,
+      "max_level": 10,
+      "tab": 15,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160001100,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160001200,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160001300,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160002200,
+      "max_level": 5,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160003200,
+      "max_level": 5,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160004100,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160004200,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160004300,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160005200,
+      "max_level": 5,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160006200,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160007100,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160007200,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160007300,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160008200,
+      "max_level": 5,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160009200,
+      "max_level": 5,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160010100,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160010200,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160010300,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160011200,
+      "max_level": 5,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 160012200,
+      "max_level": 10,
+      "tab": 16,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170001200,
+      "max_level": 1,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170002100,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170002200,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170002300,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170003200,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170004100,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170004300,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170005200,
+      "max_level": 1,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170006100,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170006300,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170007200,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170008100,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170008300,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170009200,
+      "max_level": 1,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170010100,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170010300,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170011200,
+      "max_level": 1,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170012200,
+      "max_level": 10,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 170013200,
+      "max_level": 1,
+      "tab": 17,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180001100,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180001200,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180001300,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180002100,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180002200,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180002300,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180003100,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180003200,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180003300,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180004200,
+      "max_level": 1,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180005100,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180005200,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180005300,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180006100,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180006200,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180006300,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180007100,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180007200,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180007300,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180008200,
+      "max_level": 1,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180009100,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180009200,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180009300,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180010100,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180010200,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180010300,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180011200,
+      "max_level": 10,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180012100,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180012200,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180012300,
+      "max_level": 20,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180013100,
+      "max_level": 30,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180013200,
+      "max_level": 30,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180013300,
+      "max_level": 30,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "science_id": 180014200,
+      "max_level": 3,
+      "tab": 18,
+      "_source_table": "APS_science",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    }
+  ]
+}

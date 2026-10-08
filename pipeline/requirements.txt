@@ -1,0 +1,3 @@
+# Last War extraction pipeline — Python dependencies
+# All stdlib; no third-party packages required for the heroes_levelup vertical slice.
+# Add packages here when future tables require them (e.g. lxml for APK manifest parsing).

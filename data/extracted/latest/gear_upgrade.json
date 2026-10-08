@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "table": "gear_upgrade",
+    "game_version": "38076",
+    "extraction_run_id": "f7510fce",
+    "extracted_at": "2026-07-16T18:40:09.310564+00:00",
+    "record_count": 64
+  },
+  "records": [
+    {
+      "id": 1001,
+      "slot": 1,
+      "quality": 3,
+      "army_type": 0,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1002,
+      "slot": 1,
+      "quality": 3,
+      "army_type": 1,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1003,
+      "slot": 1,
+      "quality": 3,
+      "army_type": 2,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1004,
+      "slot": 1,
+      "quality": 3,
+      "army_type": 3,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1005,
+      "slot": 2,
+      "quality": 3,
+      "army_type": 0,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1006,
+      "slot": 2,
+      "quality": 3,
+      "army_type": 1,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1007,
+      "slot": 2,
+      "quality": 3,
+      "army_type": 2,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1008,
+      "slot": 2,
+      "quality": 3,
+      "army_type": 3,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1009,
+      "slot": 3,
+      "quality": 3,
+      "army_type": 0,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1010,
+      "slot": 3,
+      "quality": 3,
+      "army_type": 1,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1011,
+      "slot": 3,
+      "quality": 3,
+      "army_type": 2,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1012,
+      "slot": 3,
+      "quality": 3,
+      "army_type": 3,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1013,
+      "slot": 4,
+      "quality": 3,
+      "army_type": 0,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1014,
+      "slot": 4,
+      "quality": 3,
+      "army_type": 1,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1015,
+      "slot": 4,
+      "quality": 3,
+      "army_type": 2,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1016,
+      "slot": 4,
+      "quality": 3,
+      "army_type": 3,
+      "highest_level": 15,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1017,
+      "slot": 1,
+      "quality": 4,
+      "army_type": 0,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1018,
+      "slot": 1,
+      "quality": 4,
+      "army_type": 1,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1019,
+      "slot": 1,
+      "quality": 4,
+      "army_type": 2,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1020,
+      "slot": 1,
+      "quality": 4,
+      "army_type": 3,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1021,
+      "slot": 2,
+      "quality": 4,
+      "army_type": 0,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1022,
+      "slot": 2,
+      "quality": 4,
+      "army_type": 1,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1023,
+      "slot": 2,
+      "quality": 4,
+      "army_type": 2,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1024,
+      "slot": 2,
+      "quality": 4,
+      "army_type": 3,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1025,
+      "slot": 3,
+      "quality": 4,
+      "army_type": 0,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1026,
+      "slot": 3,
+      "quality": 4,
+      "army_type": 1,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1027,
+      "slot": 3,
+      "quality": 4,
+      "army_type": 2,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1028,
+      "slot": 3,
+      "quality": 4,
+      "army_type": 3,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1029,
+      "slot": 4,
+      "quality": 4,
+      "army_type": 0,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1030,
+      "slot": 4,
+      "quality": 4,
+      "army_type": 1,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1031,
+      "slot": 4,
+      "quality": 4,
+      "army_type": 2,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1032,
+      "slot": 4,
+      "quality": 4,
+      "army_type": 3,
+      "highest_level": 30,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1033,
+      "slot": 1,
+      "quality": 5,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1034,
+      "slot": 1,
+      "quality": 5,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1035,
+      "slot": 1,
+      "quality": 5,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1036,
+      "slot": 1,
+      "quality": 5,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1037,
+      "slot": 2,
+      "quality": 5,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1038,
+      "slot": 2,
+      "quality": 5,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1039,
+      "slot": 2,
+      "quality": 5,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1040,
+      "slot": 2,
+      "quality": 5,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1041,
+      "slot": 3,
+      "quality": 5,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1042,
+      "slot": 3,
+      "quality": 5,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1043,
+      "slot": 3,
+      "quality": 5,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1044,
+      "slot": 3,
+      "quality": 5,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1045,
+      "slot": 4,
+      "quality": 5,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1046,
+      "slot": 4,
+      "quality": 5,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1047,
+      "slot": 4,
+      "quality": 5,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1048,
+      "slot": 4,
+      "quality": 5,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1049,
+      "slot": 1,
+      "quality": 6,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1050,
+      "slot": 1,
+      "quality": 6,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1051,
+      "slot": 1,
+      "quality": 6,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1052,
+      "slot": 1,
+      "quality": 6,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1053,
+      "slot": 2,
+      "quality": 6,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1054,
+      "slot": 2,
+      "quality": 6,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1055,
+      "slot": 2,
+      "quality": 6,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1056,
+      "slot": 2,
+      "quality": 6,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1057,
+      "slot": 3,
+      "quality": 6,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1058,
+      "slot": 3,
+      "quality": 6,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1059,
+      "slot": 3,
+      "quality": 6,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1060,
+      "slot": 3,
+      "quality": 6,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1061,
+      "slot": 4,
+      "quality": 6,
+      "army_type": 0,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1062,
+      "slot": 4,
+      "quality": 6,
+      "army_type": 1,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1063,
+      "slot": 4,
+      "quality": 6,
+      "army_type": 2,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 1064,
+      "slot": 4,
+      "quality": 6,
+      "army_type": 3,
+      "highest_level": 40,
+      "_source_table": "lw_equip_upgrade",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    }
+  ]
+}

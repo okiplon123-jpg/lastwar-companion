@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "table": "gear_promote",
+    "game_version": "38076",
+    "extraction_run_id": "f7510fce",
+    "extracted_at": "2026-07-16T18:40:09.309924+00:00",
+    "record_count": 26
+  },
+  "records": [
+    {
+      "id": 1,
+      "level": 0,
+      "cost_resource": "2;23437500",
+      "cost_items": "6001;12500|7005;150",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "cost_resource": "2;23437500",
+      "cost_items": "6001;12500|7005;150",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 3,
+      "level": 2,
+      "cost_resource": "2;23437500",
+      "cost_items": "6001;12500|7005;150",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 4,
+      "level": 3,
+      "cost_resource": "2;23437500",
+      "cost_items": "6001;12500|7005;150",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 5,
+      "level": 4,
+      "cost_resource": "2;23437500",
+      "cost_items": "6001;12500|7005;150|7015;5",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 6,
+      "level": 5,
+      "cost_resource": "2;30468750",
+      "cost_items": "6001;16250|7005;195",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 7,
+      "level": 6,
+      "cost_resource": "2;30468750",
+      "cost_items": "6001;16250|7005;195",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 8,
+      "level": 7,
+      "cost_resource": "2;30468750",
+      "cost_items": "6001;16250|7005;195",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 9,
+      "level": 8,
+      "cost_resource": "2;30468750",
+      "cost_items": "6001;16250|7005;195",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10,
+      "level": 9,
+      "cost_resource": "2;30468750",
+      "cost_items": "6001;16250|7005;195|7015;10",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 11,
+      "level": 10,
+      "cost_resource": "2;37500000",
+      "cost_items": "6001;20000|7005;240",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 12,
+      "level": 11,
+      "cost_resource": "2;37500000",
+      "cost_items": "6001;20000|7005;240",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 13,
+      "level": 12,
+      "cost_resource": "2;37500000",
+      "cost_items": "6001;20000|7005;240",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 14,
+      "level": 13,
+      "cost_resource": "2;37500000",
+      "cost_items": "6001;20000|7005;240",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 15,
+      "level": 14,
+      "cost_resource": "2;37500000",
+      "cost_items": "6001;20000|7005;240|7015;15",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 16,
+      "level": 15,
+      "cost_resource": "2;44531250",
+      "cost_items": "6001;23750|7005;285",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 17,
+      "level": 16,
+      "cost_resource": "2;44531250",
+      "cost_items": "6001;23750|7005;285",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 18,
+      "level": 17,
+      "cost_resource": "2;44531250",
+      "cost_items": "6001;23750|7005;285",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 19,
+      "level": 18,
+      "cost_resource": "2;44531250",
+      "cost_items": "6001;23750|7005;285",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 20,
+      "level": 19,
+      "cost_resource": "2;44531250",
+      "cost_items": "6001;23750|7005;285|7015;20",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 21,
+      "level": 20,
+      "cost_resource": "2;51562500",
+      "cost_items": "6001;27500|7005;330",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 22,
+      "level": 21,
+      "cost_resource": "2;51562500",
+      "cost_items": "6001;27500|7005;330",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 23,
+      "level": 22,
+      "cost_resource": "2;51562500",
+      "cost_items": "6001;27500|7005;330",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 24,
+      "level": 23,
+      "cost_resource": "2;51562500",
+      "cost_items": "6001;27500|7005;330",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 25,
+      "level": 24,
+      "cost_resource": "2;51562500",
+      "cost_items": "6001;27500|7005;330|7016;10",
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 26,
+      "level": 25,
+      "cost_resource": null,
+      "cost_items": null,
+      "_source_table": "lw_equip_promote",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    }
+  ]
+}

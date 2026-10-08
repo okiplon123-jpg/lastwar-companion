@@ -1,0 +1,154 @@
+{
+  "records": [
+    {
+      "hero_id": 50006,
+      "hero_name": "murphy",
+      "skill_groups": [
+        500600,
+        500610,
+        500620,
+        500630
+      ]
+    },
+    {
+      "hero_id": 50007,
+      "hero_name": "williams",
+      "skill_groups": [
+        500700,
+        500710,
+        500720,
+        500730
+      ]
+    },
+    {
+      "hero_id": 50008,
+      "hero_name": "marshall",
+      "skill_groups": [
+        500800,
+        500810,
+        500820,
+        500830
+      ]
+    },
+    {
+      "hero_id": 50009,
+      "hero_name": "kimberly",
+      "skill_groups": [
+        500900,
+        500910,
+        500920,
+        500930
+      ]
+    },
+    {
+      "hero_id": 50010,
+      "hero_name": "stetmann",
+      "skill_groups": [
+        501000,
+        501010,
+        501020,
+        501030
+      ]
+    },
+    {
+      "hero_id": 50013,
+      "hero_name": "mcgregor",
+      "skill_groups": [
+        501300,
+        501310,
+        501320,
+        501330
+      ]
+    },
+    {
+      "hero_id": 50014,
+      "hero_name": "fiona",
+      "skill_groups": [
+        501400,
+        501410,
+        501420,
+        501430
+      ]
+    },
+    {
+      "hero_id": 50015,
+      "hero_name": "swift",
+      "skill_groups": [
+        501500,
+        501510,
+        501520,
+        501530
+      ]
+    },
+    {
+      "hero_id": 50016,
+      "hero_name": "tesla",
+      "skill_groups": [
+        501600,
+        501610,
+        501620,
+        501630
+      ]
+    },
+    {
+      "hero_id": 50017,
+      "hero_name": "dva",
+      "skill_groups": [
+        501700,
+        501710,
+        501720,
+        501730
+      ]
+    },
+    {
+      "hero_id": 50018,
+      "hero_name": "schuyler",
+      "skill_groups": [
+        501800,
+        501810,
+        501820,
+        501830
+      ]
+    },
+    {
+      "hero_id": 50019,
+      "hero_name": "carlie",
+      "skill_groups": [
+        501900,
+        501910,
+        501920,
+        501930
+      ]
+    },
+    {
+      "hero_id": 50020,
+      "hero_name": "morrison",
+      "skill_groups": [
+        502000,
+        502010,
+        502020,
+        502030
+      ]
+    },
+    {
+      "hero_id": 50021,
+      "hero_name": "lucius",
+      "skill_groups": [
+        502100,
+        502110,
+        502120,
+        502130
+      ]
+    },
+    {
+      "hero_id": 50022,
+      "hero_name": "adam",
+      "skill_groups": [
+        502200,
+        502210,
+        502220,
+        502230
+      ]
+    }
+  ]
+}

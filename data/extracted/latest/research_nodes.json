@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "table": "research_nodes",
+    "game_version": "38076",
+    "extraction_run_id": "f7510fce",
+    "extracted_at": "2026-07-16T18:40:09.318408+00:00",
+    "record_count": 30
+  },
+  "records": [
+    {
+      "id": 10011100,
+      "max_lv": 3,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011200,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011300,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011400,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011500,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011600,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011700,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011800,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10011900,
+      "max_lv": 3,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10012000,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10012100,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10012200,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10012300,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10012400,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10012500,
+      "max_lv": 45,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021100,
+      "max_lv": 3,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021200,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021300,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021400,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021500,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021600,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021700,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021800,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10021900,
+      "max_lv": 3,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10022000,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10022100,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10022200,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10022300,
+      "max_lv": 5,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10022400,
+      "max_lv": 1,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    },
+    {
+      "id": 10022500,
+      "max_lv": 45,
+      "_source_table": "lw_camp_science_tab",
+      "_game_version": "38076",
+      "_extraction_run_id": "f7510fce"
+    }
+  ]
+}

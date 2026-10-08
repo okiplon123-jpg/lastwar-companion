@@ -1,0 +1,188 @@
+{
+  "murphy": {
+    "auto": "/skills/murphy/cannon-fire.webp",
+    "passive": "/skills/murphy/stand-firm.webp",
+    "tactics": "/skills/murphy/ironclad-barrier.webp",
+    "expertise": "/skills/murphy/expertise.webp"
+  },
+  "kimberly": {
+    "auto": "/skills/kimberly/energy-assault.webp",
+    "passive": "/skills/kimberly/energy-boost.webp",
+    "tactics": "/skills/kimberly/barrage-strike.webp",
+    "expertise": "/skills/kimberly/expertise.webp"
+  },
+  "marshall": {
+    "auto": "/skills/marshall/lightning-triple-strike.webp",
+    "passive": "/skills/marshall/knights-spirit.webp",
+    "tactics": "/skills/marshall/command-strategy-skill.webp",
+    "expertise": "/skills/marshall/expertise.webp"
+  },
+  "williams": {
+    "auto": "/skills/williams/energy-assault.webp",
+    "passive": "/skills/williams/all-around-armor.webp",
+    "tactics": "/skills/williams/iron-will.webp",
+    "expertise": "/skills/williams/expertise.webp"
+  },
+  "stetmann": {
+    "auto": "/skills/stetmann/orb-lightning-stetmann.webp",
+    "passive": "/skills/stetmann/critical-charge-stetmann.webp",
+    "tactics": "/skills/stetmann/lightning-rush.webp",
+    "expertise": "/skills/stetmann/expertise.webp"
+  },
+  "dva": {
+    "auto": "/skills/dva/auto.webp",
+    "tactics": "/skills/dva/tactics.webp",
+    "passive": "/skills/dva/passive.webp",
+    "expertise": "/skills/dva/expertise.webp"
+  },
+  "carlie": {
+    "auto": "/skills/carlie/auto.webp",
+    "tactics": "/skills/carlie/tactics.webp",
+    "passive": "/skills/carlie/passive.webp",
+    "expertise": "/skills/carlie/expertise.webp"
+  },
+  "schuyler": {
+    "auto": "/skills/schuyler/auto.webp",
+    "tactics": "/skills/schuyler/tactics.webp",
+    "passive": "/skills/schuyler/passive.webp",
+    "expertise": "/skills/schuyler/expertise.webp"
+  },
+  "lucius": {
+    "auto": "/skills/lucius/auto.webp",
+    "tactics": "/skills/lucius/tactics.webp",
+    "passive": "/skills/lucius/passive.webp",
+    "expertise": "/skills/lucius/expertise.webp"
+  },
+  "morrison": {
+    "auto": "/skills/morrison/auto.webp",
+    "tactics": "/skills/morrison/tactics.webp",
+    "passive": "/skills/morrison/passive.webp",
+    "expertise": "/skills/morrison/expertise.webp"
+  },
+  "swift": {
+    "auto": "/skills/swift/auto.webp",
+    "tactics": "/skills/swift/tactics.webp",
+    "passive": "/skills/swift/passive.webp",
+    "expertise": "/skills/swift/expertise.webp"
+  },
+  "tesla": {
+    "auto": "/skills/tesla/auto.webp",
+    "tactics": "/skills/tesla/tactics.webp",
+    "passive": "/skills/tesla/passive.webp",
+    "expertise": "/skills/tesla/expertise.webp"
+  },
+  "mcgregor": {
+    "auto": "/skills/mcgregor/auto.webp",
+    "tactics": "/skills/mcgregor/tactics.webp",
+    "passive": "/skills/mcgregor/passive.webp",
+    "expertise": "/skills/mcgregor/expertise.webp"
+  },
+  "adam": {
+    "auto": "/skills/adam/auto.webp",
+    "tactics": "/skills/adam/tactics.webp",
+    "passive": "/skills/adam/passive.webp",
+    "expertise": "/skills/adam/expertise.webp"
+  },
+  "fiona": {
+    "auto": "/skills/fiona/auto.webp",
+    "tactics": "/skills/fiona/tactics.webp",
+    "passive": "/skills/fiona/passive.webp",
+    "expertise": "/skills/fiona/expertise.webp"
+  },
+  "violet": {
+    "auto": "/skills/violet/auto.webp",
+    "tactics": "/skills/violet/tactics.webp",
+    "passive": "/skills/violet/passive.webp",
+    "expertise": "/skills/violet/expertise.webp"
+  },
+  "mason": {
+    "auto": "/skills/mason/auto.webp",
+    "tactics": "/skills/mason/tactics.webp",
+    "passive": "/skills/mason/passive.webp",
+    "expertise": "/skills/mason/expertise.webp"
+  },
+  "elsa": {
+    "auto": "/skills/elsa/auto.webp",
+    "tactics": "/skills/elsa/tactics.webp",
+    "passive": "/skills/elsa/passive.webp",
+    "expertise": "/skills/elsa/expertise.webp"
+  },
+  "venom": {
+    "auto": "/skills/venom/auto.webp",
+    "tactics": "/skills/venom/tactics.webp",
+    "passive": "/skills/venom/passive.webp",
+    "expertise": "/skills/venom/expertise.webp"
+  },
+  "scarlett": {
+    "auto": "/skills/scarlett/auto.webp",
+    "tactics": "/skills/scarlett/tactics.webp",
+    "passive": "/skills/scarlett/passive.webp",
+    "expertise": "/skills/scarlett/expertise.webp"
+  },
+  "monica": {
+    "auto": "/skills/monica/auto.webp",
+    "tactics": "/skills/monica/tactics.webp",
+    "passive": "/skills/monica/passive.webp",
+    "expertise": "/skills/monica/expertise.webp"
+  },
+  "sarah": {
+    "auto": "/skills/sarah/auto.webp",
+    "tactics": "/skills/sarah/tactics.webp",
+    "passive": "/skills/sarah/passive.webp",
+    "expertise": "/skills/sarah/expertise.webp"
+  },
+  "cage": {
+    "auto": "/skills/cage/auto.webp",
+    "tactics": "/skills/cage/tactics.webp",
+    "passive": "/skills/cage/passive.webp",
+    "expertise": "/skills/cage/expertise.webp"
+  },
+  "blaz": {
+    "auto": "/skills/blaz/auto.webp",
+    "tactics": "/skills/blaz/tactics.webp",
+    "passive": "/skills/blaz/passive.webp",
+    "expertise": "/skills/blaz/expertise.webp"
+  },
+  "farhad": {
+    "auto": "/skills/farhad/auto.webp",
+    "tactics": "/skills/farhad/tactics.webp",
+    "passive": "/skills/farhad/passive.webp",
+    "expertise": "/skills/farhad/expertise.webp"
+  },
+  "maxwell": {
+    "auto": "/skills/maxwell/auto.webp",
+    "tactics": "/skills/maxwell/tactics.webp",
+    "passive": "/skills/maxwell/passive.webp",
+    "expertise": "/skills/maxwell/expertise.webp"
+  },
+  "richard": {
+    "auto": "/skills/richard/auto.webp",
+    "tactics": "/skills/richard/tactics.webp",
+    "passive": "/skills/richard/passive.webp",
+    "expertise": "/skills/richard/expertise.webp"
+  },
+  "gump": {
+    "auto": "/skills/gump/auto.webp",
+    "tactics": "/skills/gump/tactics.webp",
+    "passive": "/skills/gump/passive.webp",
+    "expertise": "/skills/gump/expertise.webp"
+  },
+  "kane": {
+    "auto": "/skills/kane/auto.webp",
+    "tactics": "/skills/kane/tactics.webp",
+    "passive": "/skills/kane/passive.webp",
+    "expertise": "/skills/kane/expertise.webp"
+  },
+  "ambolt": {
+    "auto": "/skills/ambolt/auto.webp",
+    "tactics": "/skills/ambolt/tactics.webp",
+    "passive": "/skills/ambolt/passive.webp",
+    "expertise": "/skills/ambolt/expertise.webp"
+  },
+  "loki": {
+    "auto": "/skills/loki/auto.webp",
+    "tactics": "/skills/loki/tactics.webp",
+    "passive": "/skills/loki/passive.webp",
+    "expertise": "/skills/loki/expertise.webp"
+  }
+}
